@@ -1,0 +1,20 @@
+{"trial_id": "E1_img_0240_mixed_N1_k1_P1", "mode": "open", "raw": "Item: Apple Strudel\nCountry: Austria"}
+{"trial_id": "E1_img_0240_mixed_N1_k1_P1", "mode": "mc", "raw": "Item: A\nCountry: B"}
+{"trial_id": "E1_img_0240_mixed_N2_k1_P1", "mode": "open", "raw": "Item: Strudel\nCountry: Austria"}
+{"trial_id": "E1_img_0240_mixed_N2_k1_P1", "mode": "mc", "raw": "Item: A\nCountry: B"}
+{"trial_id": "E1_img_0240_mixed_N3_k1_P1", "mode": "open", "raw": "Item: Strudel\nCountry: Austria"}
+{"trial_id": "E1_img_0240_mixed_N3_k1_P1", "mode": "mc", "raw": "Item: A\nCountry: B"}
+{"trial_id": "E1_img_0240_mixed_N4_k1_P1", "mode": "open", "raw": "Item: Strudel\nCountry: Austria"}
+{"trial_id": "E1_img_0240_mixed_N4_k1_P1", "mode": "mc", "raw": "Item: A\nCountry: B"}
+{"trial_id": "E2_img_0240_mixed_N5_k1_P1", "mode": "open", "raw": "Item: Strudel\nCountry: Austria"}
+{"trial_id": "E2_img_0240_mixed_N5_k1_P1", "mode": "mc", "raw": "Item: A\nCountry: B"}
+{"trial_id": "E2_img_0240_mixed_N5_k2_P1", "mode": "open", "raw": "Item: Apple Strudel\nCountry: Austria"}
+{"trial_id": "E2_img_0240_mixed_N5_k2_P1", "mode": "mc", "raw": "Item: A\nCountry: B"}
+{"trial_id": "E2_img_0240_mixed_N5_k3_P1", "mode": "open", "raw": "Item: Apple Strudel\nCountry: Austria"}
+{"trial_id": "E2_img_0240_mixed_N5_k3_P1", "mode": "mc", "raw": "Item: A\nCountry: B"}
+{"trial_id": "E2_img_0240_mixed_N5_k4_P1", "mode": "open", "raw": "Item: Apple Strudel\nCountry: Austria"}
+{"trial_id": "E2_img_0240_mixed_N5_k4_P1", "mode": "mc", "raw": "Item: A\nCountry: B"}
+{"trial_id": "E2_img_0240_mixed_N5_k5_P1", "mode": "open", "raw": "Item: Apple Strudel\nCountry: Austria"}
+{"trial_id": "E2_img_0240_mixed_N5_k5_P1", "mode": "mc", "raw": "Item: A\nCountry: B"}
+{"trial_id": "E3_img_0240_near_N2_k1_P1", "mode": "open", "raw": "Item: Strudel\nCountry: Austria"}
+{"trial_id": "E3_img_0240_near_N2_k1_P1", "mode": "mc", "raw": "Item: D\nCountry: C"}
