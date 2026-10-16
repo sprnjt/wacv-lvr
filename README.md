@@ -97,6 +97,16 @@ env -u LD_LIBRARY_PATH python3 judge.py      # LLM judge fills judge_overrides.c
 # ... pilot pass/fail gate (plan.md §5), freeze (prereg_snapshot/ + PREREG_MANIFEST.sha256), then:
 env -u LD_LIBRARY_PATH python3 run_models.py qwen3vl --trials trials_main.jsonl [--repeat]
 env -u LD_LIBRARY_PATH python3 run_models.py qwen3vl --trials trials_main.jsonl --exps E2 --attn   # attention probe
+# LFM attention extension (resumable; the new span checks fail fast on an unsupported tokenizer):
+env -u LD_LIBRARY_PATH python3 run_models.py lfm25v --trials trials_main.jsonl --exps E2 --attn
+# Exploratory post-freeze causal probe (LFM primary; writes only causal_* files):
+python3 causal_probe.py select lfm25v --limit 128
+env -u LD_LIBRARY_PATH python3 causal_probe.py run lfm25v
+python3 causal_probe.py summarize lfm25v
+# Post-freeze visual-operation controls (MC only; separate raw/results files):
+python3 make_interventions.py
+env -u LD_LIBRARY_PATH python3 run_models.py lfm25v --trials trials_interventions.jsonl --modes mc --out raw_lfm25v_interventions.jsonl
+python3 analyze_interventions.py lfm25v --raw raw_lfm25v_interventions.jsonl
 env -u LD_LIBRARY_PATH python3 clip_sim.py
 python3 ch.py score qwen3vl --trials trials_main.jsonl
 python3 analyze.py qwen3vl qwen25vl gemma4 gemma3_4b granite4v lfm25v   # -> results/ incl. locus_discrimination.md
@@ -129,6 +139,26 @@ Decided pre-registration; `plan.md` is unchanged and remains the primary pre-reg
 | Illusory conjunctions > baseline | no | yes | no (whole answer copied) |
 | Describe-then-answer rescues (E6) | no | partial | yes |
 | Attention peaks on named wrong image | no (stays on target) | yes | no commitment |
+
+### Exploratory causal extension (post-freeze)
+
+`causal_probe.py` is intentionally separate from the pre-registered pipeline. It selects E2/N=5 MC
+mis-binding fields for which both the target and named wrong image are correct in matched N=1 runs,
+then patches clean image-token hidden states into the target span at five evenly spaced decoder layers.
+It includes a self-to-target negative control which exercises the same hook/write path. The primary contrast is target-clean-to-target (rescue) versus wrong-clean-to-target (induction), scored
+as the forced MC log-odds of the gold answer over the observed wrong answer. LFM is the primary model
+because it is the sole H3a context-attraction result; `qwen3vl` is a robust-model replication. Outputs
+are resumable `causal_<model>.jsonl` and `results/causal_<model>.csv` files and must be reported as
+exploratory, post-freeze evidence.
+
+### Exploratory visual-operation controls (post-freeze)
+
+`make_interventions.py` produces two MC-only controls in a separate 1,080-trial file. E7 repeats
+describe-first while placing the answer options *before* the images, avoiding an interpretation that
+the describe prompt's apparent failure is simply open-ended naming at floor. E8 replaces every ordinal
+image label with a stable `[IMG_k]` address and refers to the target by that tag; an accuracy gain is
+direct evidence that visual indexing/addressing contributes to the observed failure. Use
+`analyze_interventions.py` for mechanical scoring and paired deltas against the frozen E6 and E2 trials.
 
 ## Scoring with the LLM judge
 
