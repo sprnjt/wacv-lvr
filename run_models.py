@@ -103,6 +103,13 @@ def generate_attn(model, processor, family, trial, mode, max_new=MAX_NEW_TOKENS)
     raw = processor.batch_decode(new, skip_special_tokens=True)[0].strip()
     ids = inputs["input_ids"][0].tolist()
     spans = image_spans(ids, image_token_ids(processor))
+    # Do not silently write an unusable probe row.  This is especially important
+    # for LFM, whose multimodal tokenizer differs from the Qwen/Gemma tokenizers.
+    if len(spans) != trial["N"]:
+        raise RuntimeError(
+            f"expected {trial['N']} image-token spans, found {len(spans)} "
+            f"for {trial['trial_id']} ({family})"
+        )
     mass = torch.zeros(len(ids))
     for k, step in enumerate(out.attentions or ()):        # one entry per generated token
         if not step:
@@ -119,16 +126,18 @@ def generate_attn(model, processor, family, trial, mode, max_new=MAX_NEW_TOKENS)
             rows.append(r[: len(ids)])
         mass += torch.stack(rows).mean(0).cpu()
     per_img = [float(mass[s:e].sum()) for s, e in spans]
+    if not torch.isfinite(mass).all() or any(x < 0 for x in per_img) or sum(per_img) <= 0:
+        raise RuntimeError(f"invalid attention mass for {trial['trial_id']} ({family})")
     return raw, per_img
 
 
-def main(name, trials_path, repeat=False, attn=False, exps=None, gen=None):
+def main(name, trials_path, repeat=False, attn=False, exps=None, modes=("open", "mc"), out_path=None, gen=None):
     trials = ch.read_jsonl(trials_path)
     if repeat:
         trials = [t for t in trials if t["kind"] == "main"][:10]
     if exps:
         trials = [t for t in trials if t["exp"] in exps]
-    out_path = Path(f"raw_{name}{'_repeat' if repeat else ''}.jsonl") if not attn else Path(f"attn_{name}.jsonl")
+    out_path = Path(out_path) if out_path else (Path(f"raw_{name}{'_repeat' if repeat else ''}.jsonl") if not attn else Path(f"attn_{name}.jsonl"))
     done = {(r["trial_id"], r["mode"]) for r in ch.read_jsonl(out_path)} if out_path.exists() else set()
     if gen is None:
         model, processor = load(name)
@@ -140,7 +149,7 @@ def main(name, trials_path, repeat=False, attn=False, exps=None, gen=None):
     with open(out_path, "a", encoding="utf-8") as f:
         for n, t in enumerate(trials):
             mx = 256 if t.get("variant") == "P4" else MAX_NEW_TOKENS
-            for mode in ("open", "mc"):
+            for mode in modes:
                 if (t["trial_id"], mode) in done:
                     continue
                 r = gen(t, mode, mx)
@@ -157,4 +166,8 @@ if __name__ == "__main__":
     args = sys.argv[1:]
     trials = args[args.index("--trials") + 1] if "--trials" in args else "trials_pilot.jsonl"
     exps = args[args.index("--exps") + 1].split(",") if "--exps" in args else None
-    main(args[0], trials, repeat="--repeat" in args, attn="--attn" in args, exps=exps)
+    modes = tuple(args[args.index("--modes") + 1].split(",")) if "--modes" in args else ("open", "mc")
+    if set(modes) - {"open", "mc"}:
+        raise ValueError("--modes accepts comma-separated open and/or mc")
+    out = args[args.index("--out") + 1] if "--out" in args else None
+    main(args[0], trials, repeat="--repeat" in args, attn="--attn" in args, exps=exps, modes=modes, out_path=out)
