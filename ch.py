@@ -333,13 +333,23 @@ def make_parts(tr, mode, images=True):
     """List of ('text', str) and ('image', image_id) parts, in the order they are sent."""
     plural, singular = CATS[tr["category"]]
     n, k, v = tr["N"], tr["slot"], tr.get("variant", "P1")
+    tagged = tr.get("indexing") == "tagged"
+    ref = f"[IMG_{k}]" if tagged else f"Image {k}"
     if n == 1:
         head = f"Below is 1 photograph of a {singular}.\nEach photograph is labeled with its number.\n"
     else:
         head = f"Below are {n} photographs of {plural} from various countries.\nEach photograph is labeled with its number.\n"
     parts = [("text", head)]
+    if tagged:
+        parts.append(("text", "Use the bracketed image tag as the image address; do not rely on ordinal position.\n"))
+    if mode == "mc" and v == "P5":
+        io0 = "\n".join(f"{a}. {x}" for a, x in zip(LETTERS, tr["item_options"]))
+        co0 = "\n".join(f"{a}. {x}" for a, x in zip(LETTERS, tr["country_options"]))
+        parts.append(("text", "Keep these answer choices visible while you describe the photographs.\n"
+                      f"Item choices:\n{io0}\nCountry choices:\n{co0}\n"))
     for i, img in enumerate(tr["order"], 1):
-        parts.append(("text", f"\nImage {i}:"))
+        label = f"[IMG_{i}]" if tagged else f"Image {i}"
+        parts.append(("text", f"\n{label}:"))
         if images:
             parts.append(("image", img))
     if mode == "open":
@@ -356,16 +366,18 @@ def make_parts(tr, mode, images=True):
                 "If you cannot tell, write Unknown for that field.")
         q = "\n\n" + ask + "\n\n" + tail
     else:
-        intro = {"P1": f"Look only at Image {k} and answer two multiple-choice questions.",
+        intro = {"P1": f"Look only at {ref} and answer two multiple-choice questions.",
                  "P2": f"Focus on Image {k} and answer the two multiple-choice questions about it.",
                  "P3": f"Image {k} is the one I care about. Answer the two multiple-choice questions about it.",
                  "P4": f"First describe each photograph in one short line, in order. "
-                       f"Then look only at Image {k} and answer two multiple-choice questions about it."}[v]
+                       f"Then look only at {ref} and answer two multiple-choice questions about it.",
+                 "P5": f"First describe each photograph in one short line, in order, using the answer choices shown above. "
+                       f"Then look only at {ref} and answer two multiple-choice questions about it."}[v]
         io = "\n".join(f"{a}. {x}" for a, x in zip(LETTERS, tr["item_options"]))
         co = "\n".join(f"{a}. {x}" for a, x in zip(LETTERS, tr["country_options"]))
-        tail = ("Answer in exactly this format and nothing else:\nItem: <letter>\nCountry: <letter>") if v != "P4" else (
+        tail = ("Answer in exactly this format and nothing else:\nItem: <letter>\nCountry: <letter>") if v not in ("P4", "P5") else (
                 "End your reply with exactly these two lines and nothing after them:\nItem: <letter>\nCountry: <letter>")
-        q = (f"\n\n{intro}\n\nQuestion 1. What is the name of the {singular} shown in Image {k}?\n{io}\n\n"
+        q = (f"\n\n{intro}\n\nQuestion 1. What is the name of the {singular} shown in {ref}?\n{io}\n\n"
              f"Question 2. Which country is it from?\n{co}\n\n{tail}")
     parts.append(("text", q))
     return parts
