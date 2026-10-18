@@ -380,7 +380,8 @@ SHORT = {"gemma4": "Gemma-4", "qwen3vl": "Qwen3-VL", "qwen25vl": "Qwen2.5-VL", "
 
 def fig_e9(E9):
     """Joint (item + country) MC accuracy per condition, one panel per size class (shared y). End labels give the
-    collage cost (collage - four separate images, paired by target; bold = 95% CI excludes 0)."""
+    collage cost (collage minus the target alone in the same canvas, which controls panel resolution; paired by target;
+    bold = 95% CI excludes 0)."""
     S.apply()
     fs = S.FS_SMALL - 0.5                                    # 6 pt at print size
     fig = plt.figure(figsize=(3.875, H))
@@ -413,14 +414,14 @@ def fig_e9(E9):
             ax.tick_params(labelleft=False)
         # end labels: short name + collage cost, spread vertically in line-end order, thin leaders
         tx = 3.6
-        ax.text(tx, 0.98, "collage vs.\n4 images", fontsize=fs, color=S.INK, va="top", ha="left",
+        ax.text(tx, 0.98, "collage vs.\nalone", fontsize=fs, color=S.INK, va="top", ha="left",
                 linespacing=0.95, clip_on=False)
         order = sorted(ms, key=lambda m: end[m][1], reverse=True)
         ys = []
         for m in order:
             ys.append(min(end[m][1], ys[-1] - 0.12) if ys else min(end[m][1], 0.72))
         for m, y in zip(order, ys):
-            d = E9[m]["d"]["collage_pos", "separate", "joint"]
+            d = E9[m]["d"]["collage_pos", "solo", "joint"]
             sig = d[2] < 0 or d[1] > 0
             ax.annotate(f"{SHORT[m]} " + f"{d[0]:+.2f}".replace("-", "−"), end[m], xytext=(tx, y),
                         textcoords="data", fontsize=fs, color=S.COL[m], va="center",
