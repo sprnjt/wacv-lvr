@@ -36,6 +36,8 @@ from matplotlib.patches import Rectangle         # noqa: E402
 
 OUT = Path(os.environ.get("PAPER_OUT", Path(__file__).resolve().parents[2] / "work/analysis/out/paper")).expanduser()
 WCI = Path(os.environ.get("WCI", "/tmp/wci"))
+for _d in ("figures", "sec"):
+    (OUT / _d).mkdir(parents=True, exist_ok=True)
 HALF, WHOLE, COLLAGE = "E2_img_0260_mixed_N5_k3_P1", "E2_img_0805_mixed_N5_k3_P1", "img_0618"
 SMALL_M, BIG_M, COLL_M = "lfm25v", "gemma4", "qwen3vl"
 GREEN = "#2e7d32"
