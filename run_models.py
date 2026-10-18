@@ -12,7 +12,7 @@ Writes raw_<name>.jsonl (or raw_<name>_repeat.jsonl / attn_<name>.jsonl). Writte
 cards but NOT run on a GPU here: check the loading and chat-template lines on first use and print one
 raw output before a long run. P4 (describe-then-answer) trials get 256 new tokens; all others 64.
 """
-import json, sys
+import json, re, sys
 from pathlib import Path
 import ch
 
@@ -36,8 +36,29 @@ def load(name):
     cfg = MODELS[name]
     processor = AutoProcessor.from_pretrained(cfg["hf_id"])
     cls = getattr(transformers, cfg["arch"]) if cfg.get("arch") else transformers.AutoModelForMultimodalLM
+    if name in ("qwen3vl", "qwen25vl"):
+        patch_qwen3vl_patch_embed(name)
     model = cls.from_pretrained(cfg["hf_id"], dtype="auto", device_map="auto")
     return model, processor
+
+
+def patch_qwen3vl_patch_embed(name="qwen3vl"):
+    """Qwen3-VL's patch embed is a Conv3d with kernel == stride, i.e. a linear map over each flattened patch.
+    On torch 2.9.1 + A40 the bf16 Conv3d path takes ~6-50 s per call (post-freeze RunPod run); the identical
+    F.linear is ~25x faster. Same math, bf16 summation order differs; run_all.sh's repro step measures drift."""
+    import torch.nn.functional as F
+    if name == "qwen25vl":       # same Conv3d patch embed (bias=False); post-freeze E9 extension only
+        from transformers.models.qwen2_5_vl import modeling_qwen2_5_vl as M
+        cls = M.Qwen2_5_VisionPatchEmbed
+    else:
+        from transformers.models.qwen3_vl import modeling_qwen3_vl as M
+        cls = M.Qwen3VLVisionPatchEmbed
+
+    def forward(self, hidden_states):
+        w = self.proj.weight                                   # (embed, C, T, P, P)
+        x = hidden_states.to(w.dtype).reshape(-1, w[0].numel())  # (n_patches, C*T*P*P), same order as the view
+        return F.linear(x, w.reshape(w.shape[0], -1), self.proj.bias)
+    cls.forward = forward
 
 
 def build_messages(trial, mode, images=True, image_dir="images/prepared"):
@@ -47,13 +68,15 @@ def build_messages(trial, mode, images=True, image_dir="images/prepared"):
         if kind == "text":
             content.append({"type": "text", "text": val})
         else:
-            content.append({"type": "image", "image": Image.open(f"{image_dir}/{val}.jpg").convert("RGB")})
+            # E9 names files under images/ ("collage/<id>.png"); every other trial names a prepared image id
+            path = Path(image_dir).parent / val if "/" in val else f"{image_dir}/{val}.jpg"
+            content.append({"type": "image", "image": Image.open(path).convert("RGB")})
     return [{"role": "user", "content": content}]
 
 
-def prep_inputs(model, processor, family, trial, mode, images=True):
+def prep_inputs(model, processor, family, trial, mode, images=True, messages=None):
     return processor.apply_chat_template(
-        build_messages(trial, mode, images), tokenize=True, add_generation_prompt=True,
+        messages or build_messages(trial, mode, images), tokenize=True, add_generation_prompt=True,
         return_dict=True, return_tensors="pt", **TEMPLATE_KWARGS[family]).to(model.device)
 
 
@@ -76,6 +99,9 @@ def image_token_ids(processor):
         i = tok.convert_tokens_to_ids(s)
         if i is not None and i >= 0 and i != tok.unk_token_id:
             cands.add(i)
+    # LFM2-VL tiles large images: <|img_row_R_col_C|> <image>*256 ... <|img_thumbnail|> <image>*k.
+    # Count the tile markers as image tokens so one image stays one contiguous span.
+    cands |= {i for s, i in tok.get_vocab().items() if re.fullmatch(r"<\|img_(row_\d+_col_\d+|thumbnail)\|>", s)}
     return cands
 
 
@@ -137,6 +163,9 @@ def main(name, trials_path, repeat=False, attn=False, exps=None, modes=("open", 
         trials = [t for t in trials if t["kind"] == "main"][:10]
     if exps:
         trials = [t for t in trials if t["exp"] in exps]
+    if out_path is None and not attn and Path(trials_path).name not in ("trials_main.jsonl", "trials_pilot.jsonl"):
+        # would append new trial ids to the frozen raw_<name>.jsonl
+        raise SystemExit(f"--out is required for {trials_path} (raw_{name}.jsonl is a frozen main-study file)")
     out_path = Path(out_path) if out_path else (Path(f"raw_{name}{'_repeat' if repeat else ''}.jsonl") if not attn else Path(f"attn_{name}.jsonl"))
     done = {(r["trial_id"], r["mode"]) for r in ch.read_jsonl(out_path)} if out_path.exists() else set()
     if gen is None:
@@ -148,7 +177,7 @@ def main(name, trials_path, repeat=False, attn=False, exps=None, modes=("open", 
               (lambda t, mode, mx: generate(model, processor, fam, t, mode, mx))
     with open(out_path, "a", encoding="utf-8") as f:
         for n, t in enumerate(trials):
-            mx = 256 if t.get("variant") == "P4" else MAX_NEW_TOKENS
+            mx = 256 if t.get("variant") in ("P4", "P5") else MAX_NEW_TOKENS   # P5 (E7) is describe-first too
             for mode in modes:
                 if (t["trial_id"], mode) in done:
                     continue

@@ -1,0 +1,8 @@
+=== run_all start Sat Oct 17 15:54:22 UTC 2026  STOP_AFTER=5 MAX_HOURS=11
+[15:54:22] start smoke_E9_gemma3_4b
+[15:54:39] done  smoke_E9_gemma3_4b (0 min)
+[15:54:39] start check_E9_gemma3_4b
+[15:54:39] done  check_E9_gemma3_4b (0 min)
+[15:54:39] start E9_gemma3_4b
+[16:05:02] done  E9_gemma3_4b (10 min)
+=== lane end Sat Oct 17 16:05:03 UTC 2026 (10 min)

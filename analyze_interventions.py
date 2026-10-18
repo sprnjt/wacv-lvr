@@ -34,8 +34,12 @@ def main(model, raw_path, trials_path):
             b = base.get((old, "mc"))
             if b:
                 paired.append((r["joint_ok"], int(b["joint_ok"])))
+        if not d:      # e.g. a partial / smoke raw file with only one experiment
+            continue
         summary.append(dict(model=model, exp=exp, n=len(d), joint_acc=sum(r["joint_ok"] for r in d) / len(d),
-                            paired_n=len(paired), delta_vs_baseline=sum(x-y for x, y in paired) / len(paired)))
+                            format_errors=sum(r["item_err"] == "format_error" or r["country_err"] == "format_error" for r in d),
+                            paired_n=len(paired),
+                            delta_vs_baseline=sum(x-y for x, y in paired) / len(paired) if paired else float("nan")))
     with open(f"results/interventions_{model}.csv", "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=summary[0].keys()); w.writeheader(); w.writerows(summary)
     print("wrote", detail, "and", f"results/interventions_{model}.csv")

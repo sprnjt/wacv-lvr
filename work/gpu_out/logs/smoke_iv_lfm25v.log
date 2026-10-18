@@ -1,0 +1,36 @@
+[transformers] `Lfm2VlImageProcessorFast` is deprecated. The `Fast` suffix for image processors has been removed; use `Lfm2VlImageProcessor` instead.
+Traceback (most recent call last):
+  File "/workspace/wacv-lvr/run_models.py", line 181, in <module>
+    main(args[0], trials, repeat="--repeat" in args, attn="--attn" in args, exps=exps, modes=modes, out_path=out)
+  File "/workspace/wacv-lvr/run_models.py", line 151, in main
+    model, processor = load(name)
+                       ^^^^^^^^^^
+  File "/workspace/wacv-lvr/run_models.py", line 37, in load
+    processor = AutoProcessor.from_pretrained(cfg["hf_id"])
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/models/auto/processing_auto.py", line 346, in from_pretrained
+    return processor_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/processing_utils.py", line 1754, in from_pretrained
+    args = cls._get_arguments_from_pretrained(pretrained_model_name_or_path, processor_dict, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/processing_utils.py", line 1894, in _get_arguments_from_pretrained
+    sub_processor = auto_processor_class.from_pretrained(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/models/auto/image_processing_auto.py", line 702, in from_pretrained
+    return image_processor_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/utils/import_utils.py", line 2424, in __getattribute__
+    requires_backends(cls, cls._backends)
+  File "/usr/local/lib/python3.12/dist-packages/transformers/utils/import_utils.py", line 2410, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+Lfm2VlImageProcessor requires the Torchvision library but it was not found in your environment. Check out the instructions on the
+installation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.
+Please note that you may need to restart your runtime after installation.
+
+Loading weights:   0%|          | 0/707 [00:00<?, ?it/s]Loading weights:   3%|▎         | 20/707 [00:00<00:04, 161.71it/s]Loading weights:   6%|▌         | 40/707 [00:00<00:03, 172.68it/s]Loading weights:   8%|▊         | 60/707 [00:00<00:03, 179.89it/s]Loading weights:  11%|█         | 79/707 [00:00<00:03, 166.71it/s]Loading weights:  14%|█▍        | 98/707 [00:00<00:03, 173.72it/s]Loading weights:  16%|█▋        | 116/707 [00:00<00:03, 166.16it/s]Loading weights:  19%|█▉        | 136/707 [00:00<00:03, 176.19it/s]Loading weights:  22%|██▏       | 154/707 [00:00<00:03, 157.36it/s]Loading weights:  24%|██▍       | 171/707 [00:01<00:03, 156.52it/s]Loading weights:  26%|██▋       | 187/707 [00:01<00:03, 139.04it/s]Loading weights:  30%|██▉       | 209/707 [00:01<00:03, 156.60it/s]Loading weights:  32%|███▏      | 229/707 [00:01<00:02, 162.62it/s]Loading weights:  35%|███▌      | 248/707 [00:01<00:02, 169.92it/s]Loading weights:  38%|███▊      | 266/707 [00:01<00:02, 168.39it/s]Loading weights:  45%|████▌     | 321/707 [00:01<00:01, 274.40it/s]Loading weights:  54%|█████▍    | 382/707 [00:01<00:00, 368.17it/s]Loading weights:  62%|██████▏   | 439/707 [00:01<00:00, 425.34it/s]Loading weights:  70%|███████   | 498/707 [00:02<00:00, 469.03it/s]Loading weights:  78%|███████▊  | 551/707 [00:02<00:00, 482.42it/s]Loading weights:  92%|█████████▏| 647/707 [00:02<00:00, 619.45it/s]Loading weights: 100%|██████████| 707/707 [00:02<00:00, 308.25it/s]
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+0/2 trials
+wrote work/smoke/iv_lfm25v.jsonl

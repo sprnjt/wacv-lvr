@@ -1,0 +1,48 @@
+Loading weights:   0%|          | 0/1083 [00:00<?, ?it/s]Loading weights:   2%|▏         | 27/1083 [00:00<00:04, 258.25it/s]Loading weights:   5%|▍         | 53/1083 [00:00<00:04, 214.98it/s]Loading weights:   7%|▋         | 75/1083 [00:00<00:04, 214.20it/s]Loading weights:   9%|▉         | 97/1083 [00:00<00:05, 189.14it/s]Loading weights:  11%|█         | 117/1083 [00:00<00:05, 185.78it/s]Loading weights:  13%|█▎        | 136/1083 [00:00<00:05, 175.10it/s]Loading weights:  14%|█▍        | 154/1083 [00:00<00:05, 175.97it/s]Loading weights:  16%|█▌        | 172/1083 [00:00<00:05, 173.63it/s]Loading weights:  18%|█▊        | 190/1083 [00:01<00:05, 174.82it/s]Loading weights:  19%|█▉        | 208/1083 [00:01<00:05, 169.46it/s]Loading weights:  21%|██        | 226/1083 [00:01<00:05, 169.92it/s]Loading weights:  23%|██▎       | 244/1083 [00:01<00:05, 163.59it/s]Loading weights:  24%|██▍       | 261/1083 [00:01<00:05, 161.81it/s]Loading weights:  26%|██▌       | 278/1083 [00:01<00:05, 157.92it/s]Loading weights:  27%|██▋       | 294/1083 [00:01<00:05, 156.03it/s]Loading weights:  29%|██▉       | 312/1083 [00:01<00:04, 160.23it/s]Loading weights:  30%|███       | 330/1083 [00:01<00:04, 162.87it/s]Loading weights:  32%|███▏      | 347/1083 [00:02<00:04, 164.76it/s]Loading weights:  35%|███▍      | 375/1083 [00:02<00:03, 196.52it/s]Loading weights:  43%|████▎     | 471/1083 [00:02<00:01, 418.07it/s]Loading weights:  56%|█████▌    | 603/1083 [00:02<00:00, 678.02it/s]Loading weights:  64%|██████▍   | 694/1083 [00:02<00:00, 743.54it/s]Loading weights:  71%|███████   | 769/1083 [00:02<00:00, 672.10it/s]Loading weights:  77%|███████▋  | 838/1083 [00:02<00:00, 665.09it/s]Loading weights:  84%|████████▎ | 906/1083 [00:02<00:00, 645.90it/s]Loading weights:  91%|█████████ | 986/1083 [00:02<00:00, 688.06it/s]Loading weights:  98%|█████████▊| 1062/1083 [00:02<00:00, 703.74it/s]Loading weights: 100%|██████████| 1083/1083 [00:02<00:00, 361.29it/s]
+0/640 trials
+100/640 trials
+200/640 trials
+300/640 trials
+400/640 trials
+500/640 trials
+600/640 trials
+wrote raw_granite4v_collage.jsonl
+acc    solo                                 item           n=160  0.688 [0.613, 0.756]
+acc    solo                                 country        n=160  0.594 [0.519, 0.669]
+acc    solo                                 joint          n=160  0.487 [0.412, 0.569]
+acc    solo                                 format_errors  n=160  1.000
+acc    separate                             item           n=160  0.625 [0.550, 0.694]
+acc    separate                             country        n=160  0.487 [0.406, 0.562]
+acc    separate                             joint          n=160  0.362 [0.287, 0.431]
+acc    separate                             format_errors  n=160  1.000
+icr    separate                             icr            n=102  0.529  (n = wrong joint answers)
+icr    separate                             icr_baseline   n=102  0.567
+acc    collage_pos                          item           n=160  0.569 [0.494, 0.644]
+acc    collage_pos                          country        n=160  0.369 [0.294, 0.444]
+acc    collage_pos                          joint          n=160  0.263 [0.200, 0.325]
+acc    collage_pos                          format_errors  n=160  12.000
+icr    collage_pos                          icr            n=118  0.500  (n = wrong joint answers)
+icr    collage_pos                          icr_baseline   n=118  0.518
+acc    collage_kind                         item           n=160  0.644 [0.569, 0.719]  (C4 item/joint solvable by kind: use country and ICR)
+acc    collage_kind                         country        n=160  0.406 [0.331, 0.481]
+acc    collage_kind                         joint          n=160  0.312 [0.244, 0.381]  (C4 item/joint solvable by kind: use country and ICR)
+acc    collage_kind                         format_errors  n=160  14.000
+icr    collage_kind                         icr            n=110  0.536  (n = wrong joint answers)
+icr    collage_kind                         icr_baseline   n=110  0.508
+delta  C3-C2 collage_pos-separate           item           n=160  -0.056 [-0.113, 0.000]
+delta  C3-C2 collage_pos-separate           country        n=160  -0.119 [-0.194, -0.056]
+delta  C3-C2 collage_pos-separate           joint          n=160  -0.100 [-0.163, -0.037]
+delta  C4-C3 collage_kind-collage_pos       item           n=160  0.075 [0.019, 0.131]  (C4 item/joint solvable by kind: use country and ICR)
+delta  C4-C3 collage_kind-collage_pos       country        n=160  0.037 [-0.013, 0.094]
+delta  C4-C3 collage_kind-collage_pos       joint          n=160  0.050 [0.000, 0.100]  (C4 item/joint solvable by kind: use country and ICR)
+delta  C2-C1 separate-solo                  item           n=160  -0.062 [-0.131, 0.000]
+delta  C2-C1 separate-solo                  country        n=160  -0.106 [-0.175, -0.037]
+delta  C2-C1 separate-solo                  joint          n=160  -0.125 [-0.200, -0.050]
+delta  C3-C1 collage_pos-solo               item           n=160  -0.119 [-0.188, -0.056]
+delta  C3-C1 collage_pos-solo               country        n=160  -0.225 [-0.306, -0.150]
+delta  C3-C1 collage_pos-solo               joint          n=160  -0.225 [-0.300, -0.156]
+delta  C4-C1 collage_kind-solo              item           n=160  -0.044 [-0.106, 0.019]  (C4 item/joint solvable by kind: use country and ICR)
+delta  C4-C1 collage_kind-solo              country        n=160  -0.188 [-0.263, -0.119]
+delta  C4-C1 collage_kind-solo              joint          n=160  -0.175 [-0.244, -0.106]  (C4 item/joint solvable by kind: use country and ICR)
+NOTE: C4 item/joint solvable by kind: use country and ICR
+wrote results/collage_granite4v.csv

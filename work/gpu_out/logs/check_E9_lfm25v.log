@@ -1,0 +1,13 @@
+--- E9_img_0240_solo parsed={'item': 'Tarte Tatin', 'country': 'Philippines'}
+Item: C
+Country: B
+--- E9_img_0240_separate parsed={'item': 'Tarte Tatin', 'country': 'Philippines'}
+Item: C
+Country: B
+--- E9_img_0240_collage_pos parsed={'item': 'Tarte Tatin', 'country': 'Philippines'}
+Item: C
+Country: B
+--- E9_img_0240_collage_kind parsed={'item': 'Tarte Tatin', 'country': 'Philippines'}
+Item: C
+Country: B
+OK mc

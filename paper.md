@@ -26,7 +26,7 @@ failures. Three pre-registered probes target the *locus* of binding: a scaling/s
 describe-then-answer text-mediation experiment, and answer-token attention capture. Six open-weight
 VLMs from five architecture families are evaluated under a frozen protocol with an LLM-judge
 adjudication layer. Results: multiple-choice joint accuracy is flat from N = 1 to N = 5 for the
-three ≥ 7B models (0.69–0.86 throughout) but drops 0.13–0.22 absolute for the three ≤ 4B models.
+three ≥ 7B models (0.69–0.86 throughout) but drops 0.13–0.24 absolute for the three ≤ 4B models.
 The decline is gradual (no N = 1→2 step anywhere), U-shaped across slots at N = 5 in exactly the
 degrading models, amplified by culturally near distractors beyond visual similarity, and consists
 of whole answers lifted from one wrong shown image — the illusory-conjunction rate is at or below
@@ -443,7 +443,7 @@ MC joint accuracy, N = 1 → N = 5 (`acc_by_N.csv`, `scaling_summary.csv`):
 | ≤ 4B | granite4v | 0.544 | 0.320 | −0.058 [−0.078, −0.040] |
 | ≤ 4B | lfm25v | 0.556 | 0.315 | −0.057 [−0.078, −0.038] |
 
-The three ≥ 7B models are robust to haystack growth; the three ≤ 4B models lose 0.13–0.22
+The three ≥ 7B models are robust to haystack growth; the three ≤ 4B models lose 0.13–0.24
 absolute, with slopes significantly below zero. The benchmark stratifies binding capability by
 size class — the phenomenon is real but not universal.
 

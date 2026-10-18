@@ -1,0 +1,63 @@
+httpx2.HTTPStatusError: Client error '401 Unauthorized' for url 'https://huggingface.co/google/gemma-3-4b-it/resolve/093f9f388b31de276ce2de164bdc2081324b9767/config.json'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/dist-packages/transformers/utils/hub.py", line 537, in cached_files
+    hf_hub_download(
+  File "/usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_validators.py", line 89, in _inner_fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/huggingface_hub/utils/_http.py", line 276, in _inner
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/huggingface_hub/file_download.py", line 1047, in hf_hub_download
+    return _hf_hub_download_to_cache_dir(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/huggingface_hub/file_download.py", line 1194, in _hf_hub_download_to_cache_dir
+    _raise_on_head_call_error(head_call_error, force_download, local_files_only)
+  File "/usr/local/lib/python3.12/dist-packages/huggingface_hub/file_download.py", line 1953, in _raise_on_head_call_error
+    raise head_call_error
+huggingface_hub.errors.GatedRepoError: 401 Client Error. (Request ID: Root=1-6ad3858f-6c5c124d5f65ef6230d3ae43;131bba6a-9df0-4180-948a-048b406e8736)
+
+Cannot access gated repo for url https://huggingface.co/google/gemma-3-4b-it/resolve/093f9f388b31de276ce2de164bdc2081324b9767/config.json.
+Access to model google/gemma-3-4b-it is restricted. You must have access to it and be authenticated to access it. Please log in.
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/workspace/wacv-lvr/run_models.py", line 181, in <module>
+    main(args[0], trials, repeat="--repeat" in args, attn="--attn" in args, exps=exps, modes=modes, out_path=out)
+  File "/workspace/wacv-lvr/run_models.py", line 151, in main
+    model, processor = load(name)
+                       ^^^^^^^^^^
+  File "/workspace/wacv-lvr/run_models.py", line 37, in load
+    processor = AutoProcessor.from_pretrained(cfg["hf_id"])
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/models/auto/processing_auto.py", line 307, in from_pretrained
+    config = AutoConfig.from_pretrained(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/models/auto/configuration_auto.py", line 397, in from_pretrained
+    config_dict, unused_kwargs = PreTrainedConfig.get_config_dict(pretrained_model_name_or_path, **kwargs)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/configuration_utils.py", line 919, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/configuration_utils.py", line 971, in _get_config_dict
+    resolved_config_file = cached_file(
+                           ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/utils/hub.py", line 370, in cached_file
+    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/utils/hub.py", line 610, in cached_files
+    raise OSError(
+OSError: You are trying to access a gated repo.
+Make sure to have access to it at https://huggingface.co/google/gemma-3-4b-it.
+401 Client Error. (Request ID: Root=1-6ad3858f-6c5c124d5f65ef6230d3ae43;131bba6a-9df0-4180-948a-048b406e8736)
+
+Cannot access gated repo for url https://huggingface.co/google/gemma-3-4b-it/resolve/093f9f388b31de276ce2de164bdc2081324b9767/config.json.
+Access to model google/gemma-3-4b-it is restricted. You must have access to it and be authenticated to access it. Please log in.
+Loading weights:   0%|          | 0/883 [00:00<?, ?it/s]Loading weights:   0%|          | 3/883 [00:00<00:31, 27.88it/s]Loading weights:   3%|▎         | 30/883 [00:00<00:05, 153.10it/s]Loading weights:   6%|▌         | 54/883 [00:00<00:04, 186.02it/s]Loading weights:   8%|▊         | 75/883 [00:00<00:04, 194.90it/s]Loading weights:  11%|█         | 95/883 [00:00<00:04, 194.06it/s]Loading weights:  13%|█▎        | 119/883 [00:00<00:03, 205.82it/s]Loading weights:  16%|█▌        | 143/883 [00:00<00:03, 214.86it/s]Loading weights:  19%|█▊        | 165/883 [00:00<00:03, 205.66it/s]Loading weights:  21%|██        | 186/883 [00:00<00:03, 204.47it/s]Loading weights:  24%|██▍       | 210/883 [00:01<00:03, 207.86it/s]Loading weights:  26%|██▌       | 231/883 [00:01<00:03, 206.98it/s]Loading weights:  29%|██▊       | 252/883 [00:01<00:03, 197.07it/s]Loading weights:  31%|███▏      | 277/883 [00:01<00:02, 206.73it/s]Loading weights:  34%|███▍      | 302/883 [00:01<00:02, 214.60it/s]Loading weights:  37%|███▋      | 328/883 [00:01<00:02, 200.49it/s]Loading weights:  40%|████      | 355/883 [00:01<00:02, 211.72it/s]Loading weights:  43%|████▎     | 380/883 [00:01<00:02, 220.55it/s]Loading weights:  46%|████▌     | 403/883 [00:01<00:02, 219.21it/s]Loading weights:  48%|████▊     | 426/883 [00:02<00:02, 210.21it/s]Loading weights:  55%|█████▌    | 487/883 [00:02<00:01, 317.02it/s]Loading weights:  67%|██████▋   | 588/883 [00:02<00:00, 508.87it/s]Loading weights:  78%|███████▊  | 693/883 [00:02<00:00, 659.33it/s]Loading weights:  90%|█████████ | 798/883 [00:02<00:00, 770.25it/s]Loading weights: 100%|██████████| 883/883 [00:02<00:00, 341.79it/s]
+0/2 trials
+wrote work/smoke/iv_gemma3_4b.jsonl

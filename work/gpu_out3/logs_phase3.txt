@@ -1,0 +1,6 @@
+[18:41:52] setup
+built 960 collage images in images/collage
+[18:45:34] lanes
+REPRO qwen25vl: 20/20 replies identical to frozen raw_qwen25vl.jsonl
+REPRO gemma4: 20/20 replies identical to frozen raw_gemma4.jsonl
+[19:09:24] PHASE3 END

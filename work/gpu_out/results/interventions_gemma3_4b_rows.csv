@@ -1,0 +1,1081 @@
+trial_id,exp,target,N,slot,item_ans,item_src,item_err,item_ok,item_slot,country_ans,country_src,country_err,country_ok,country_slot,joint_ok,illusory
+E8_img_0240_mixed_N5_k1_P1,E8,img_0240,5,1,Tarte Tatin,img_0240,,1,1,France,img_0240,,1,1,1,0
+E8_img_0240_mixed_N5_k2_P1,E8,img_0240,5,2,Tarte Tatin,img_0240,,1,2,France,img_0240,,1,2,1,0
+E8_img_0240_mixed_N5_k3_P1,E8,img_0240,5,3,Tarte Tatin,img_0240,,1,3,Turkey,img_0171,mis_binding,0,2,0,1
+E8_img_0240_mixed_N5_k4_P1,E8,img_0240,5,4,Tarte Tatin,img_0240,,1,4,France,img_0240,,1,4,1,0
+E8_img_0240_mixed_N5_k5_P1,E8,img_0240,5,5,Tarte Tatin,img_0240,,1,5,France,img_0240,,1,5,1,0
+E8_img_0108_mixed_N5_k1_P1,E8,img_0108,5,1,Mote con huesillo,img_0195,mis_binding,0,5,Indonesia,img_0108,,1,1,0,1
+E8_img_0108_mixed_N5_k2_P1,E8,img_0108,5,2,Mote con huesillo,img_0195,mis_binding,0,5,Peru,img_0414,mis_binding,0,3,0,1
+E8_img_0108_mixed_N5_k3_P1,E8,img_0108,5,3,Mote con huesillo,img_0195,mis_binding,0,5,Chile,img_0195,mis_binding,0,5,0,0
+E8_img_0108_mixed_N5_k4_P1,E8,img_0108,5,4,Bánh rán,img_0100,mis_binding,0,3,Chile,img_0195,mis_binding,0,5,0,1
+E8_img_0108_mixed_N5_k5_P1,E8,img_0108,5,5,Bánh rán,img_0100,mis_binding,0,3,Chile,img_0195,mis_binding,0,4,0,1
+E8_img_0483_mixed_N5_k1_P1,E8,img_0483,5,1,Pabellón criollo,img_0483,,1,1,Brazil,img_0285,mis_binding,0,5,0,1
+E8_img_0483_mixed_N5_k2_P1,E8,img_0483,5,2,Pabellón criollo,img_0483,,1,2,Brazil,img_0285,mis_binding,0,5,0,1
+E8_img_0483_mixed_N5_k3_P1,E8,img_0483,5,3,Pabellón criollo,img_0483,,1,3,Brazil,img_0285,mis_binding,0,5,0,1
+E8_img_0483_mixed_N5_k4_P1,E8,img_0483,5,4,Pabellón criollo,img_0483,,1,4,Brazil,img_0285,mis_binding,0,5,0,1
+E8_img_0483_mixed_N5_k5_P1,E8,img_0483,5,5,Pabellón criollo,img_0483,,1,5,Brazil,img_0285,mis_binding,0,4,0,1
+E8_img_0164_mixed_N5_k1_P1,E8,img_0164,5,1,Bambalouni,img_0095,mis_binding,0,2,Indonesia,img_0164,,1,1,0,1
+E8_img_0164_mixed_N5_k2_P1,E8,img_0164,5,2,Bambalouni,img_0095,mis_binding,0,1,Indonesia,img_0164,,1,2,0,1
+E8_img_0164_mixed_N5_k3_P1,E8,img_0164,5,3,Pączki,img_0201,mis_binding,0,5,Indonesia,img_0164,,1,3,0,1
+E8_img_0164_mixed_N5_k4_P1,E8,img_0164,5,4,Pączki,img_0201,mis_binding,0,5,Indonesia,img_0164,,1,4,0,1
+E8_img_0164_mixed_N5_k5_P1,E8,img_0164,5,5,Bambalouni,img_0095,mis_binding,0,1,Indonesia,img_0164,,1,5,0,1
+E8_img_0297_mixed_N5_k1_P1,E8,img_0297,5,1,Floating island,img_0149,mis_binding,0,5,Colombia,img_0210,mis_binding,0,4,0,1
+E8_img_0297_mixed_N5_k2_P1,E8,img_0297,5,2,Floating island,img_0149,mis_binding,0,5,Colombia,img_0210,mis_binding,0,4,0,1
+E8_img_0297_mixed_N5_k3_P1,E8,img_0297,5,3,Egg cream,img_0297,,1,3,South Africa,img_0389,mis_binding,0,1,0,1
+E8_img_0297_mixed_N5_k4_P1,E8,img_0297,5,4,Floating island,img_0149,mis_binding,0,5,United States,img_0297,,1,4,0,1
+E8_img_0297_mixed_N5_k5_P1,E8,img_0297,5,5,Floating island,img_0149,mis_binding,0,4,Colombia,img_0210,mis_binding,0,3,0,1
+E8_img_0408_mixed_N5_k1_P1,E8,img_0408,5,1,Choripán,img_0415,mis_binding,0,2,Colombia,img_0408,,1,1,0,1
+E8_img_0408_mixed_N5_k2_P1,E8,img_0408,5,2,Hong Kong-style milk tea,img_0311,mis_binding,0,5,Argentina,img_0415,mis_binding,0,1,0,1
+E8_img_0408_mixed_N5_k3_P1,E8,img_0408,5,3,Chipa,img_0412,mis_binding,0,2,Paraguay,img_0412,mis_binding,0,2,0,0
+E8_img_0408_mixed_N5_k4_P1,E8,img_0408,5,4,Changua,img_0408,,1,4,Paraguay,img_0412,mis_binding,0,2,0,1
+E8_img_0408_mixed_N5_k5_P1,E8,img_0408,5,5,Changua,img_0408,,1,5,Paraguay,img_0412,mis_binding,0,2,0,1
+E8_img_0254_mixed_N5_k1_P1,E8,img_0254,5,1,Vanillekipferl,img_0254,,1,1,Austria,img_0254,,1,1,1,0
+E8_img_0254_mixed_N5_k2_P1,E8,img_0254,5,2,Vanillekipferl,img_0254,,1,2,Austria,img_0254,,1,2,1,0
+E8_img_0254_mixed_N5_k3_P1,E8,img_0254,5,3,Vanillekipferl,img_0254,,1,3,Austria,img_0254,,1,3,1,0
+E8_img_0254_mixed_N5_k4_P1,E8,img_0254,5,4,Vanillekipferl,img_0254,,1,4,Austria,img_0254,,1,4,1,0
+E8_img_0254_mixed_N5_k5_P1,E8,img_0254,5,5,Vanillekipferl,img_0254,,1,5,Austria,img_0254,,1,5,1,0
+E8_img_0359_mixed_N5_k1_P1,E8,img_0359,5,1,Teh Tarik,img_0359,,1,1,Malaysia,img_0359,,1,1,1,0
+E8_img_0359_mixed_N5_k2_P1,E8,img_0359,5,2,Teh Tarik,img_0359,,1,2,Indonesia,img_0352,mis_binding,0,1,0,1
+E8_img_0359_mixed_N5_k3_P1,E8,img_0359,5,3,Teh Tarik,img_0359,,1,3,Indonesia,img_0352,mis_binding,0,1,0,1
+E8_img_0359_mixed_N5_k4_P1,E8,img_0359,5,4,Teh Tarik,img_0359,,1,4,Malaysia,img_0359,,1,4,1,0
+E8_img_0359_mixed_N5_k5_P1,E8,img_0359,5,5,Teh Tarik,img_0359,,1,5,Malaysia,img_0359,,1,5,1,0
+E8_img_0530_mixed_N5_k1_P1,E8,img_0530,5,1,Vori vori,img_0530,,1,1,India,img_0166,mis_binding,0,3,0,1
+E8_img_0530_mixed_N5_k2_P1,E8,img_0530,5,2,Vori vori,img_0530,,1,2,India,img_0166,mis_binding,0,3,0,1
+E8_img_0530_mixed_N5_k3_P1,E8,img_0530,5,3,Pfeffernusse,img_0208,mis_binding,0,1,India,img_0166,mis_binding,0,2,0,1
+E8_img_0530_mixed_N5_k4_P1,E8,img_0530,5,4,Vori vori,img_0530,,1,4,Paraguay,img_0530,,1,4,1,0
+E8_img_0530_mixed_N5_k5_P1,E8,img_0530,5,5,Vori vori,img_0530,,1,5,Paraguay,img_0530,,1,5,1,0
+E8_img_0515_mixed_N5_k1_P1,E8,img_0515,5,1,Spaghetti,img_0515,,1,1,Italy,img_0515,,1,1,1,0
+E8_img_0515_mixed_N5_k2_P1,E8,img_0515,5,2,Spaghetti,img_0515,,1,2,Italy,img_0515,,1,2,1,0
+E8_img_0515_mixed_N5_k3_P1,E8,img_0515,5,3,Spaghetti,img_0515,,1,3,Italy,img_0515,,1,3,1,0
+E8_img_0515_mixed_N5_k4_P1,E8,img_0515,5,4,Spaghetti,img_0515,,1,4,Italy,img_0515,,1,4,1,0
+E8_img_0515_mixed_N5_k5_P1,E8,img_0515,5,5,Spaghetti,img_0515,,1,5,Indonesia,img_0143,mis_binding,0,4,0,1
+E8_img_0260_mixed_N5_k1_P1,E8,img_0260,5,1,Zerde,img_0260,,1,1,Turkey,img_0260,,1,1,1,0
+E8_img_0260_mixed_N5_k2_P1,E8,img_0260,5,2,Zerde,img_0260,,1,2,Turkey,img_0260,,1,2,1,0
+E8_img_0260_mixed_N5_k3_P1,E8,img_0260,5,3,Baba ghanoush,img_0381,mis_binding,0,4,Egypt,img_0381,mis_binding,0,4,0,0
+E8_img_0260_mixed_N5_k4_P1,E8,img_0260,5,4,Zerde,img_0260,,1,4,Turkey,img_0260,,1,4,1,0
+E8_img_0260_mixed_N5_k5_P1,E8,img_0260,5,5,Zerde,img_0260,,1,5,Turkey,img_0260,,1,5,1,0
+E8_img_0173_mixed_N5_k1_P1,E8,img_0173,5,1,Khanom chan,img_0173,,1,1,Thailand,img_0173,,1,1,1,0
+E8_img_0173_mixed_N5_k2_P1,E8,img_0173,5,2,Muesli,img_0475,mis_binding,0,4,Thailand,img_0173,,1,2,0,1
+E8_img_0173_mixed_N5_k3_P1,E8,img_0173,5,3,Muesli,img_0475,mis_binding,0,4,Thailand,img_0173,,1,3,0,1
+E8_img_0173_mixed_N5_k4_P1,E8,img_0173,5,4,Muesli,img_0475,mis_binding,0,3,Thailand,img_0173,,1,4,0,1
+E8_img_0173_mixed_N5_k5_P1,E8,img_0173,5,5,Muesli,img_0475,mis_binding,0,3,Thailand,img_0173,,1,5,0,1
+E8_img_0131_mixed_N5_k1_P1,E8,img_0131,5,1,Crema catalana,img_0131,,1,1,Greece,img_0474,mis_binding,0,4,0,1
+E8_img_0131_mixed_N5_k2_P1,E8,img_0131,5,2,Crema catalana,img_0131,,1,2,Greece,img_0474,mis_binding,0,4,0,1
+E8_img_0131_mixed_N5_k3_P1,E8,img_0131,5,3,Crema catalana,img_0131,,1,3,Greece,img_0474,mis_binding,0,4,0,1
+E8_img_0131_mixed_N5_k4_P1,E8,img_0131,5,4,Crema catalana,img_0131,,1,4,Greece,img_0474,mis_binding,0,3,0,1
+E8_img_0131_mixed_N5_k5_P1,E8,img_0131,5,5,Crema catalana,img_0131,,1,5,Greece,img_0474,mis_binding,0,3,0,1
+E8_img_0139_mixed_N5_k1_P1,E8,img_0139,5,1,Douhua,img_0139,,1,1,China,img_0139,,1,1,1,0
+E8_img_0139_mixed_N5_k2_P1,E8,img_0139,5,2,Douhua,img_0139,,1,2,India,img_0103,mis_binding,0,1,0,1
+E8_img_0139_mixed_N5_k3_P1,E8,img_0139,5,3,Douhua,img_0139,,1,3,Brazil,img_0392,mis_binding,0,2,0,1
+E8_img_0139_mixed_N5_k4_P1,E8,img_0139,5,4,Douhua,img_0139,,1,4,Brazil,img_0392,mis_binding,0,2,0,1
+E8_img_0139_mixed_N5_k5_P1,E8,img_0139,5,5,Douhua,img_0139,,1,5,China,img_0139,,1,5,1,0
+E8_img_0193_mixed_N5_k1_P1,E8,img_0193,5,1,Merveilleux,img_0193,,1,1,Belgium,img_0193,,1,1,1,0
+E8_img_0193_mixed_N5_k2_P1,E8,img_0193,5,2,Baked milk,img_0268,mis_binding,0,4,Belgium,img_0193,,1,2,0,1
+E8_img_0193_mixed_N5_k3_P1,E8,img_0193,5,3,Baked milk,img_0268,mis_binding,0,4,Belgium,img_0193,,1,3,0,1
+E8_img_0193_mixed_N5_k4_P1,E8,img_0193,5,4,Merveilleux,img_0193,,1,4,Belgium,img_0193,,1,4,1,0
+E8_img_0193_mixed_N5_k5_P1,E8,img_0193,5,5,Merveilleux,img_0193,,1,5,Belgium,img_0193,,1,5,1,0
+E8_img_0430_mixed_N5_k1_P1,E8,img_0430,5,1,Éclair,img_0430,,1,1,France,img_0430,,1,1,1,0
+E8_img_0430_mixed_N5_k2_P1,E8,img_0430,5,2,Éclair,img_0430,,1,2,France,img_0430,,1,2,1,0
+E8_img_0430_mixed_N5_k3_P1,E8,img_0430,5,3,Éclair,img_0430,,1,3,France,img_0430,,1,3,1,0
+E8_img_0430_mixed_N5_k4_P1,E8,img_0430,5,4,Éclair,img_0430,,1,4,France,img_0430,,1,4,1,0
+E8_img_0430_mixed_N5_k5_P1,E8,img_0430,5,5,Éclair,img_0430,,1,5,France,img_0430,,1,5,1,0
+E8_img_0404_mixed_N5_k1_P1,E8,img_0404,5,1,Century egg,img_0404,,1,1,Paraguay,img_0466,mis_binding,0,2,0,1
+E8_img_0404_mixed_N5_k2_P1,E8,img_0404,5,2,Century egg,img_0404,,1,2,Paraguay,img_0466,mis_binding,0,1,0,1
+E8_img_0404_mixed_N5_k3_P1,E8,img_0404,5,3,Century egg,img_0404,,1,3,Paraguay,img_0466,mis_binding,0,1,0,1
+E8_img_0404_mixed_N5_k4_P1,E8,img_0404,5,4,Century egg,img_0404,,1,4,Paraguay,img_0466,mis_binding,0,1,0,1
+E8_img_0404_mixed_N5_k5_P1,E8,img_0404,5,5,Century egg,img_0404,,1,5,Paraguay,img_0466,mis_binding,0,1,0,1
+E8_img_0119_mixed_N5_k1_P1,E8,img_0119,5,1,Chè trôi nước,img_0122,mis_binding,0,3,Vietnam,img_0122,mis_binding,0,3,0,0
+E8_img_0119_mixed_N5_k2_P1,E8,img_0119,5,2,Chè trôi nước,img_0122,mis_binding,0,3,Vietnam,img_0122,mis_binding,0,3,0,0
+E8_img_0119_mixed_N5_k3_P1,E8,img_0119,5,3,Chè trôi nước,img_0122,mis_binding,0,2,Vietnam,img_0122,mis_binding,0,2,0,0
+E8_img_0119_mixed_N5_k4_P1,E8,img_0119,5,4,Chandrakala,img_0119,,1,4,India,img_0119,,1,4,1,0
+E8_img_0119_mixed_N5_k5_P1,E8,img_0119,5,5,Chè trôi nước,img_0122,mis_binding,0,2,Vietnam,img_0122,mis_binding,0,2,0,0
+E8_img_0409_mixed_N5_k1_P1,E8,img_0409,5,1,Chapati,img_0409,,1,1,India,img_0409,,1,1,1,0
+E8_img_0409_mixed_N5_k2_P1,E8,img_0409,5,2,Chapati,img_0409,,1,2,India,img_0409,,1,2,1,0
+E8_img_0409_mixed_N5_k3_P1,E8,img_0409,5,3,Thieboudienne,img_0523,mis_binding,0,5,India,img_0409,,1,3,0,1
+E8_img_0409_mixed_N5_k4_P1,E8,img_0409,5,4,Chapati,img_0409,,1,4,India,img_0409,,1,4,1,0
+E8_img_0409_mixed_N5_k5_P1,E8,img_0409,5,5,Chapati,img_0409,,1,5,India,img_0409,,1,5,1,0
+E8_img_0238_mixed_N5_k1_P1,E8,img_0238,5,1,Syllabub,img_0238,,1,1,Netherlands,img_0200,mis_binding,0,2,0,1
+E8_img_0238_mixed_N5_k2_P1,E8,img_0238,5,2,Syllabub,img_0238,,1,2,Netherlands,img_0200,mis_binding,0,1,0,1
+E8_img_0238_mixed_N5_k3_P1,E8,img_0238,5,3,Zabaione,img_0259,mis_binding,0,2,United Kingdom,img_0238,,1,3,0,1
+E8_img_0238_mixed_N5_k4_P1,E8,img_0238,5,4,Mai Tai,img_0322,mis_binding,0,3,United Kingdom,img_0238,,1,4,0,1
+E8_img_0238_mixed_N5_k5_P1,E8,img_0238,5,5,Syllabub,img_0238,,1,5,Netherlands,img_0200,mis_binding,0,1,0,1
+E8_img_0524_mixed_N5_k1_P1,E8,img_0524,5,1,Charlotte,img_0120,mis_binding,0,4,Mexico,img_0524,,1,1,0,1
+E8_img_0524_mixed_N5_k2_P1,E8,img_0524,5,2,Charlotte,img_0120,mis_binding,0,4,Mexico,img_0524,,1,2,0,1
+E8_img_0524_mixed_N5_k3_P1,E8,img_0524,5,3,Charlotte,img_0120,mis_binding,0,4,Mexico,img_0524,,1,3,0,1
+E8_img_0524_mixed_N5_k4_P1,E8,img_0524,5,4,Charlotte,img_0120,mis_binding,0,3,Mexico,img_0524,,1,4,0,1
+E8_img_0524_mixed_N5_k5_P1,E8,img_0524,5,5,Tostada,img_0524,,1,5,Mexico,img_0524,,1,5,1,0
+E8_img_0235_mixed_N5_k1_P1,E8,img_0235,5,1,Stracciatella,img_0235,,1,1,Italy,img_0235,,1,1,1,0
+E8_img_0235_mixed_N5_k2_P1,E8,img_0235,5,2,Stracciatella,img_0235,,1,2,Italy,img_0235,,1,2,1,0
+E8_img_0235_mixed_N5_k3_P1,E8,img_0235,5,3,Stracciatella,img_0235,,1,3,Italy,img_0235,,1,3,1,0
+E8_img_0235_mixed_N5_k4_P1,E8,img_0235,5,4,Stracciatella,img_0235,,1,4,Italy,img_0235,,1,4,1,0
+E8_img_0235_mixed_N5_k5_P1,E8,img_0235,5,5,Stracciatella,img_0235,,1,5,Italy,img_0235,,1,5,1,0
+E8_img_0170_mixed_N5_k1_P1,E8,img_0170,5,1,Kalburabastı,img_0170,,1,1,Turkey,img_0170,,1,1,1,0
+E8_img_0170_mixed_N5_k2_P1,E8,img_0170,5,2,Kalburabastı,img_0170,,1,2,Tunisia,img_0092,mis_binding,0,3,0,1
+E8_img_0170_mixed_N5_k3_P1,E8,img_0170,5,3,Kalburabastı,img_0170,,1,3,Turkey,img_0170,,1,3,1,0
+E8_img_0170_mixed_N5_k4_P1,E8,img_0170,5,4,Kalburabastı,img_0170,,1,4,Turkey,img_0170,,1,4,1,0
+E8_img_0170_mixed_N5_k5_P1,E8,img_0170,5,5,Kalburabastı,img_0170,,1,5,Turkey,img_0170,,1,5,1,0
+E8_img_0099_mixed_N5_k1_P1,E8,img_0099,5,1,Okpa,img_0199,mis_binding,0,3,Tanzania,img_0465,mis_binding,0,2,0,1
+E8_img_0099_mixed_N5_k2_P1,E8,img_0099,5,2,Okpa,img_0199,mis_binding,0,3,Vietnam,img_0099,,1,2,0,1
+E8_img_0099_mixed_N5_k3_P1,E8,img_0099,5,3,Okpa,img_0199,mis_binding,0,2,Taiwan,img_0226,mis_binding,0,5,0,1
+E8_img_0099_mixed_N5_k4_P1,E8,img_0099,5,4,Okpa,img_0199,mis_binding,0,2,Taiwan,img_0226,mis_binding,0,5,0,1
+E8_img_0099_mixed_N5_k5_P1,E8,img_0099,5,5,Bánh chuối,img_0099,,1,5,Taiwan,img_0226,mis_binding,0,4,0,1
+E8_img_0349_mixed_N5_k1_P1,E8,img_0349,5,1,Screwdriver,img_0349,,1,1,Brazil,img_0392,mis_binding,0,5,0,1
+E8_img_0349_mixed_N5_k2_P1,E8,img_0349,5,2,Screwdriver,img_0349,,1,2,Brazil,img_0392,mis_binding,0,5,0,1
+E8_img_0349_mixed_N5_k3_P1,E8,img_0349,5,3,Screwdriver,img_0349,,1,3,Brazil,img_0392,mis_binding,0,5,0,1
+E8_img_0349_mixed_N5_k4_P1,E8,img_0349,5,4,Screwdriver,img_0349,,1,4,Brazil,img_0392,mis_binding,0,5,0,1
+E8_img_0349_mixed_N5_k5_P1,E8,img_0349,5,5,Screwdriver,img_0349,,1,5,United States,img_0349,,1,5,1,0
+E8_img_0269_mixed_N5_k1_P1,E8,img_0269,5,1,Egg cream,img_0297,mis_binding,0,2,Indonesia,img_0269,,1,1,0,1
+E8_img_0269_mixed_N5_k2_P1,E8,img_0269,5,2,Bandrek,img_0269,,1,2,India,img_0230,mis_binding,0,4,0,1
+E8_img_0269_mixed_N5_k3_P1,E8,img_0269,5,3,Egg cream,img_0297,mis_binding,0,1,India,img_0230,mis_binding,0,4,0,1
+E8_img_0269_mixed_N5_k4_P1,E8,img_0269,5,4,Egg cream,img_0297,mis_binding,0,1,India,img_0230,mis_binding,0,3,0,1
+E8_img_0269_mixed_N5_k5_P1,E8,img_0269,5,5,Bandrek,img_0269,,1,5,Indonesia,img_0269,,1,5,1,0
+E8_img_0256_mixed_N5_k1_P1,E8,img_0256,5,1,Caffè corretto,img_0282,mis_binding,0,4,Spain,img_0256,,1,1,0,1
+E8_img_0256_mixed_N5_k2_P1,E8,img_0256,5,2,Caffè corretto,img_0282,mis_binding,0,4,Spain,img_0256,,1,2,0,1
+E8_img_0256_mixed_N5_k3_P1,E8,img_0256,5,3,Caffè corretto,img_0282,mis_binding,0,4,Spain,img_0256,,1,3,0,1
+E8_img_0256_mixed_N5_k4_P1,E8,img_0256,5,4,Caffè corretto,img_0282,mis_binding,0,3,Spain,img_0256,,1,4,0,1
+E8_img_0256_mixed_N5_k5_P1,E8,img_0256,5,5,Caffè corretto,img_0282,mis_binding,0,3,Spain,img_0256,,1,5,0,1
+E8_img_0263_mixed_N5_k1_P1,E8,img_0263,5,1,Amazake,img_0263,,1,1,Japan,img_0263,,1,1,1,0
+E8_img_0263_mixed_N5_k2_P1,E8,img_0263,5,2,Amazake,img_0263,,1,2,Japan,img_0263,,1,2,1,0
+E8_img_0263_mixed_N5_k3_P1,E8,img_0263,5,3,Amazake,img_0263,,1,3,Japan,img_0263,,1,3,1,0
+E8_img_0263_mixed_N5_k4_P1,E8,img_0263,5,4,Amazake,img_0263,,1,4,Japan,img_0263,,1,4,1,0
+E8_img_0263_mixed_N5_k5_P1,E8,img_0263,5,5,Amazake,img_0263,,1,5,Japan,img_0263,,1,5,1,0
+E8_img_0421_mixed_N5_k1_P1,E8,img_0421,5,1,Coxinha,img_0421,,1,1,Brazil,img_0421,,1,1,1,0
+E8_img_0421_mixed_N5_k2_P1,E8,img_0421,5,2,Coxinha,img_0421,,1,2,Brazil,img_0421,,1,2,1,0
+E8_img_0421_mixed_N5_k3_P1,E8,img_0421,5,3,Coxinha,img_0421,,1,3,Brazil,img_0421,,1,3,1,0
+E8_img_0421_mixed_N5_k4_P1,E8,img_0421,5,4,Coxinha,img_0421,,1,4,Brazil,img_0421,,1,4,1,0
+E8_img_0421_mixed_N5_k5_P1,E8,img_0421,5,5,Coxinha,img_0421,,1,5,Brazil,img_0421,,1,5,1,0
+E8_img_0270_mixed_N5_k1_P1,E8,img_0270,5,1,Batida,img_0270,,1,1,Japan,img_0263,mis_binding,0,3,0,1
+E8_img_0270_mixed_N5_k2_P1,E8,img_0270,5,2,Batida,img_0270,,1,2,Japan,img_0263,mis_binding,0,3,0,1
+E8_img_0270_mixed_N5_k3_P1,E8,img_0270,5,3,Batida,img_0270,,1,3,Japan,img_0263,mis_binding,0,2,0,1
+E8_img_0270_mixed_N5_k4_P1,E8,img_0270,5,4,Batida,img_0270,,1,4,Japan,img_0263,mis_binding,0,2,0,1
+E8_img_0270_mixed_N5_k5_P1,E8,img_0270,5,5,Batida,img_0270,,1,5,Japan,img_0263,mis_binding,0,2,0,1
+E8_img_0513_mixed_N5_k1_P1,E8,img_0513,5,1,Soufflé,img_0513,,1,1,United Kingdom,img_0234,mis_binding,0,3,0,1
+E8_img_0513_mixed_N5_k2_P1,E8,img_0513,5,2,Soufflé,img_0513,,1,2,Indonesia,img_0179,mis_binding,0,4,0,1
+E8_img_0513_mixed_N5_k3_P1,E8,img_0513,5,3,Soufflé,img_0513,,1,3,United Kingdom,img_0234,mis_binding,0,2,0,1
+E8_img_0513_mixed_N5_k4_P1,E8,img_0513,5,4,Soufflé,img_0513,,1,4,United Kingdom,img_0234,mis_binding,0,2,0,1
+E8_img_0513_mixed_N5_k5_P1,E8,img_0513,5,5,Soufflé,img_0513,,1,5,United Kingdom,img_0234,mis_binding,0,2,0,1
+E8_img_0335_mixed_N5_k1_P1,E8,img_0335,5,1,Paradise,img_0335,,1,1,Switzerland,img_0475,mis_binding,0,3,0,1
+E8_img_0335_mixed_N5_k2_P1,E8,img_0335,5,2,Şekerpare,img_0220,mis_binding,0,5,Turkey,img_0220,mis_binding,0,5,0,0
+E8_img_0335_mixed_N5_k3_P1,E8,img_0335,5,3,Paradise,img_0335,,1,3,Switzerland,img_0475,mis_binding,0,2,0,1
+E8_img_0335_mixed_N5_k4_P1,E8,img_0335,5,4,Paradise,img_0335,,1,4,Switzerland,img_0475,mis_binding,0,2,0,1
+E8_img_0335_mixed_N5_k5_P1,E8,img_0335,5,5,Paradise,img_0335,,1,5,Switzerland,img_0475,mis_binding,0,2,0,1
+E8_img_0174_mixed_N5_k1_P1,E8,img_0174,5,1,Khapse,img_0174,,1,1,Iran,img_0180,mis_binding,0,2,0,1
+E8_img_0174_mixed_N5_k2_P1,E8,img_0174,5,2,Putu piring,img_0213,mis_binding,0,4,China,img_0174,,1,2,0,1
+E8_img_0174_mixed_N5_k3_P1,E8,img_0174,5,3,Putu piring,img_0213,mis_binding,0,4,China,img_0174,,1,3,0,1
+E8_img_0174_mixed_N5_k4_P1,E8,img_0174,5,4,Putu piring,img_0213,mis_binding,0,3,China,img_0174,,1,4,0,1
+E8_img_0174_mixed_N5_k5_P1,E8,img_0174,5,5,Buñuelo,img_0113,mis_binding,0,4,Spain,img_0113,mis_binding,0,4,0,0
+E8_img_0470_mixed_N5_k1_P1,E8,img_0470,5,1,Miso soup,img_0470,,1,1,Japan,img_0470,,1,1,1,0
+E8_img_0470_mixed_N5_k2_P1,E8,img_0470,5,2,Miso soup,img_0470,,1,2,Japan,img_0470,,1,2,1,0
+E8_img_0470_mixed_N5_k3_P1,E8,img_0470,5,3,Miso soup,img_0470,,1,3,Japan,img_0470,,1,3,1,0
+E8_img_0470_mixed_N5_k4_P1,E8,img_0470,5,4,Miso soup,img_0470,,1,4,Japan,img_0470,,1,4,1,0
+E8_img_0470_mixed_N5_k5_P1,E8,img_0470,5,5,Miso soup,img_0470,,1,5,Japan,img_0470,,1,5,1,0
+E8_img_0304_mixed_N5_k1_P1,E8,img_0304,5,1,Fernet and Coke,img_0304,,1,1,Peru,img_0237,mis_binding,0,2,0,1
+E8_img_0304_mixed_N5_k2_P1,E8,img_0304,5,2,Fernet and Coke,img_0304,,1,2,Peru,img_0237,mis_binding,0,1,0,1
+E8_img_0304_mixed_N5_k3_P1,E8,img_0304,5,3,Fernet and Coke,img_0304,,1,3,Peru,img_0237,mis_binding,0,1,0,1
+E8_img_0304_mixed_N5_k4_P1,E8,img_0304,5,4,Fernet and Coke,img_0304,,1,4,Peru,img_0237,mis_binding,0,1,0,1
+E8_img_0304_mixed_N5_k5_P1,E8,img_0304,5,5,Fernet and Coke,img_0304,,1,5,Peru,img_0237,mis_binding,0,1,0,1
+E8_img_0288_mixed_N5_k1_P1,E8,img_0288,5,1,Teh Talua,img_0241,mis_binding,0,3,Mexico,img_0288,,1,1,0,1
+E8_img_0288_mixed_N5_k2_P1,E8,img_0288,5,2,Teh Talua,img_0241,mis_binding,0,3,Mexico,img_0288,,1,2,0,1
+E8_img_0288_mixed_N5_k3_P1,E8,img_0288,5,3,Teh Talua,img_0241,mis_binding,0,2,Mexico,img_0288,,1,3,0,1
+E8_img_0288_mixed_N5_k4_P1,E8,img_0288,5,4,Teh Talua,img_0241,mis_binding,0,2,Mexico,img_0288,,1,4,0,1
+E8_img_0288_mixed_N5_k5_P1,E8,img_0288,5,5,Teh Talua,img_0241,mis_binding,0,2,Mexico,img_0288,,1,5,0,1
+E8_img_0116_mixed_N5_k1_P1,E8,img_0116,5,1,Aachener Printen,img_0087,mis_binding,0,5,Germany,img_0087,mis_binding,0,5,0,0
+E8_img_0116_mixed_N5_k2_P1,E8,img_0116,5,2,Aachener Printen,img_0087,mis_binding,0,5,Germany,img_0087,mis_binding,0,5,0,0
+E8_img_0116_mixed_N5_k3_P1,E8,img_0116,5,3,Aachener Printen,img_0087,mis_binding,0,5,Germany,img_0087,mis_binding,0,5,0,0
+E8_img_0116_mixed_N5_k4_P1,E8,img_0116,5,4,Aachener Printen,img_0087,mis_binding,0,5,Germany,img_0087,mis_binding,0,5,0,0
+E8_img_0116_mixed_N5_k5_P1,E8,img_0116,5,5,Romeu and Julieta,img_0215,mis_binding,0,3,Brazil,img_0215,mis_binding,0,3,0,0
+E8_img_0478_mixed_N5_k1_P1,E8,img_0478,5,1,Nachos,img_0478,,1,1,Mexico,img_0478,,1,1,1,0
+E8_img_0478_mixed_N5_k2_P1,E8,img_0478,5,2,Nachos,img_0478,,1,2,Mexico,img_0478,,1,2,1,0
+E8_img_0478_mixed_N5_k3_P1,E8,img_0478,5,3,Nachos,img_0478,,1,3,Mexico,img_0478,,1,3,1,0
+E8_img_0478_mixed_N5_k4_P1,E8,img_0478,5,4,Nachos,img_0478,,1,4,Mexico,img_0478,,1,4,1,0
+E8_img_0478_mixed_N5_k5_P1,E8,img_0478,5,5,Nachos,img_0478,,1,5,Mexico,img_0478,,1,5,1,0
+E8_img_0209_mixed_N5_k1_P1,E8,img_0209,5,1,BLT,img_0388,mis_binding,0,2,United States,img_0388,mis_binding,0,2,0,0
+E8_img_0209_mixed_N5_k2_P1,E8,img_0209,5,2,Es teler,img_0143,mis_binding,0,4,India,img_0325,mis_binding,0,5,0,1
+E8_img_0209_mixed_N5_k3_P1,E8,img_0209,5,3,Pişmaniye,img_0209,,1,3,India,img_0325,mis_binding,0,5,0,1
+E8_img_0209_mixed_N5_k4_P1,E8,img_0209,5,4,Pişmaniye,img_0209,,1,4,India,img_0325,mis_binding,0,5,0,1
+E8_img_0209_mixed_N5_k5_P1,E8,img_0209,5,5,Pişmaniye,img_0209,,1,5,India,img_0325,mis_binding,0,4,0,1
+E8_img_0161_mixed_N5_k1_P1,E8,img_0161,5,1,Aachener Printen,img_0087,mis_binding,0,3,Germany,img_0087,mis_binding,0,3,0,0
+E8_img_0161_mixed_N5_k2_P1,E8,img_0161,5,2,Aachener Printen,img_0087,mis_binding,0,3,Germany,img_0087,mis_binding,0,3,0,0
+E8_img_0161_mixed_N5_k3_P1,E8,img_0161,5,3,Şıra,img_0353,mis_binding,0,4,Turkey,img_0353,mis_binding,0,4,0,0
+E8_img_0161_mixed_N5_k4_P1,E8,img_0161,5,4,Aachener Printen,img_0087,mis_binding,0,2,Germany,img_0087,mis_binding,0,2,0,0
+E8_img_0161_mixed_N5_k5_P1,E8,img_0161,5,5,Aachener Printen,img_0087,mis_binding,0,2,Germany,img_0087,mis_binding,0,2,0,0
+E8_img_0577_mixed_N5_k1_P1,E8,img_0577,5,1,Fujara,img_0561,mis_binding,0,3,Slovakia,img_0561,mis_binding,0,3,0,0
+E8_img_0577_mixed_N5_k2_P1,E8,img_0577,5,2,Fujara,img_0561,mis_binding,0,3,Slovakia,img_0561,mis_binding,0,3,0,0
+E8_img_0577_mixed_N5_k3_P1,E8,img_0577,5,3,Taarija,img_0624,mis_binding,0,1,Italy,img_0643,mis_binding,0,4,0,1
+E8_img_0577_mixed_N5_k4_P1,E8,img_0577,5,4,Taarija,img_0624,mis_binding,0,1,Italy,img_0643,mis_binding,0,3,0,1
+E8_img_0577_mixed_N5_k5_P1,E8,img_0577,5,5,Taarija,img_0624,mis_binding,0,1,Slovakia,img_0561,mis_binding,0,2,0,1
+E8_img_0549_mixed_N5_k1_P1,E8,img_0549,5,1,Dvoyanka,img_0558,mis_binding,0,5,Mexico,img_0629,mis_binding,0,4,0,1
+E8_img_0549_mixed_N5_k2_P1,E8,img_0549,5,2,Dvoyanka,img_0558,mis_binding,0,5,Mexico,img_0629,mis_binding,0,4,0,1
+E8_img_0549_mixed_N5_k3_P1,E8,img_0549,5,3,Dvoyanka,img_0558,mis_binding,0,5,Mexico,img_0629,mis_binding,0,4,0,1
+E8_img_0549_mixed_N5_k4_P1,E8,img_0549,5,4,Teponaztli,img_0629,mis_binding,0,3,Mexico,img_0629,mis_binding,0,3,0,0
+E8_img_0549_mixed_N5_k5_P1,E8,img_0549,5,5,Chuniri,img_0549,,1,5,Mexico,img_0629,mis_binding,0,3,0,1
+E8_img_0535_mixed_N5_k1_P1,E8,img_0535,5,1,Tsuur,img_0635,mis_binding,0,5,Brazil,img_0535,,1,1,0,1
+E8_img_0535_mixed_N5_k2_P1,E8,img_0535,5,2,Tsuur,img_0635,mis_binding,0,5,Brazil,img_0535,,1,2,0,1
+E8_img_0535_mixed_N5_k3_P1,E8,img_0535,5,3,Tsuur,img_0635,mis_binding,0,5,Brazil,img_0535,,1,3,0,1
+E8_img_0535_mixed_N5_k4_P1,E8,img_0535,5,4,Tsuur,img_0635,mis_binding,0,5,Brazil,img_0535,,1,4,0,1
+E8_img_0535_mixed_N5_k5_P1,E8,img_0535,5,5,Doli,img_0557,mis_binding,0,1,Brazil,img_0535,,1,5,0,1
+E8_img_0584_mixed_N5_k1_P1,E8,img_0584,5,1,Umuduri,img_0638,mis_binding,0,3,Georgia,img_0557,mis_binding,0,2,0,1
+E8_img_0584_mixed_N5_k2_P1,E8,img_0584,5,2,Umuduri,img_0638,mis_binding,0,3,Georgia,img_0557,mis_binding,0,1,0,1
+E8_img_0584_mixed_N5_k3_P1,E8,img_0584,5,3,Komuz,img_0584,,1,3,Greece,img_0634,mis_binding,0,5,0,1
+E8_img_0584_mixed_N5_k4_P1,E8,img_0584,5,4,Doli,img_0557,mis_binding,0,1,Indonesia,img_0611,mis_binding,0,3,0,1
+E8_img_0584_mixed_N5_k5_P1,E8,img_0584,5,5,Komuz,img_0584,,1,5,Greece,img_0634,mis_binding,0,4,0,1
+E8_img_0632_mixed_N5_k1_P1,E8,img_0632,5,1,Tambura,img_0628,mis_binding,0,3,Bulgaria,img_0628,mis_binding,0,3,0,0
+E8_img_0632_mixed_N5_k2_P1,E8,img_0632,5,2,Tambura,img_0628,mis_binding,0,3,Bulgaria,img_0628,mis_binding,0,3,0,0
+E8_img_0632_mixed_N5_k3_P1,E8,img_0632,5,3,Erke,img_0560,mis_binding,0,5,Spain,img_0632,,1,3,0,1
+E8_img_0632_mixed_N5_k4_P1,E8,img_0632,5,4,Erke,img_0560,mis_binding,0,5,Spain,img_0632,,1,4,0,1
+E8_img_0632_mixed_N5_k5_P1,E8,img_0632,5,5,Kokle,img_0582,mis_binding,0,3,Turkey,img_0637,mis_binding,0,1,0,1
+E8_img_0547_mixed_N5_k1_P1,E8,img_0547,5,1,Suling,img_0622,mis_binding,0,2,Mexico,img_0630,mis_binding,0,3,0,1
+E8_img_0547_mixed_N5_k2_P1,E8,img_0547,5,2,Suling,img_0622,mis_binding,0,1,Colombia,img_0547,,1,2,0,1
+E8_img_0547_mixed_N5_k3_P1,E8,img_0547,5,3,Caña de millo,img_0547,,1,3,Colombia,img_0547,,1,3,1,0
+E8_img_0547_mixed_N5_k4_P1,E8,img_0547,5,4,Caña de millo,img_0547,,1,4,Colombia,img_0547,,1,4,1,0
+E8_img_0547_mixed_N5_k5_P1,E8,img_0547,5,5,Suling,img_0622,mis_binding,0,1,Colombia,img_0547,,1,5,0,1
+E8_img_0610_mixed_N5_k1_P1,E8,img_0610,5,1,Sanshin,img_0610,,1,1,Japan,img_0610,,1,1,1,0
+E8_img_0610_mixed_N5_k2_P1,E8,img_0610,5,2,Sanshin,img_0610,,1,2,Japan,img_0610,,1,2,1,0
+E8_img_0610_mixed_N5_k3_P1,E8,img_0610,5,3,Taarija,img_0624,mis_binding,0,5,India,img_0613,mis_binding,0,4,0,1
+E8_img_0610_mixed_N5_k4_P1,E8,img_0610,5,4,Lingm,img_0590,mis_binding,0,2,Japan,img_0610,,1,4,0,1
+E8_img_0610_mixed_N5_k5_P1,E8,img_0610,5,5,Tsymbaly,img_0636,mis_binding,0,1,Japan,img_0610,,1,5,0,1
+E8_img_0571_mixed_N5_k1_P1,E8,img_0571,5,1,Cuíca,img_0551,mis_binding,0,3,Brazil,img_0551,mis_binding,0,3,0,0
+E8_img_0571_mixed_N5_k2_P1,E8,img_0571,5,2,Güira,img_0571,,1,2,Brazil,img_0551,mis_binding,0,3,0,1
+E8_img_0571_mixed_N5_k3_P1,E8,img_0571,5,3,Cuíca,img_0551,mis_binding,0,2,Indonesia,img_0614,mis_binding,0,4,0,1
+E8_img_0571_mixed_N5_k4_P1,E8,img_0571,5,4,Cuíca,img_0551,mis_binding,0,2,Indonesia,img_0614,mis_binding,0,3,0,1
+E8_img_0571_mixed_N5_k5_P1,E8,img_0571,5,5,Cuíca,img_0551,mis_binding,0,2,Indonesia,img_0614,mis_binding,0,3,0,1
+E8_img_0566_mixed_N5_k1_P1,E8,img_0566,5,1,Algaita,img_0537,mis_binding,0,2,Indonesia,img_0566,,1,1,0,1
+E8_img_0566_mixed_N5_k2_P1,E8,img_0566,5,2,Panduri,img_0599,mis_binding,0,5,Indonesia,img_0566,,1,2,0,1
+E8_img_0566_mixed_N5_k3_P1,E8,img_0566,5,3,Panduri,img_0599,mis_binding,0,5,Indonesia,img_0566,,1,3,0,1
+E8_img_0566_mixed_N5_k4_P1,E8,img_0566,5,4,Panduri,img_0599,mis_binding,0,5,Indonesia,img_0566,,1,4,0,1
+E8_img_0566_mixed_N5_k5_P1,E8,img_0566,5,5,Gendang beleq,img_0566,,1,5,Indonesia,img_0566,,1,5,1,0
+E8_img_0582_mixed_N5_k1_P1,E8,img_0582,5,1,Kokle,img_0582,,1,1,Mexico,img_0629,mis_binding,0,2,0,1
+E8_img_0582_mixed_N5_k2_P1,E8,img_0582,5,2,Kokle,img_0582,,1,2,Mexico,img_0629,mis_binding,0,1,0,1
+E8_img_0582_mixed_N5_k3_P1,E8,img_0582,5,3,Kokle,img_0582,,1,3,Mexico,img_0629,mis_binding,0,1,0,1
+E8_img_0582_mixed_N5_k4_P1,E8,img_0582,5,4,Kokle,img_0582,,1,4,Mexico,img_0629,mis_binding,0,1,0,1
+E8_img_0582_mixed_N5_k5_P1,E8,img_0582,5,5,Kokle,img_0582,,1,5,Mexico,img_0629,mis_binding,0,1,0,1
+E8_img_0581_mixed_N5_k1_P1,E8,img_0581,5,1,Marovany,img_0592,mis_binding,0,2,Malta,img_0644,mis_binding,0,3,0,1
+E8_img_0581_mixed_N5_k2_P1,E8,img_0581,5,2,Qanbūs,img_0606,mis_binding,0,4,Malta,img_0644,mis_binding,0,3,0,1
+E8_img_0581_mixed_N5_k3_P1,E8,img_0581,5,3,Qanbūs,img_0606,mis_binding,0,4,Malta,img_0644,mis_binding,0,2,0,1
+E8_img_0581_mixed_N5_k4_P1,E8,img_0581,5,4,Qanbūs,img_0606,mis_binding,0,3,Malta,img_0644,mis_binding,0,2,0,1
+E8_img_0581_mixed_N5_k5_P1,E8,img_0581,5,5,Qanbūs,img_0606,mis_binding,0,3,Malta,img_0644,mis_binding,0,2,0,1
+E8_img_0624_mixed_N5_k1_P1,E8,img_0624,5,1,Taarija,img_0624,,1,1,Thailand,img_0607,mis_binding,0,5,0,1
+E8_img_0624_mixed_N5_k2_P1,E8,img_0624,5,2,Taarija,img_0624,,1,2,Thailand,img_0607,mis_binding,0,5,0,1
+E8_img_0624_mixed_N5_k3_P1,E8,img_0624,5,3,Taarija,img_0624,,1,3,Thailand,img_0607,mis_binding,0,5,0,1
+E8_img_0624_mixed_N5_k4_P1,E8,img_0624,5,4,Taarija,img_0624,,1,4,Thailand,img_0607,mis_binding,0,5,0,1
+E8_img_0624_mixed_N5_k5_P1,E8,img_0624,5,5,Triple harp,img_0633,mis_binding,0,3,Thailand,img_0607,mis_binding,0,4,0,1
+E8_img_0561_mixed_N5_k1_P1,E8,img_0561,5,1,Piffero,img_0603,mis_binding,0,4,Slovakia,img_0561,,1,1,0,1
+E8_img_0561_mixed_N5_k2_P1,E8,img_0561,5,2,Piffero,img_0603,mis_binding,0,4,Italy,img_0603,mis_binding,0,4,0,0
+E8_img_0561_mixed_N5_k3_P1,E8,img_0561,5,3,Piffero,img_0603,mis_binding,0,4,Peru,img_0546,mis_binding,0,2,0,1
+E8_img_0561_mixed_N5_k4_P1,E8,img_0561,5,4,Fujara,img_0561,,1,4,Italy,img_0603,mis_binding,0,3,0,1
+E8_img_0561_mixed_N5_k5_P1,E8,img_0561,5,5,Fujara,img_0561,,1,5,Slovakia,img_0561,,1,5,1,0
+E8_img_0564_mixed_N5_k1_P1,E8,img_0564,5,1,Cuíca,img_0551,mis_binding,0,5,Indonesia,img_0564,,1,1,0,1
+E8_img_0564_mixed_N5_k2_P1,E8,img_0564,5,2,Madal,img_0591,mis_binding,0,3,Italy,img_0603,mis_binding,0,1,0,1
+E8_img_0564_mixed_N5_k3_P1,E8,img_0564,5,3,Madal,img_0591,mis_binding,0,2,Indonesia,img_0564,,1,3,0,1
+E8_img_0564_mixed_N5_k4_P1,E8,img_0564,5,4,Cuíca,img_0551,mis_binding,0,5,Indonesia,img_0564,,1,4,0,1
+E8_img_0564_mixed_N5_k5_P1,E8,img_0564,5,5,Madal,img_0591,mis_binding,0,2,Indonesia,img_0564,,1,5,0,1
+E8_img_0604_mixed_N5_k1_P1,E8,img_0604,5,1,Qanbūs,img_0606,mis_binding,0,4,Indonesia,img_0614,mis_binding,0,5,0,1
+E8_img_0604_mixed_N5_k2_P1,E8,img_0604,5,2,Dvoyanka,img_0558,mis_binding,0,3,Indonesia,img_0614,mis_binding,0,5,0,1
+E8_img_0604_mixed_N5_k3_P1,E8,img_0604,5,3,Saron,img_0614,mis_binding,0,5,Thailand,img_0604,,1,3,0,1
+E8_img_0604_mixed_N5_k4_P1,E8,img_0604,5,4,Dvoyanka,img_0558,mis_binding,0,2,Indonesia,img_0614,mis_binding,0,5,0,1
+E8_img_0604_mixed_N5_k5_P1,E8,img_0604,5,5,Saron,img_0614,mis_binding,0,4,Thailand,img_0604,,1,5,0,1
+E8_img_0628_mixed_N5_k1_P1,E8,img_0628,5,1,Afoxé,img_0535,mis_binding,0,4,Indonesia,img_0574,mis_binding,0,2,0,1
+E8_img_0628_mixed_N5_k2_P1,E8,img_0628,5,2,Afoxé,img_0535,mis_binding,0,4,Bulgaria,img_0628,,1,2,0,1
+E8_img_0628_mixed_N5_k3_P1,E8,img_0628,5,3,Hasapi,img_0574,mis_binding,0,1,Bulgaria,img_0628,,1,3,0,1
+E8_img_0628_mixed_N5_k4_P1,E8,img_0628,5,4,Hasapi,img_0574,mis_binding,0,1,Bulgaria,img_0628,,1,4,0,1
+E8_img_0628_mixed_N5_k5_P1,E8,img_0628,5,5,Hasapi,img_0574,mis_binding,0,1,Bulgaria,img_0628,,1,5,0,1
+E8_img_0608_mixed_N5_k1_P1,E8,img_0608,5,1,Guzheng,img_0572,mis_binding,0,2,China,img_0572,mis_binding,0,2,0,0
+E8_img_0608_mixed_N5_k2_P1,E8,img_0608,5,2,Guzheng,img_0572,mis_binding,0,1,China,img_0572,mis_binding,0,1,0,0
+E8_img_0608_mixed_N5_k3_P1,E8,img_0608,5,3,Madal,img_0591,mis_binding,0,4,Indonesia,img_0611,mis_binding,0,5,0,1
+E8_img_0608_mixed_N5_k4_P1,E8,img_0608,5,4,Guzheng,img_0572,mis_binding,0,1,China,img_0572,mis_binding,0,1,0,0
+E8_img_0608_mixed_N5_k5_P1,E8,img_0608,5,5,Tambur,img_0627,mis_binding,0,2,Nepal,img_0591,mis_binding,0,3,0,1
+E8_img_0641_mixed_N5_k1_P1,E8,img_0641,5,1,Vuvuzela,img_0641,,1,1,Paraguay,img_0600,mis_binding,0,4,0,1
+E8_img_0641_mixed_N5_k2_P1,E8,img_0641,5,2,Vuvuzela,img_0641,,1,2,Paraguay,img_0600,mis_binding,0,4,0,1
+E8_img_0641_mixed_N5_k3_P1,E8,img_0641,5,3,Vuvuzela,img_0641,,1,3,Paraguay,img_0600,mis_binding,0,4,0,1
+E8_img_0641_mixed_N5_k4_P1,E8,img_0641,5,4,Vuvuzela,img_0641,,1,4,Paraguay,img_0600,mis_binding,0,3,0,1
+E8_img_0641_mixed_N5_k5_P1,E8,img_0641,5,5,Vuvuzela,img_0641,,1,5,Paraguay,img_0600,mis_binding,0,3,0,1
+E8_img_0629_mixed_N5_k1_P1,E8,img_0629,5,1,Teponaztli,img_0629,,1,1,Mexico,img_0629,,1,1,1,0
+E8_img_0629_mixed_N5_k2_P1,E8,img_0629,5,2,Teponaztli,img_0629,,1,2,Mexico,img_0629,,1,2,1,0
+E8_img_0629_mixed_N5_k3_P1,E8,img_0629,5,3,Teponaztli,img_0629,,1,3,Mexico,img_0629,,1,3,1,0
+E8_img_0629_mixed_N5_k4_P1,E8,img_0629,5,4,Teponaztli,img_0629,,1,4,Mexico,img_0629,,1,4,1,0
+E8_img_0629_mixed_N5_k5_P1,E8,img_0629,5,5,Teponaztli,img_0629,,1,5,Mexico,img_0629,,1,5,1,0
+E8_img_0602_mixed_N5_k1_P1,E8,img_0602,5,1,Pibgorn,img_0602,,1,1,United Kingdom,img_0602,,1,1,1,0
+E8_img_0602_mixed_N5_k2_P1,E8,img_0602,5,2,Pibgorn,img_0602,,1,2,United Kingdom,img_0602,,1,2,1,0
+E8_img_0602_mixed_N5_k3_P1,E8,img_0602,5,3,Pibgorn,img_0602,,1,3,United Kingdom,img_0602,,1,3,1,0
+E8_img_0602_mixed_N5_k4_P1,E8,img_0602,5,4,Pibgorn,img_0602,,1,4,United Kingdom,img_0602,,1,4,1,0
+E8_img_0602_mixed_N5_k5_P1,E8,img_0602,5,5,Pibgorn,img_0602,,1,5,United Kingdom,img_0602,,1,5,1,0
+E8_img_0618_mixed_N5_k1_P1,E8,img_0618,5,1,Shamisen,img_0618,,1,1,Japan,img_0618,,1,1,1,0
+E8_img_0618_mixed_N5_k2_P1,E8,img_0618,5,2,Shamisen,img_0618,,1,2,Japan,img_0618,,1,2,1,0
+E8_img_0618_mixed_N5_k3_P1,E8,img_0618,5,3,Shamisen,img_0618,,1,3,Japan,img_0618,,1,3,1,0
+E8_img_0618_mixed_N5_k4_P1,E8,img_0618,5,4,Shamisen,img_0618,,1,4,Japan,img_0618,,1,4,1,0
+E8_img_0618_mixed_N5_k5_P1,E8,img_0618,5,5,Shamisen,img_0618,,1,5,China,img_0572,mis_binding,0,3,0,1
+E8_img_0575_mixed_N5_k1_P1,E8,img_0575,5,1,Dhimay,img_0553,mis_binding,0,3,Ukraine,img_0636,mis_binding,0,5,0,1
+E8_img_0575_mixed_N5_k2_P1,E8,img_0575,5,2,Dvoyanka,img_0558,mis_binding,0,1,Ukraine,img_0636,mis_binding,0,5,0,1
+E8_img_0575_mixed_N5_k3_P1,E8,img_0575,5,3,Dvoyanka,img_0558,mis_binding,0,1,Ukraine,img_0636,mis_binding,0,5,0,1
+E8_img_0575_mixed_N5_k4_P1,E8,img_0575,5,4,Dvoyanka,img_0558,mis_binding,0,1,Ukraine,img_0636,mis_binding,0,5,0,1
+E8_img_0575_mixed_N5_k5_P1,E8,img_0575,5,5,Dhimay,img_0553,mis_binding,0,2,Ukraine,img_0636,mis_binding,0,4,0,1
+E8_img_0594_mixed_N5_k1_P1,E8,img_0594,5,1,Taarija,img_0624,mis_binding,0,3,Myanmar,img_0594,,1,1,0,1
+E8_img_0594_mixed_N5_k2_P1,E8,img_0594,5,2,Taarija,img_0624,mis_binding,0,3,Myanmar,img_0594,,1,2,0,1
+E8_img_0594_mixed_N5_k3_P1,E8,img_0594,5,3,Taarija,img_0624,mis_binding,0,2,Myanmar,img_0594,,1,3,0,1
+E8_img_0594_mixed_N5_k4_P1,E8,img_0594,5,4,Taarija,img_0624,mis_binding,0,2,Myanmar,img_0594,,1,4,0,1
+E8_img_0594_mixed_N5_k5_P1,E8,img_0594,5,5,Mi gyaung,img_0594,,1,5,Myanmar,img_0594,,1,5,1,0
+E8_img_0550_mixed_N5_k1_P1,E8,img_0550,5,1,Conga,img_0550,,1,1,Cuba,img_0550,,1,1,1,0
+E8_img_0550_mixed_N5_k2_P1,E8,img_0550,5,2,Conga,img_0550,,1,2,Trinidad and Tobago,img_0621,mis_binding,0,5,0,1
+E8_img_0550_mixed_N5_k3_P1,E8,img_0550,5,3,Conga,img_0550,,1,3,Trinidad and Tobago,img_0621,mis_binding,0,5,0,1
+E8_img_0550_mixed_N5_k4_P1,E8,img_0550,5,4,Conga,img_0550,,1,4,Trinidad and Tobago,img_0621,mis_binding,0,5,0,1
+E8_img_0550_mixed_N5_k5_P1,E8,img_0550,5,5,Conga,img_0550,,1,5,Cuba,img_0550,,1,5,1,0
+E8_img_0606_mixed_N5_k1_P1,E8,img_0606,5,1,Güira,img_0571,mis_binding,0,4,Lithuania,img_0579,mis_binding,0,5,0,1
+E8_img_0606_mixed_N5_k2_P1,E8,img_0606,5,2,Güira,img_0571,mis_binding,0,4,Dominican Republic,img_0571,mis_binding,0,4,0,0
+E8_img_0606_mixed_N5_k3_P1,E8,img_0606,5,3,Kompang,img_0583,mis_binding,0,1,Yemen,img_0606,,1,3,0,1
+E8_img_0606_mixed_N5_k4_P1,E8,img_0606,5,4,Kompang,img_0583,mis_binding,0,1,Lithuania,img_0579,mis_binding,0,5,0,1
+E8_img_0606_mixed_N5_k5_P1,E8,img_0606,5,5,Kompang,img_0583,mis_binding,0,1,Yemen,img_0606,,1,5,0,1
+E8_img_0592_mixed_N5_k1_P1,E8,img_0592,5,1,Marovany,img_0592,,1,1,Indonesia,img_0569,mis_binding,0,2,0,1
+E8_img_0592_mixed_N5_k2_P1,E8,img_0592,5,2,Marovany,img_0592,,1,2,Indonesia,img_0569,mis_binding,0,1,0,1
+E8_img_0592_mixed_N5_k3_P1,E8,img_0592,5,3,Viola de cocho,img_0640,mis_binding,0,4,Indonesia,img_0569,mis_binding,0,1,0,1
+E8_img_0592_mixed_N5_k4_P1,E8,img_0592,5,4,Viola de cocho,img_0640,mis_binding,0,3,Indonesia,img_0569,mis_binding,0,1,0,1
+E8_img_0592_mixed_N5_k5_P1,E8,img_0592,5,5,Marovany,img_0592,,1,5,Indonesia,img_0569,mis_binding,0,1,0,1
+E8_img_0562_mixed_N5_k1_P1,E8,img_0562,5,1,Gadulka,img_0562,,1,1,Bulgaria,img_0562,,1,1,1,0
+E8_img_0562_mixed_N5_k2_P1,E8,img_0562,5,2,Naqareh,img_0597,mis_binding,0,5,Azerbaijan,img_0597,mis_binding,0,5,0,0
+E8_img_0562_mixed_N5_k3_P1,E8,img_0562,5,3,Irish flute,img_0578,mis_binding,0,4,Bulgaria,img_0562,,1,3,0,1
+E8_img_0562_mixed_N5_k4_P1,E8,img_0562,5,4,Irish flute,img_0578,mis_binding,0,3,Bulgaria,img_0562,,1,4,0,1
+E8_img_0562_mixed_N5_k5_P1,E8,img_0562,5,5,Irish flute,img_0578,mis_binding,0,3,Bulgaria,img_0562,,1,5,0,1
+E8_img_0558_mixed_N5_k1_P1,E8,img_0558,5,1,Dvoyanka,img_0558,,1,1,Slovakia,img_0561,mis_binding,0,2,0,1
+E8_img_0558_mixed_N5_k2_P1,E8,img_0558,5,2,Lingm,img_0590,mis_binding,0,5,Bulgaria,img_0558,,1,2,0,1
+E8_img_0558_mixed_N5_k3_P1,E8,img_0558,5,3,Lingm,img_0590,mis_binding,0,5,Bulgaria,img_0558,,1,3,0,1
+E8_img_0558_mixed_N5_k4_P1,E8,img_0558,5,4,Lingm,img_0590,mis_binding,0,5,Bulgaria,img_0558,,1,4,0,1
+E8_img_0558_mixed_N5_k5_P1,E8,img_0558,5,5,Lingm,img_0590,mis_binding,0,4,Bulgaria,img_0558,,1,5,0,1
+E8_img_0605_mixed_N5_k1_P1,E8,img_0605,5,1,Pungi,img_0605,,1,1,Ukraine,img_0543,mis_binding,0,2,0,1
+E8_img_0605_mixed_N5_k2_P1,E8,img_0605,5,2,Pungi,img_0605,,1,2,Ethiopia,img_0585,mis_binding,0,5,0,1
+E8_img_0605_mixed_N5_k3_P1,E8,img_0605,5,3,Pungi,img_0605,,1,3,Ethiopia,img_0585,mis_binding,0,5,0,1
+E8_img_0605_mixed_N5_k4_P1,E8,img_0605,5,4,Pungi,img_0605,,1,4,Madagascar,img_0592,mis_binding,0,2,0,1
+E8_img_0605_mixed_N5_k5_P1,E8,img_0605,5,5,Pungi,img_0605,,1,5,Madagascar,img_0592,mis_binding,0,2,0,1
+E8_img_0623_mixed_N5_k1_P1,E8,img_0623,5,1,Teponaztli,img_0629,mis_binding,0,5,Sweden,img_0623,,1,1,0,1
+E8_img_0623_mixed_N5_k2_P1,E8,img_0623,5,2,Teponaztli,img_0629,mis_binding,0,5,Sweden,img_0623,,1,2,0,1
+E8_img_0623_mixed_N5_k3_P1,E8,img_0623,5,3,Teponaztli,img_0629,mis_binding,0,5,Sweden,img_0623,,1,3,0,1
+E8_img_0623_mixed_N5_k4_P1,E8,img_0623,5,4,Teponaztli,img_0629,mis_binding,0,5,Sweden,img_0623,,1,4,0,1
+E8_img_0623_mixed_N5_k5_P1,E8,img_0623,5,5,Swedish lute,img_0623,,1,5,Sweden,img_0623,,1,5,1,0
+E8_img_0625_mixed_N5_k1_P1,E8,img_0625,5,1,Tabla,img_0625,,1,1,India,img_0625,,1,1,1,0
+E8_img_0625_mixed_N5_k2_P1,E8,img_0625,5,2,Tabla,img_0625,,1,2,India,img_0625,,1,2,1,0
+E8_img_0625_mixed_N5_k3_P1,E8,img_0625,5,3,Tabla,img_0625,,1,3,India,img_0625,,1,3,1,0
+E8_img_0625_mixed_N5_k4_P1,E8,img_0625,5,4,Tabla,img_0625,,1,4,India,img_0625,,1,4,1,0
+E8_img_0625_mixed_N5_k5_P1,E8,img_0625,5,5,Tabla,img_0625,,1,5,India,img_0625,,1,5,1,0
+E8_img_0631_mixed_N5_k1_P1,E8,img_0631,5,1,Tonkori,img_0631,,1,1,Greece,img_0634,mis_binding,0,2,0,1
+E8_img_0631_mixed_N5_k2_P1,E8,img_0631,5,2,Tonkori,img_0631,,1,2,Greece,img_0634,mis_binding,0,1,0,1
+E8_img_0631_mixed_N5_k3_P1,E8,img_0631,5,3,Tonkori,img_0631,,1,3,Greece,img_0634,mis_binding,0,1,0,1
+E8_img_0631_mixed_N5_k4_P1,E8,img_0631,5,4,Tonkori,img_0631,,1,4,Greece,img_0634,mis_binding,0,1,0,1
+E8_img_0631_mixed_N5_k5_P1,E8,img_0631,5,5,Tonkori,img_0631,,1,5,Greece,img_0634,mis_binding,0,1,0,1
+E8_img_0607_mixed_N5_k1_P1,E8,img_0607,5,1,Caña de millo,img_0547,mis_binding,0,3,Slovakia,img_0561,mis_binding,0,2,0,1
+E8_img_0607_mixed_N5_k2_P1,E8,img_0607,5,2,Caña de millo,img_0547,mis_binding,0,3,Slovakia,img_0561,mis_binding,0,1,0,1
+E8_img_0607_mixed_N5_k3_P1,E8,img_0607,5,3,Fujara,img_0561,mis_binding,0,1,Colombia,img_0547,mis_binding,0,2,0,1
+E8_img_0607_mixed_N5_k4_P1,E8,img_0607,5,4,Fujara,img_0561,mis_binding,0,1,Colombia,img_0547,mis_binding,0,2,0,1
+E8_img_0607_mixed_N5_k5_P1,E8,img_0607,5,5,Fujara,img_0561,mis_binding,0,1,Thailand,img_0607,,1,5,0,1
+E8_img_0572_mixed_N5_k1_P1,E8,img_0572,5,1,Guzheng,img_0572,,1,1,China,img_0572,,1,1,1,0
+E8_img_0572_mixed_N5_k2_P1,E8,img_0572,5,2,Guzheng,img_0572,,1,2,China,img_0572,,1,2,1,0
+E8_img_0572_mixed_N5_k3_P1,E8,img_0572,5,3,Guzheng,img_0572,,1,3,China,img_0572,,1,3,1,0
+E8_img_0572_mixed_N5_k4_P1,E8,img_0572,5,4,Guzheng,img_0572,,1,4,China,img_0572,,1,4,1,0
+E8_img_0572_mixed_N5_k5_P1,E8,img_0572,5,5,Guzheng,img_0572,,1,5,China,img_0572,,1,5,1,0
+E8_img_0548_mixed_N5_k1_P1,E8,img_0548,5,1,Çeng,img_0548,,1,1,Myanmar,img_0594,mis_binding,0,3,0,1
+E8_img_0548_mixed_N5_k2_P1,E8,img_0548,5,2,Çeng,img_0548,,1,2,Myanmar,img_0594,mis_binding,0,3,0,1
+E8_img_0548_mixed_N5_k3_P1,E8,img_0548,5,3,Çeng,img_0548,,1,3,Myanmar,img_0594,mis_binding,0,2,0,1
+E8_img_0548_mixed_N5_k4_P1,E8,img_0548,5,4,Çeng,img_0548,,1,4,Indonesia,img_0611,mis_binding,0,3,0,1
+E8_img_0548_mixed_N5_k5_P1,E8,img_0548,5,5,Çeng,img_0548,,1,5,Myanmar,img_0594,mis_binding,0,2,0,1
+E8_img_0591_mixed_N5_k1_P1,E8,img_0591,5,1,Madal,img_0591,,1,1,Nepal,img_0591,,1,1,1,0
+E8_img_0591_mixed_N5_k2_P1,E8,img_0591,5,2,Marovany,img_0592,mis_binding,0,3,Nepal,img_0591,,1,2,0,1
+E8_img_0591_mixed_N5_k3_P1,E8,img_0591,5,3,Cajón,img_0546,mis_binding,0,1,Peru,img_0546,mis_binding,0,1,0,0
+E8_img_0591_mixed_N5_k4_P1,E8,img_0591,5,4,Marovany,img_0592,mis_binding,0,2,Peru,img_0546,mis_binding,0,1,0,1
+E8_img_0591_mixed_N5_k5_P1,E8,img_0591,5,5,Madal,img_0591,,1,5,Madagascar,img_0592,mis_binding,0,2,0,1
+E8_img_0543_mixed_N5_k1_P1,E8,img_0543,5,1,Swedish lute,img_0623,mis_binding,0,2,Sweden,img_0623,mis_binding,0,2,0,0
+E8_img_0543_mixed_N5_k2_P1,E8,img_0543,5,2,Gudastviri,img_0570,mis_binding,0,3,Georgia,img_0570,mis_binding,0,3,0,0
+E8_img_0543_mixed_N5_k3_P1,E8,img_0543,5,3,Gudastviri,img_0570,mis_binding,0,2,Georgia,img_0570,mis_binding,0,2,0,0
+E8_img_0543_mixed_N5_k4_P1,E8,img_0543,5,4,Swedish lute,img_0623,mis_binding,0,1,Sweden,img_0623,mis_binding,0,1,0,0
+E8_img_0543_mixed_N5_k5_P1,E8,img_0543,5,5,Swedish lute,img_0623,mis_binding,0,1,Sweden,img_0623,mis_binding,0,1,0,0
+E8_img_0568_mixed_N5_k1_P1,E8,img_0568,5,1,Ghijak,img_0568,,1,1,Russia,img_0609,mis_binding,0,5,0,1
+E8_img_0568_mixed_N5_k2_P1,E8,img_0568,5,2,Ghijak,img_0568,,1,2,Russia,img_0609,mis_binding,0,5,0,1
+E8_img_0568_mixed_N5_k3_P1,E8,img_0568,5,3,Ghijak,img_0568,,1,3,Russia,img_0609,mis_binding,0,5,0,1
+E8_img_0568_mixed_N5_k4_P1,E8,img_0568,5,4,Ghijak,img_0568,,1,4,Russia,img_0609,mis_binding,0,5,0,1
+E8_img_0568_mixed_N5_k5_P1,E8,img_0568,5,5,Ghijak,img_0568,,1,5,Russia,img_0609,mis_binding,0,4,0,1
+E8_img_0565_mixed_N5_k1_P1,E8,img_0565,5,1,Molinukai,img_0595,mis_binding,0,3,Papua New Guinea,img_0565,,1,1,0,1
+E8_img_0565_mixed_N5_k2_P1,E8,img_0565,5,2,Garamut,img_0565,,1,2,Japan,img_0617,mis_binding,0,5,0,1
+E8_img_0565_mixed_N5_k3_P1,E8,img_0565,5,3,Molinukai,img_0595,mis_binding,0,2,Indonesia,img_0611,mis_binding,0,1,0,1
+E8_img_0565_mixed_N5_k4_P1,E8,img_0565,5,4,Molinukai,img_0595,mis_binding,0,2,Niger,img_0537,mis_binding,0,3,0,1
+E8_img_0565_mixed_N5_k5_P1,E8,img_0565,5,5,Molinukai,img_0595,mis_binding,0,2,Papua New Guinea,img_0565,,1,5,0,1
+E8_img_0621_mixed_N5_k1_P1,E8,img_0621,5,1,Steelpan,img_0621,,1,1,Trinidad and Tobago,img_0621,,1,1,1,0
+E8_img_0621_mixed_N5_k2_P1,E8,img_0621,5,2,Steelpan,img_0621,,1,2,Trinidad and Tobago,img_0621,,1,2,1,0
+E8_img_0621_mixed_N5_k3_P1,E8,img_0621,5,3,Steelpan,img_0621,,1,3,Trinidad and Tobago,img_0621,,1,3,1,0
+E8_img_0621_mixed_N5_k4_P1,E8,img_0621,5,4,Steelpan,img_0621,,1,4,Trinidad and Tobago,img_0621,,1,4,1,0
+E8_img_0621_mixed_N5_k5_P1,E8,img_0621,5,5,Steelpan,img_0621,,1,5,Trinidad and Tobago,img_0621,,1,5,1,0
+E8_img_0724_mixed_N5_k1_P1,E8,img_0724,5,1,Göbekli Tepe,img_0724,,1,1,Turkey,img_0724,,1,1,1,0
+E8_img_0724_mixed_N5_k2_P1,E8,img_0724,5,2,Göbekli Tepe,img_0724,,1,2,Turkey,img_0724,,1,2,1,0
+E8_img_0724_mixed_N5_k3_P1,E8,img_0724,5,3,Göbekli Tepe,img_0724,,1,3,India,img_0727,mis_binding,0,5,0,1
+E8_img_0724_mixed_N5_k4_P1,E8,img_0724,5,4,Göbekli Tepe,img_0724,,1,4,Turkey,img_0724,,1,4,1,0
+E8_img_0724_mixed_N5_k5_P1,E8,img_0724,5,5,Göbekli Tepe,img_0724,,1,5,Turkey,img_0724,,1,5,1,0
+E8_img_0666_mixed_N5_k1_P1,E8,img_0666,5,1,Batalha Monastery,img_0666,,1,1,Portugal,img_0666,,1,1,1,0
+E8_img_0666_mixed_N5_k2_P1,E8,img_0666,5,2,Batalha Monastery,img_0666,,1,2,Portugal,img_0666,,1,2,1,0
+E8_img_0666_mixed_N5_k3_P1,E8,img_0666,5,3,Batalha Monastery,img_0666,,1,3,Portugal,img_0666,,1,3,1,0
+E8_img_0666_mixed_N5_k4_P1,E8,img_0666,5,4,Batalha Monastery,img_0666,,1,4,Portugal,img_0666,,1,4,1,0
+E8_img_0666_mixed_N5_k5_P1,E8,img_0666,5,5,Batalha Monastery,img_0666,,1,5,Portugal,img_0666,,1,5,1,0
+E8_img_0880_mixed_N5_k1_P1,E8,img_0880,5,1,Varlaam monastery,img_0880,,1,1,Greece,img_0880,,1,1,1,0
+E8_img_0880_mixed_N5_k2_P1,E8,img_0880,5,2,Varlaam monastery,img_0880,,1,2,Greece,img_0880,,1,2,1,0
+E8_img_0880_mixed_N5_k3_P1,E8,img_0880,5,3,Varlaam monastery,img_0880,,1,3,Greece,img_0880,,1,3,1,0
+E8_img_0880_mixed_N5_k4_P1,E8,img_0880,5,4,Varlaam monastery,img_0880,,1,4,Greece,img_0880,,1,4,1,0
+E8_img_0880_mixed_N5_k5_P1,E8,img_0880,5,5,Thracian Tomb of Kazanlak,img_0868,mis_binding,0,4,Greece,img_0880,,1,5,0,1
+E8_img_0780_mixed_N5_k1_P1,E8,img_0780,5,1,Mosque-Cathedral of Cordoba,img_0780,,1,1,Spain,img_0780,,1,1,1,0
+E8_img_0780_mixed_N5_k2_P1,E8,img_0780,5,2,Mosque-Cathedral of Cordoba,img_0780,,1,2,Spain,img_0780,,1,2,1,0
+E8_img_0780_mixed_N5_k3_P1,E8,img_0780,5,3,Mosque-Cathedral of Cordoba,img_0780,,1,3,Spain,img_0780,,1,3,1,0
+E8_img_0780_mixed_N5_k4_P1,E8,img_0780,5,4,Mosque-Cathedral of Cordoba,img_0780,,1,4,Spain,img_0780,,1,4,1,0
+E8_img_0780_mixed_N5_k5_P1,E8,img_0780,5,5,Mosque-Cathedral of Cordoba,img_0780,,1,5,Spain,img_0780,,1,5,1,0
+E8_img_0818_mixed_N5_k1_P1,E8,img_0818,5,1,Residence of Bukovinian and Dalmatian Metropolitans,img_0818,,1,1,Ukraine,img_0818,,1,1,1,0
+E8_img_0818_mixed_N5_k2_P1,E8,img_0818,5,2,Royal Abbey of Hautecombe,img_0824,mis_binding,0,5,Ukraine,img_0818,,1,2,0,1
+E8_img_0818_mixed_N5_k3_P1,E8,img_0818,5,3,Residence of Bukovinian and Dalmatian Metropolitans,img_0818,,1,3,Ukraine,img_0818,,1,3,1,0
+E8_img_0818_mixed_N5_k4_P1,E8,img_0818,5,4,Royal Abbey of Hautecombe,img_0824,mis_binding,0,5,Ukraine,img_0818,,1,4,0,1
+E8_img_0818_mixed_N5_k5_P1,E8,img_0818,5,5,Residence of Bukovinian and Dalmatian Metropolitans,img_0818,,1,5,Ukraine,img_0818,,1,5,1,0
+E8_img_0698_mixed_N5_k1_P1,E8,img_0698,5,1,Rani ki vav,img_0817,mis_binding,0,2,Haiti,img_0698,,1,1,0,1
+E8_img_0698_mixed_N5_k2_P1,E8,img_0698,5,2,Royal Abbey of Hautecombe,img_0824,mis_binding,0,3,Haiti,img_0698,,1,2,0,1
+E8_img_0698_mixed_N5_k3_P1,E8,img_0698,5,3,Rani ki vav,img_0817,mis_binding,0,1,France,img_0824,mis_binding,0,2,0,1
+E8_img_0698_mixed_N5_k4_P1,E8,img_0698,5,4,Rani ki vav,img_0817,mis_binding,0,1,France,img_0824,mis_binding,0,2,0,1
+E8_img_0698_mixed_N5_k5_P1,E8,img_0698,5,5,Citadelle Laferrière,img_0698,,1,5,Haiti,img_0698,,1,5,1,0
+E8_img_0858_mixed_N5_k1_P1,E8,img_0858,5,1,Takht-e Soleyman,img_0858,,1,1,Iran,img_0858,,1,1,1,0
+E8_img_0858_mixed_N5_k2_P1,E8,img_0858,5,2,Visoki Dečani,img_0882,mis_binding,0,4,Serbia,img_0882,mis_binding,0,4,0,0
+E8_img_0858_mixed_N5_k3_P1,E8,img_0858,5,3,Takht-e Soleyman,img_0858,,1,3,Iran,img_0858,,1,3,1,0
+E8_img_0858_mixed_N5_k4_P1,E8,img_0858,5,4,Takht-e Soleyman,img_0858,,1,4,Iran,img_0858,,1,4,1,0
+E8_img_0858_mixed_N5_k5_P1,E8,img_0858,5,5,Takht-e Soleyman,img_0858,,1,5,Iran,img_0858,,1,5,1,0
+E8_img_0810_mixed_N5_k1_P1,E8,img_0810,5,1,Douaumont ossuary,img_0709,mis_binding,0,3,Germany,img_0810,,1,1,0,1
+E8_img_0810_mixed_N5_k2_P1,E8,img_0810,5,2,Princely Abbey of Corvey,img_0810,,1,2,Germany,img_0810,,1,2,1,0
+E8_img_0810_mixed_N5_k3_P1,E8,img_0810,5,3,Princely Abbey of Corvey,img_0810,,1,3,Germany,img_0810,,1,3,1,0
+E8_img_0810_mixed_N5_k4_P1,E8,img_0810,5,4,Princely Abbey of Corvey,img_0810,,1,4,Germany,img_0810,,1,4,1,0
+E8_img_0810_mixed_N5_k5_P1,E8,img_0810,5,5,Princely Abbey of Corvey,img_0810,,1,5,Germany,img_0810,,1,5,1,0
+E8_img_0801_mixed_N5_k1_P1,E8,img_0801,5,1,Plaza de toros de Acho,img_0801,,1,1,Peru,img_0801,,1,1,1,0
+E8_img_0801_mixed_N5_k2_P1,E8,img_0801,5,2,Plaza de toros de Acho,img_0801,,1,2,Peru,img_0801,,1,2,1,0
+E8_img_0801_mixed_N5_k3_P1,E8,img_0801,5,3,Igreja da Sé,img_0738,mis_binding,0,4,Peru,img_0801,,1,3,0,1
+E8_img_0801_mixed_N5_k4_P1,E8,img_0801,5,4,Igreja da Sé,img_0738,mis_binding,0,3,Peru,img_0801,,1,4,0,1
+E8_img_0801_mixed_N5_k5_P1,E8,img_0801,5,5,Igreja da Sé,img_0738,mis_binding,0,3,Peru,img_0801,,1,5,0,1
+E8_img_0792_mixed_N5_k1_P1,E8,img_0792,5,1,Preah Vihear Temple,img_0809,mis_binding,0,4,France,img_0792,,1,1,0,1
+E8_img_0792_mixed_N5_k2_P1,E8,img_0792,5,2,Palace of Fontainebleau,img_0792,,1,2,France,img_0792,,1,2,1,0
+E8_img_0792_mixed_N5_k3_P1,E8,img_0792,5,3,Preah Vihear Temple,img_0809,mis_binding,0,4,France,img_0792,,1,3,0,1
+E8_img_0792_mixed_N5_k4_P1,E8,img_0792,5,4,Preah Vihear Temple,img_0809,mis_binding,0,3,France,img_0792,,1,4,0,1
+E8_img_0792_mixed_N5_k5_P1,E8,img_0792,5,5,Preah Vihear Temple,img_0809,mis_binding,0,3,France,img_0792,,1,5,0,1
+E8_img_0805_mixed_N5_k1_P1,E8,img_0805,5,1,Pontcysyllte Aqueduct,img_0805,,1,1,United Kingdom,img_0805,,1,1,1,0
+E8_img_0805_mixed_N5_k2_P1,E8,img_0805,5,2,Pontcysyllte Aqueduct,img_0805,,1,2,United Kingdom,img_0805,,1,2,1,0
+E8_img_0805_mixed_N5_k3_P1,E8,img_0805,5,3,Pontcysyllte Aqueduct,img_0805,,1,3,United Kingdom,img_0805,,1,3,1,0
+E8_img_0805_mixed_N5_k4_P1,E8,img_0805,5,4,Pontcysyllte Aqueduct,img_0805,,1,4,United Kingdom,img_0805,,1,4,1,0
+E8_img_0805_mixed_N5_k5_P1,E8,img_0805,5,5,Pontcysyllte Aqueduct,img_0805,,1,5,United Kingdom,img_0805,,1,5,1,0
+E8_img_0749_mixed_N5_k1_P1,E8,img_0749,5,1,Butrint,img_0677,mis_binding,0,4,Albania,img_0677,mis_binding,0,4,0,0
+E8_img_0749_mixed_N5_k2_P1,E8,img_0749,5,2,Butrint,img_0677,mis_binding,0,4,Albania,img_0677,mis_binding,0,4,0,0
+E8_img_0749_mixed_N5_k3_P1,E8,img_0749,5,3,Yser Tower,img_0889,mis_binding,0,2,Albania,img_0677,mis_binding,0,4,0,1
+E8_img_0749_mixed_N5_k4_P1,E8,img_0749,5,4,Yser Tower,img_0889,mis_binding,0,2,Albania,img_0677,mis_binding,0,3,0,1
+E8_img_0749_mixed_N5_k5_P1,E8,img_0749,5,5,Mỹ Sơn,img_0782,mis_binding,0,1,Belarus,img_0749,,1,5,0,1
+E8_img_0879_mixed_N5_k1_P1,E8,img_0879,5,1,Urnes Stave Church,img_0879,,1,1,Norway,img_0879,,1,1,1,0
+E8_img_0879_mixed_N5_k2_P1,E8,img_0879,5,2,Urnes Stave Church,img_0879,,1,2,Norway,img_0879,,1,2,1,0
+E8_img_0879_mixed_N5_k3_P1,E8,img_0879,5,3,Urnes Stave Church,img_0879,,1,3,Norway,img_0879,,1,3,1,0
+E8_img_0879_mixed_N5_k4_P1,E8,img_0879,5,4,Urnes Stave Church,img_0879,,1,4,Norway,img_0879,,1,4,1,0
+E8_img_0879_mixed_N5_k5_P1,E8,img_0879,5,5,Urnes Stave Church,img_0879,,1,5,Norway,img_0879,,1,5,1,0
+E8_img_0737_mixed_N5_k1_P1,E8,img_0737,5,1,Hypogeum of Ħal Saflieni,img_0737,,1,1,India,img_0727,mis_binding,0,5,0,1
+E8_img_0737_mixed_N5_k2_P1,E8,img_0737,5,2,"St. Louis the King Cathedral, San Luis Potosí",img_0846,mis_binding,0,4,Belgium,img_0673,mis_binding,0,3,0,1
+E8_img_0737_mixed_N5_k3_P1,E8,img_0737,5,3,Group of monuments at Mahabalipuram,img_0727,mis_binding,0,5,India,img_0727,mis_binding,0,5,0,0
+E8_img_0737_mixed_N5_k4_P1,E8,img_0737,5,4,Hypogeum of Ħal Saflieni,img_0737,,1,4,India,img_0727,mis_binding,0,5,0,1
+E8_img_0737_mixed_N5_k5_P1,E8,img_0737,5,5,Hypogeum of Ħal Saflieni,img_0737,,1,5,India,img_0727,mis_binding,0,4,0,1
+E8_img_0793_mixed_N5_k1_P1,E8,img_0793,5,1,Ruins of Gedi,img_0829,mis_binding,0,4,Portugal,img_0793,,1,1,0,1
+E8_img_0793_mixed_N5_k2_P1,E8,img_0793,5,2,Ruins of Gedi,img_0829,mis_binding,0,4,Portugal,img_0793,,1,2,0,1
+E8_img_0793_mixed_N5_k3_P1,E8,img_0793,5,3,Ruins of Gedi,img_0829,mis_binding,0,4,Portugal,img_0793,,1,3,0,1
+E8_img_0793_mixed_N5_k4_P1,E8,img_0793,5,4,Ruins of Gedi,img_0829,mis_binding,0,3,Portugal,img_0793,,1,4,0,1
+E8_img_0793_mixed_N5_k5_P1,E8,img_0793,5,5,Palace of Mafra,img_0793,,1,5,Portugal,img_0793,,1,5,1,0
+E8_img_0654_mixed_N5_k1_P1,E8,img_0654,5,1,Agra Fort,img_0654,,1,1,India,img_0654,,1,1,1,0
+E8_img_0654_mixed_N5_k2_P1,E8,img_0654,5,2,Agra Fort,img_0654,,1,2,India,img_0654,,1,2,1,0
+E8_img_0654_mixed_N5_k3_P1,E8,img_0654,5,3,Tajín Veracruz,img_0857,mis_binding,0,4,India,img_0654,,1,3,0,1
+E8_img_0654_mixed_N5_k4_P1,E8,img_0654,5,4,Tajín Veracruz,img_0857,mis_binding,0,3,India,img_0654,,1,4,0,1
+E8_img_0654_mixed_N5_k5_P1,E8,img_0654,5,5,Agra Fort,img_0654,,1,5,India,img_0654,,1,5,1,0
+E8_img_0708_mixed_N5_k1_P1,E8,img_0708,5,1,Divriği Great Mosque and Hospital,img_0708,,1,1,Turkey,img_0708,,1,1,1,0
+E8_img_0708_mixed_N5_k2_P1,E8,img_0708,5,2,Divriği Great Mosque and Hospital,img_0708,,1,2,Turkey,img_0708,,1,2,1,0
+E8_img_0708_mixed_N5_k3_P1,E8,img_0708,5,3,Divriği Great Mosque and Hospital,img_0708,,1,3,Turkey,img_0708,,1,3,1,0
+E8_img_0708_mixed_N5_k4_P1,E8,img_0708,5,4,Divriği Great Mosque and Hospital,img_0708,,1,4,Turkey,img_0708,,1,4,1,0
+E8_img_0708_mixed_N5_k5_P1,E8,img_0708,5,5,Divriği Great Mosque and Hospital,img_0708,,1,5,Turkey,img_0708,,1,5,1,0
+E8_img_0692_mixed_N5_k1_P1,E8,img_0692,5,1,Church of Cristo Obrero y Nuestra Señora de Lourdes,img_0692,,1,1,Uruguay,img_0692,,1,1,1,0
+E8_img_0692_mixed_N5_k2_P1,E8,img_0692,5,2,Mehmed Paša Sokolović Bridge,img_0774,mis_binding,0,5,Bosnia and Herzegovina,img_0774,mis_binding,0,5,0,0
+E8_img_0692_mixed_N5_k3_P1,E8,img_0692,5,3,Town Hall of Bremen,img_0876,mis_binding,0,1,El Salvador,img_0748,mis_binding,0,4,0,1
+E8_img_0692_mixed_N5_k4_P1,E8,img_0692,5,4,Church of Cristo Obrero y Nuestra Señora de Lourdes,img_0692,,1,4,Uruguay,img_0692,,1,4,1,0
+E8_img_0692_mixed_N5_k5_P1,E8,img_0692,5,5,Church of Cristo Obrero y Nuestra Señora de Lourdes,img_0692,,1,5,Uruguay,img_0692,,1,5,1,0
+E8_img_0866_mixed_N5_k1_P1,E8,img_0866,5,1,Teotihuacan,img_0866,,1,1,Mexico,img_0866,,1,1,1,0
+E8_img_0866_mixed_N5_k2_P1,E8,img_0866,5,2,Teotihuacan,img_0866,,1,2,Mexico,img_0866,,1,2,1,0
+E8_img_0866_mixed_N5_k3_P1,E8,img_0866,5,3,Teotihuacan,img_0866,,1,3,Mexico,img_0866,,1,3,1,0
+E8_img_0866_mixed_N5_k4_P1,E8,img_0866,5,4,Teotihuacan,img_0866,,1,4,Mexico,img_0866,,1,4,1,0
+E8_img_0866_mixed_N5_k5_P1,E8,img_0866,5,5,Teotihuacan,img_0866,,1,5,Mexico,img_0866,,1,5,1,0
+E8_img_0663_mixed_N5_k1_P1,E8,img_0663,5,1,Bahla Fort,img_0663,,1,1,Oman,img_0663,,1,1,1,0
+E8_img_0663_mixed_N5_k2_P1,E8,img_0663,5,2,Tabriz Bazaar,img_0855,mis_binding,0,5,Oman,img_0663,,1,2,0,1
+E8_img_0663_mixed_N5_k3_P1,E8,img_0663,5,3,Tabriz Bazaar,img_0855,mis_binding,0,5,Oman,img_0663,,1,3,0,1
+E8_img_0663_mixed_N5_k4_P1,E8,img_0663,5,4,Tabriz Bazaar,img_0855,mis_binding,0,5,Oman,img_0663,,1,4,0,1
+E8_img_0663_mixed_N5_k5_P1,E8,img_0663,5,5,Bahla Fort,img_0663,,1,5,Oman,img_0663,,1,5,1,0
+E8_img_0824_mixed_N5_k1_P1,E8,img_0824,5,1,Royal Abbey of Hautecombe,img_0824,,1,1,Ireland,img_0672,mis_binding,0,3,0,1
+E8_img_0824_mixed_N5_k2_P1,E8,img_0824,5,2,Royal Abbey of Hautecombe,img_0824,,1,2,France,img_0824,,1,2,1,0
+E8_img_0824_mixed_N5_k3_P1,E8,img_0824,5,3,Royal Abbey of Hautecombe,img_0824,,1,3,France,img_0824,,1,3,1,0
+E8_img_0824_mixed_N5_k4_P1,E8,img_0824,5,4,Royal Abbey of Hautecombe,img_0824,,1,4,France,img_0824,,1,4,1,0
+E8_img_0824_mixed_N5_k5_P1,E8,img_0824,5,5,Royal Abbey of Hautecombe,img_0824,,1,5,France,img_0824,,1,5,1,0
+E8_img_0770_mixed_N5_k1_P1,E8,img_0770,5,1,Masada,img_0770,,1,1,Israel,img_0770,,1,1,1,0
+E8_img_0770_mixed_N5_k2_P1,E8,img_0770,5,2,Abbey Church of Saint-Savin-sur-Gartempe,img_0649,mis_binding,0,5,Israel,img_0770,,1,2,0,1
+E8_img_0770_mixed_N5_k3_P1,E8,img_0770,5,3,Forth Bridge,img_0719,mis_binding,0,4,Israel,img_0770,,1,3,0,1
+E8_img_0770_mixed_N5_k4_P1,E8,img_0770,5,4,Masada,img_0770,,1,4,Israel,img_0770,,1,4,1,0
+E8_img_0770_mixed_N5_k5_P1,E8,img_0770,5,5,Masada,img_0770,,1,5,Israel,img_0770,,1,5,1,0
+E8_img_0842_mixed_N5_k1_P1,E8,img_0842,5,1,Šibenik Cathedral,img_0842,,1,1,Croatia,img_0842,,1,1,1,0
+E8_img_0842_mixed_N5_k2_P1,E8,img_0842,5,2,Šibenik Cathedral,img_0842,,1,2,Croatia,img_0842,,1,2,1,0
+E8_img_0842_mixed_N5_k3_P1,E8,img_0842,5,3,Šibenik Cathedral,img_0842,,1,3,Croatia,img_0842,,1,3,1,0
+E8_img_0842_mixed_N5_k4_P1,E8,img_0842,5,4,Šibenik Cathedral,img_0842,,1,4,Croatia,img_0842,,1,4,1,0
+E8_img_0842_mixed_N5_k5_P1,E8,img_0842,5,5,Šibenik Cathedral,img_0842,,1,5,Croatia,img_0842,,1,5,1,0
+E8_img_0645_mixed_N5_k1_P1,E8,img_0645,5,1,Khajuraho Group of Monuments,img_0751,mis_binding,0,5,China,img_0645,,1,1,0,1
+E8_img_0645_mixed_N5_k2_P1,E8,img_0645,5,2,A-Ma Temple,img_0645,,1,2,China,img_0645,,1,2,1,0
+E8_img_0645_mixed_N5_k3_P1,E8,img_0645,5,3,Khajuraho Group of Monuments,img_0751,mis_binding,0,5,China,img_0645,,1,3,0,1
+E8_img_0645_mixed_N5_k4_P1,E8,img_0645,5,4,Khajuraho Group of Monuments,img_0751,mis_binding,0,5,China,img_0645,,1,4,0,1
+E8_img_0645_mixed_N5_k5_P1,E8,img_0645,5,5,A-Ma Temple,img_0645,,1,5,China,img_0645,,1,5,1,0
+E8_img_0690_mixed_N5_k1_P1,E8,img_0690,5,1,Chhatrapati Shivaji Maharaj Terminus,img_0690,,1,1,India,img_0690,,1,1,1,0
+E8_img_0690_mixed_N5_k2_P1,E8,img_0690,5,2,Chhatrapati Shivaji Maharaj Terminus,img_0690,,1,2,India,img_0690,,1,2,1,0
+E8_img_0690_mixed_N5_k3_P1,E8,img_0690,5,3,Chhatrapati Shivaji Maharaj Terminus,img_0690,,1,3,India,img_0690,,1,3,1,0
+E8_img_0690_mixed_N5_k4_P1,E8,img_0690,5,4,Chhatrapati Shivaji Maharaj Terminus,img_0690,,1,4,India,img_0690,,1,4,1,0
+E8_img_0690_mixed_N5_k5_P1,E8,img_0690,5,5,Chhatrapati Shivaji Maharaj Terminus,img_0690,,1,5,India,img_0690,,1,5,1,0
+E8_img_0878_mixed_N5_k1_P1,E8,img_0878,5,1,Umm ar-Rasas,img_0878,,1,1,Jordan,img_0878,,1,1,1,0
+E8_img_0878_mixed_N5_k2_P1,E8,img_0878,5,2,Umm ar-Rasas,img_0878,,1,2,Jordan,img_0878,,1,2,1,0
+E8_img_0878_mixed_N5_k3_P1,E8,img_0878,5,3,Tower of Hercules,img_0873,mis_binding,0,2,Spain,img_0873,mis_binding,0,2,0,0
+E8_img_0878_mixed_N5_k4_P1,E8,img_0878,5,4,Tower of Hercules,img_0873,mis_binding,0,2,Spain,img_0873,mis_binding,0,2,0,0
+E8_img_0878_mixed_N5_k5_P1,E8,img_0878,5,5,Umm ar-Rasas,img_0878,,1,5,Jordan,img_0878,,1,5,1,0
+E8_img_0704_mixed_N5_k1_P1,E8,img_0704,5,1,Cusco Cathedral,img_0704,,1,1,Peru,img_0704,,1,1,1,0
+E8_img_0704_mixed_N5_k2_P1,E8,img_0704,5,2,Cusco Cathedral,img_0704,,1,2,Peru,img_0704,,1,2,1,0
+E8_img_0704_mixed_N5_k3_P1,E8,img_0704,5,3,Himeji Castle,img_0729,mis_binding,0,4,Peru,img_0704,,1,3,0,1
+E8_img_0704_mixed_N5_k4_P1,E8,img_0704,5,4,Himeji Castle,img_0729,mis_binding,0,3,Peru,img_0704,,1,4,0,1
+E8_img_0704_mixed_N5_k5_P1,E8,img_0704,5,5,Cusco Cathedral,img_0704,,1,5,Peru,img_0704,,1,5,1,0
+E8_img_0653_mixed_N5_k1_P1,E8,img_0653,5,1,Acropolis of Athens,img_0653,,1,1,Greece,img_0653,,1,1,1,0
+E8_img_0653_mixed_N5_k2_P1,E8,img_0653,5,2,Acropolis of Athens,img_0653,,1,2,Greece,img_0653,,1,2,1,0
+E8_img_0653_mixed_N5_k3_P1,E8,img_0653,5,3,Acropolis of Athens,img_0653,,1,3,Greece,img_0653,,1,3,1,0
+E8_img_0653_mixed_N5_k4_P1,E8,img_0653,5,4,Acropolis of Athens,img_0653,,1,4,Greece,img_0653,,1,4,1,0
+E8_img_0653_mixed_N5_k5_P1,E8,img_0653,5,5,Acropolis of Athens,img_0653,,1,5,Greece,img_0653,,1,5,1,0
+E8_img_0651_mixed_N5_k1_P1,E8,img_0651,5,1,Abbey of Saint Gall,img_0651,,1,1,Switzerland,img_0651,,1,1,1,0
+E8_img_0651_mixed_N5_k2_P1,E8,img_0651,5,2,Khajuraho Group of Monuments,img_0751,mis_binding,0,5,Switzerland,img_0651,,1,2,0,1
+E8_img_0651_mixed_N5_k3_P1,E8,img_0651,5,3,Abbey of Saint Gall,img_0651,,1,3,Switzerland,img_0651,,1,3,1,0
+E8_img_0651_mixed_N5_k4_P1,E8,img_0651,5,4,Khajuraho Group of Monuments,img_0751,mis_binding,0,5,Switzerland,img_0651,,1,4,0,1
+E8_img_0651_mixed_N5_k5_P1,E8,img_0651,5,5,Abbey of Saint Gall,img_0651,,1,5,Switzerland,img_0651,,1,5,1,0
+E8_img_0668_mixed_N5_k1_P1,E8,img_0668,5,1,Bom Jesus do Monte,img_0668,,1,1,Portugal,img_0668,,1,1,1,0
+E8_img_0668_mixed_N5_k2_P1,E8,img_0668,5,2,Bom Jesus do Monte,img_0668,,1,2,Portugal,img_0668,,1,2,1,0
+E8_img_0668_mixed_N5_k3_P1,E8,img_0668,5,3,Bom Jesus do Monte,img_0668,,1,3,Portugal,img_0668,,1,3,1,0
+E8_img_0668_mixed_N5_k4_P1,E8,img_0668,5,4,Bom Jesus do Monte,img_0668,,1,4,Portugal,img_0668,,1,4,1,0
+E8_img_0668_mixed_N5_k5_P1,E8,img_0668,5,5,Bom Jesus do Monte,img_0668,,1,5,Portugal,img_0668,,1,5,1,0
+E8_img_0809_mixed_N5_k1_P1,E8,img_0809,5,1,Gelati Monastery,img_0722,mis_binding,0,3,Cambodia,img_0809,,1,1,0,1
+E8_img_0809_mixed_N5_k2_P1,E8,img_0809,5,2,Gelati Monastery,img_0722,mis_binding,0,3,Cambodia,img_0809,,1,2,0,1
+E8_img_0809_mixed_N5_k3_P1,E8,img_0809,5,3,Gelati Monastery,img_0722,mis_binding,0,2,Cambodia,img_0809,,1,3,0,1
+E8_img_0809_mixed_N5_k4_P1,E8,img_0809,5,4,Gelati Monastery,img_0722,mis_binding,0,2,Cambodia,img_0809,,1,4,0,1
+E8_img_0809_mixed_N5_k5_P1,E8,img_0809,5,5,Gelati Monastery,img_0722,mis_binding,0,2,Cambodia,img_0809,,1,5,0,1
+E8_img_0723_mixed_N5_k1_P1,E8,img_0723,5,1,General Archive of the Indies,img_0723,,1,1,Spain,img_0723,,1,1,1,0
+E8_img_0723_mixed_N5_k2_P1,E8,img_0723,5,2,Igreja da Sé,img_0738,mis_binding,0,5,Germany,img_0883,mis_binding,0,3,0,1
+E8_img_0723_mixed_N5_k3_P1,E8,img_0723,5,3,General Archive of the Indies,img_0723,,1,3,Spain,img_0723,,1,3,1,0
+E8_img_0723_mixed_N5_k4_P1,E8,img_0723,5,4,General Archive of the Indies,img_0723,,1,4,Spain,img_0723,,1,4,1,0
+E8_img_0723_mixed_N5_k5_P1,E8,img_0723,5,5,General Archive of the Indies,img_0723,,1,5,Spain,img_0723,,1,5,1,0
+E8_img_0715_mixed_N5_k1_P1,E8,img_0715,5,1,Fagus Factory,img_0715,,1,1,Germany,img_0715,,1,1,1,0
+E8_img_0715_mixed_N5_k2_P1,E8,img_0715,5,2,Fagus Factory,img_0715,,1,2,Germany,img_0715,,1,2,1,0
+E8_img_0715_mixed_N5_k3_P1,E8,img_0715,5,3,Fagus Factory,img_0715,,1,3,Germany,img_0715,,1,3,1,0
+E8_img_0715_mixed_N5_k4_P1,E8,img_0715,5,4,Fagus Factory,img_0715,,1,4,Germany,img_0715,,1,4,1,0
+E8_img_0715_mixed_N5_k5_P1,E8,img_0715,5,5,Fagus Factory,img_0715,,1,5,Germany,img_0715,,1,5,1,0
+E8_img_0854_mixed_N5_k1_P1,E8,img_0854,5,1,Sydney Opera House,img_0854,,1,1,Australia,img_0854,,1,1,1,0
+E8_img_0854_mixed_N5_k2_P1,E8,img_0854,5,2,Sydney Opera House,img_0854,,1,2,Australia,img_0854,,1,2,1,0
+E8_img_0854_mixed_N5_k3_P1,E8,img_0854,5,3,Sydney Opera House,img_0854,,1,3,Australia,img_0854,,1,3,1,0
+E8_img_0854_mixed_N5_k4_P1,E8,img_0854,5,4,Sydney Opera House,img_0854,,1,4,Australia,img_0854,,1,4,1,0
+E8_img_0854_mixed_N5_k5_P1,E8,img_0854,5,5,Sydney Opera House,img_0854,,1,5,Australia,img_0854,,1,5,1,0
+E8_img_0811_mixed_N5_k1_P1,E8,img_0811,5,1,Qal’at al Bahrain,img_0811,,1,1,Russia,img_0681,mis_binding,0,2,0,1
+E8_img_0811_mixed_N5_k2_P1,E8,img_0811,5,2,Qal’at al Bahrain,img_0811,,1,2,Bahrain,img_0811,,1,2,1,0
+E8_img_0811_mixed_N5_k3_P1,E8,img_0811,5,3,Qal’at al Bahrain,img_0811,,1,3,Bahrain,img_0811,,1,3,1,0
+E8_img_0811_mixed_N5_k4_P1,E8,img_0811,5,4,Qal’at al Bahrain,img_0811,,1,4,Bahrain,img_0811,,1,4,1,0
+E8_img_0811_mixed_N5_k5_P1,E8,img_0811,5,5,Qal’at al Bahrain,img_0811,,1,5,Russia,img_0681,mis_binding,0,1,0,1
+E8_img_0696_mixed_N5_k1_P1,E8,img_0696,5,1,Church of the Saviour at Berestove,img_0696,,1,1,Ukraine,img_0696,,1,1,1,0
+E8_img_0696_mixed_N5_k2_P1,E8,img_0696,5,2,Kaloža Church,img_0749,mis_binding,0,4,Ukraine,img_0696,,1,2,0,1
+E8_img_0696_mixed_N5_k3_P1,E8,img_0696,5,3,Humayun's Tomb,img_0734,mis_binding,0,2,Belarus,img_0749,mis_binding,0,4,0,1
+E8_img_0696_mixed_N5_k4_P1,E8,img_0696,5,4,Church of the Saviour at Berestove,img_0696,,1,4,Ukraine,img_0696,,1,4,1,0
+E8_img_0696_mixed_N5_k5_P1,E8,img_0696,5,5,Church of the Saviour at Berestove,img_0696,,1,5,Ukraine,img_0696,,1,5,1,0
+E8_img_0676_mixed_N5_k1_P1,E8,img_0676,5,1,Notre-Dame de Chartres,img_0789,mis_binding,0,3,Spain,img_0676,,1,1,0,1
+E8_img_0676_mixed_N5_k2_P1,E8,img_0676,5,2,Burgos Cathedral,img_0676,,1,2,Spain,img_0676,,1,2,1,0
+E8_img_0676_mixed_N5_k3_P1,E8,img_0676,5,3,Kaloža Church,img_0749,mis_binding,0,4,Spain,img_0676,,1,3,0,1
+E8_img_0676_mixed_N5_k4_P1,E8,img_0676,5,4,St. Dominic's Church,img_0845,mis_binding,0,5,Spain,img_0676,,1,4,0,1
+E8_img_0676_mixed_N5_k5_P1,E8,img_0676,5,5,Burgos Cathedral,img_0676,,1,5,Spain,img_0676,,1,5,1,0
+E8_img_0772_mixed_N5_k1_P1,E8,img_0772,5,1,Mausoleum of Khoja Ahmed Yasawi,img_0772,,1,1,Kazakhstan,img_0772,,1,1,1,0
+E8_img_0772_mixed_N5_k2_P1,E8,img_0772,5,2,Mausoleum of Khoja Ahmed Yasawi,img_0772,,1,2,Kazakhstan,img_0772,,1,2,1,0
+E8_img_0772_mixed_N5_k3_P1,E8,img_0772,5,3,Bom Jesus do Monte,img_0668,mis_binding,0,1,Russia,img_0681,mis_binding,0,4,0,1
+E8_img_0772_mixed_N5_k4_P1,E8,img_0772,5,4,Mausoleum of Khoja Ahmed Yasawi,img_0772,,1,4,Romania,img_0732,mis_binding,0,5,0,1
+E8_img_0772_mixed_N5_k5_P1,E8,img_0772,5,5,Mausoleum of Khoja Ahmed Yasawi,img_0772,,1,5,Romania,img_0732,mis_binding,0,4,0,1
+E8_img_0667_mixed_N5_k1_P1,E8,img_0667,5,1,Douaumont ossuary,img_0709,mis_binding,0,4,Iran,img_0742,mis_binding,0,5,0,1
+E8_img_0667_mixed_N5_k2_P1,E8,img_0667,5,2,Douaumont ossuary,img_0709,mis_binding,0,4,France,img_0709,mis_binding,0,4,0,0
+E8_img_0667_mixed_N5_k3_P1,E8,img_0667,5,3,Douaumont ossuary,img_0709,mis_binding,0,4,Lebanon,img_0667,,1,3,0,1
+E8_img_0667_mixed_N5_k4_P1,E8,img_0667,5,4,Douaumont ossuary,img_0709,mis_binding,0,3,France,img_0709,mis_binding,0,3,0,0
+E8_img_0667_mixed_N5_k5_P1,E8,img_0667,5,5,Beaufort Castle,img_0667,,1,5,Iran,img_0742,mis_binding,0,4,0,1
+E8_img_0655_mixed_N5_k1_P1,E8,img_0655,5,1,Aït Benhaddou,img_0655,,1,1,Morocco,img_0655,,1,1,1,0
+E8_img_0655_mixed_N5_k2_P1,E8,img_0655,5,2,Aït Benhaddou,img_0655,,1,2,Morocco,img_0655,,1,2,1,0
+E8_img_0655_mixed_N5_k3_P1,E8,img_0655,5,3,Aït Benhaddou,img_0655,,1,3,Morocco,img_0655,,1,3,1,0
+E8_img_0655_mixed_N5_k4_P1,E8,img_0655,5,4,Aït Benhaddou,img_0655,,1,4,Morocco,img_0655,,1,4,1,0
+E8_img_0655_mixed_N5_k5_P1,E8,img_0655,5,5,Aït Benhaddou,img_0655,,1,5,Morocco,img_0655,,1,5,1,0
+E8_img_0024_mixed_N5_k1_P1,E8,img_0024,5,1,Áo dài,img_0003,mis_binding,0,4,Pakistan,img_0064,mis_binding,0,5,0,1
+E8_img_0024_mixed_N5_k2_P1,E8,img_0024,5,2,Doppa,img_0024,,1,2,Pakistan,img_0064,mis_binding,0,5,0,1
+E8_img_0024_mixed_N5_k3_P1,E8,img_0024,5,3,Doppa,img_0024,,1,3,Pakistan,img_0064,mis_binding,0,5,0,1
+E8_img_0024_mixed_N5_k4_P1,E8,img_0024,5,4,Doppa,img_0024,,1,4,Japan,img_0034,mis_binding,0,2,0,1
+E8_img_0024_mixed_N5_k5_P1,E8,img_0024,5,5,Doppa,img_0024,,1,5,Pakistan,img_0064,mis_binding,0,4,0,1
+E8_img_0004_mixed_N5_k1_P1,E8,img_0004,5,1,Aran jumper,img_0004,,1,1,Ireland,img_0004,,1,1,1,0
+E8_img_0004_mixed_N5_k2_P1,E8,img_0004,5,2,Haori,img_0034,mis_binding,0,5,Ireland,img_0004,,1,2,0,1
+E8_img_0004_mixed_N5_k3_P1,E8,img_0004,5,3,Aran jumper,img_0004,,1,3,Ireland,img_0004,,1,3,1,0
+E8_img_0004_mixed_N5_k4_P1,E8,img_0004,5,4,Haori,img_0034,mis_binding,0,5,Ireland,img_0004,,1,4,0,1
+E8_img_0004_mixed_N5_k5_P1,E8,img_0004,5,5,Aran jumper,img_0004,,1,5,Ireland,img_0004,,1,5,1,0
+E8_img_0020_mixed_N5_k1_P1,E8,img_0020,5,1,Chilote cap,img_0020,,1,1,Chile,img_0020,,1,1,1,0
+E8_img_0020_mixed_N5_k2_P1,E8,img_0020,5,2,Chilote cap,img_0020,,1,2,Chile,img_0020,,1,2,1,0
+E8_img_0020_mixed_N5_k3_P1,E8,img_0020,5,3,Chilote cap,img_0020,,1,3,Chile,img_0020,,1,3,1,0
+E8_img_0020_mixed_N5_k4_P1,E8,img_0020,5,4,Chilote cap,img_0020,,1,4,Chile,img_0020,,1,4,1,0
+E8_img_0020_mixed_N5_k5_P1,E8,img_0020,5,5,Chilote cap,img_0020,,1,5,Chile,img_0020,,1,5,1,0
+E8_img_0086_mixed_N5_k1_P1,E8,img_0086,5,1,Yashmak,img_0086,,1,1,Greece,img_0063,mis_binding,0,4,0,1
+E8_img_0086_mixed_N5_k2_P1,E8,img_0086,5,2,Yashmak,img_0086,,1,2,Greece,img_0063,mis_binding,0,4,0,1
+E8_img_0086_mixed_N5_k3_P1,E8,img_0086,5,3,Perizoma,img_0063,mis_binding,0,4,Bangladesh,img_0078,mis_binding,0,5,0,1
+E8_img_0086_mixed_N5_k4_P1,E8,img_0086,5,4,Perizoma,img_0063,mis_binding,0,3,Bangladesh,img_0078,mis_binding,0,5,0,1
+E8_img_0086_mixed_N5_k5_P1,E8,img_0086,5,5,Yashmak,img_0086,,1,5,Turkey,img_0086,,1,5,1,0
+E8_img_0029_mixed_N5_k1_P1,E8,img_0029,5,1,Chedda of Tlemcen,img_0019,mis_binding,0,4,Nepal,img_0021,mis_binding,0,3,0,1
+E8_img_0029_mixed_N5_k2_P1,E8,img_0029,5,2,Mushanana,img_0055,mis_binding,0,5,Indonesia,img_0029,,1,2,0,1
+E8_img_0029_mixed_N5_k3_P1,E8,img_0029,5,3,Chedda of Tlemcen,img_0019,mis_binding,0,4,Nepal,img_0021,mis_binding,0,2,0,1
+E8_img_0029_mixed_N5_k4_P1,E8,img_0029,5,4,Chedda of Tlemcen,img_0019,mis_binding,0,3,Nepal,img_0021,mis_binding,0,2,0,1
+E8_img_0029_mixed_N5_k5_P1,E8,img_0029,5,5,Chedda of Tlemcen,img_0019,mis_binding,0,3,Nepal,img_0021,mis_binding,0,2,0,1
+E8_img_0025_mixed_N5_k1_P1,E8,img_0025,5,1,Sambalpuri saree,img_0070,mis_binding,0,4,Algeria,img_0025,,1,1,0,1
+E8_img_0025_mixed_N5_k2_P1,E8,img_0025,5,2,Montera picona,img_0053,mis_binding,0,3,Algeria,img_0025,,1,2,0,1
+E8_img_0025_mixed_N5_k3_P1,E8,img_0025,5,3,Montera picona,img_0053,mis_binding,0,2,Algeria,img_0025,,1,3,0,1
+E8_img_0025_mixed_N5_k4_P1,E8,img_0025,5,4,Montera picona,img_0053,mis_binding,0,2,Algeria,img_0025,,1,4,0,1
+E8_img_0025_mixed_N5_k5_P1,E8,img_0025,5,5,Montera picona,img_0053,mis_binding,0,2,Algeria,img_0025,,1,5,0,1
+E8_img_0026_mixed_N5_k1_P1,E8,img_0026,5,1,Fundoshi,img_0026,,1,1,Bangladesh,img_0078,mis_binding,0,3,0,1
+E8_img_0026_mixed_N5_k2_P1,E8,img_0026,5,2,Fundoshi,img_0026,,1,2,China,img_0068,mis_binding,0,1,0,1
+E8_img_0026_mixed_N5_k3_P1,E8,img_0026,5,3,Fundoshi,img_0026,,1,3,Bangladesh,img_0078,mis_binding,0,2,0,1
+E8_img_0026_mixed_N5_k4_P1,E8,img_0026,5,4,Fundoshi,img_0026,,1,4,Ecuador,img_0059,mis_binding,0,3,0,1
+E8_img_0026_mixed_N5_k5_P1,E8,img_0026,5,5,Fundoshi,img_0026,,1,5,Japan,img_0026,,1,5,1,0
+E8_img_0030_mixed_N5_k1_P1,E8,img_0030,5,1,Ghanaian smock,img_0030,,1,1,Ghana,img_0030,,1,1,1,0
+E8_img_0030_mixed_N5_k2_P1,E8,img_0030,5,2,Ghanaian smock,img_0030,,1,2,Ghana,img_0030,,1,2,1,0
+E8_img_0030_mixed_N5_k3_P1,E8,img_0030,5,3,Ghanaian smock,img_0030,,1,3,Ghana,img_0030,,1,3,1,0
+E8_img_0030_mixed_N5_k4_P1,E8,img_0030,5,4,Ghanaian smock,img_0030,,1,4,Ghana,img_0030,,1,4,1,0
+E8_img_0030_mixed_N5_k5_P1,E8,img_0030,5,5,Ghanaian smock,img_0030,,1,5,Ghana,img_0030,,1,5,1,0
+E8_img_0008_mixed_N5_k1_P1,E8,img_0008,5,1,Belted plaid,img_0008,,1,1,United Kingdom,img_0008,,1,1,1,0
+E8_img_0008_mixed_N5_k2_P1,E8,img_0008,5,2,Belted plaid,img_0008,,1,2,United Kingdom,img_0008,,1,2,1,0
+E8_img_0008_mixed_N5_k3_P1,E8,img_0008,5,3,Belted plaid,img_0008,,1,3,United Kingdom,img_0008,,1,3,1,0
+E8_img_0008_mixed_N5_k4_P1,E8,img_0008,5,4,Belted plaid,img_0008,,1,4,United Kingdom,img_0008,,1,4,1,0
+E8_img_0008_mixed_N5_k5_P1,E8,img_0008,5,5,Belted plaid,img_0008,,1,5,United Kingdom,img_0008,,1,5,1,0
+E8_img_0085_mixed_N5_k1_P1,E8,img_0085,5,1,Ushanka,img_0085,,1,1,Russia,img_0085,,1,1,1,0
+E8_img_0085_mixed_N5_k2_P1,E8,img_0085,5,2,Ushanka,img_0085,,1,2,Russia,img_0085,,1,2,1,0
+E8_img_0085_mixed_N5_k3_P1,E8,img_0085,5,3,Ushanka,img_0085,,1,3,Russia,img_0085,,1,3,1,0
+E8_img_0085_mixed_N5_k4_P1,E8,img_0085,5,4,Ushanka,img_0085,,1,4,Russia,img_0085,,1,4,1,0
+E8_img_0085_mixed_N5_k5_P1,E8,img_0085,5,5,Ushanka,img_0085,,1,5,Russia,img_0085,,1,5,1,0
+E8_img_0063_mixed_N5_k1_P1,E8,img_0063,5,1,Sompot,img_0075,mis_binding,0,3,Greece,img_0063,,1,1,0,1
+E8_img_0063_mixed_N5_k2_P1,E8,img_0063,5,2,Sompot,img_0075,mis_binding,0,3,Greece,img_0063,,1,2,0,1
+E8_img_0063_mixed_N5_k3_P1,E8,img_0063,5,3,Sompot,img_0075,mis_binding,0,2,Greece,img_0063,,1,3,0,1
+E8_img_0063_mixed_N5_k4_P1,E8,img_0063,5,4,Sompot,img_0075,mis_binding,0,2,Greece,img_0063,,1,4,0,1
+E8_img_0063_mixed_N5_k5_P1,E8,img_0063,5,5,Sompot,img_0075,mis_binding,0,2,Greece,img_0063,,1,5,0,1
+E8_img_0009_mixed_N5_k1_P1,E8,img_0009,5,1,Birke topi,img_0009,,1,1,Nepal,img_0009,,1,1,1,0
+E8_img_0009_mixed_N5_k2_P1,E8,img_0009,5,2,Birke topi,img_0009,,1,2,Nepal,img_0009,,1,2,1,0
+E8_img_0009_mixed_N5_k3_P1,E8,img_0009,5,3,Birke topi,img_0009,,1,3,Nepal,img_0009,,1,3,1,0
+E8_img_0009_mixed_N5_k4_P1,E8,img_0009,5,4,Birke topi,img_0009,,1,4,Nepal,img_0009,,1,4,1,0
+E8_img_0009_mixed_N5_k5_P1,E8,img_0009,5,5,Birke topi,img_0009,,1,5,Nepal,img_0009,,1,5,1,0
+E8_img_0027_mixed_N5_k1_P1,E8,img_0027,5,1,Gakuran,img_0027,,1,1,Japan,img_0027,,1,1,1,0
+E8_img_0027_mixed_N5_k2_P1,E8,img_0027,5,2,Gakuran,img_0027,,1,2,Japan,img_0027,,1,2,1,0
+E8_img_0027_mixed_N5_k3_P1,E8,img_0027,5,3,Gakuran,img_0027,,1,3,Japan,img_0027,,1,3,1,0
+E8_img_0027_mixed_N5_k4_P1,E8,img_0027,5,4,Gakuran,img_0027,,1,4,Japan,img_0027,,1,4,1,0
+E8_img_0027_mixed_N5_k5_P1,E8,img_0027,5,5,Gakuran,img_0027,,1,5,Japan,img_0027,,1,5,1,0
+E8_img_0035_mixed_N5_k1_P1,E8,img_0035,5,1,Perizoma,img_0063,mis_binding,0,4,Russia,img_0085,mis_binding,0,2,0,1
+E8_img_0035_mixed_N5_k2_P1,E8,img_0035,5,2,Perizoma,img_0063,mis_binding,0,4,India,img_0012,mis_binding,0,5,0,1
+E8_img_0035_mixed_N5_k3_P1,E8,img_0035,5,3,Buntal hat,img_0015,mis_binding,0,2,Greece,img_0063,mis_binding,0,4,0,1
+E8_img_0035_mixed_N5_k4_P1,E8,img_0035,5,4,Bomkai sari,img_0012,mis_binding,0,5,India,img_0012,mis_binding,0,5,0,0
+E8_img_0035_mixed_N5_k5_P1,E8,img_0035,5,5,Perizoma,img_0063,mis_binding,0,3,India,img_0012,mis_binding,0,4,0,1
+E8_img_0023_mixed_N5_k1_P1,E8,img_0023,5,1,Dirac,img_0023,,1,1,India,img_0070,mis_binding,0,5,0,1
+E8_img_0023_mixed_N5_k2_P1,E8,img_0023,5,2,Dirac,img_0023,,1,2,Nepal,img_0009,mis_binding,0,1,0,1
+E8_img_0023_mixed_N5_k3_P1,E8,img_0023,5,3,Dirac,img_0023,,1,3,Somalia,img_0023,,1,3,1,0
+E8_img_0023_mixed_N5_k4_P1,E8,img_0023,5,4,Dirac,img_0023,,1,4,Somalia,img_0023,,1,4,1,0
+E8_img_0023_mixed_N5_k5_P1,E8,img_0023,5,5,Dirac,img_0023,,1,5,Nepal,img_0009,mis_binding,0,1,0,1
+E8_img_0002_mixed_N5_k1_P1,E8,img_0002,5,1,Perizoma,img_0063,mis_binding,0,5,Vietnam,img_0002,,1,1,0,1
+E8_img_0002_mixed_N5_k2_P1,E8,img_0002,5,2,Perizoma,img_0063,mis_binding,0,5,Vietnam,img_0002,,1,2,0,1
+E8_img_0002_mixed_N5_k3_P1,E8,img_0002,5,3,Perizoma,img_0063,mis_binding,0,5,Vietnam,img_0002,,1,3,0,1
+E8_img_0002_mixed_N5_k4_P1,E8,img_0002,5,4,Perizoma,img_0063,mis_binding,0,5,Vietnam,img_0002,,1,4,0,1
+E8_img_0002_mixed_N5_k5_P1,E8,img_0002,5,5,Perizoma,img_0063,mis_binding,0,4,Vietnam,img_0002,,1,5,0,1
+E8_img_0055_mixed_N5_k1_P1,E8,img_0055,5,1,Tatreez,img_0079,mis_binding,0,5,Rwanda,img_0055,,1,1,0,1
+E8_img_0055_mixed_N5_k2_P1,E8,img_0055,5,2,Tatreez,img_0079,mis_binding,0,5,Rwanda,img_0055,,1,2,0,1
+E8_img_0055_mixed_N5_k3_P1,E8,img_0055,5,3,Sombrero vueltiao,img_0074,mis_binding,0,4,Rwanda,img_0055,,1,3,0,1
+E8_img_0055_mixed_N5_k4_P1,E8,img_0055,5,4,Sombrero vueltiao,img_0074,mis_binding,0,3,Nepal,img_0021,mis_binding,0,1,0,1
+E8_img_0055_mixed_N5_k5_P1,E8,img_0055,5,5,Mushanana,img_0055,,1,5,Rwanda,img_0055,,1,5,1,0
+E8_img_0076_mixed_N5_k1_P1,E8,img_0076,5,1,Frimla,img_0025,mis_binding,0,5,Indonesia,img_0076,,1,1,0,1
+E8_img_0076_mixed_N5_k2_P1,E8,img_0076,5,2,Frimla,img_0025,mis_binding,0,5,Indonesia,img_0076,,1,2,0,1
+E8_img_0076_mixed_N5_k3_P1,E8,img_0076,5,3,Frimla,img_0025,mis_binding,0,5,Indonesia,img_0076,,1,3,0,1
+E8_img_0076_mixed_N5_k4_P1,E8,img_0076,5,4,Frimla,img_0025,mis_binding,0,5,Indonesia,img_0076,,1,4,0,1
+E8_img_0076_mixed_N5_k5_P1,E8,img_0076,5,5,Songkok,img_0076,,1,5,Indonesia,img_0076,,1,5,1,0
+E8_img_0001_mixed_N5_k1_P1,E8,img_0001,5,1,Abarka,img_0001,,1,1,Spain,img_0001,,1,1,1,0
+E8_img_0001_mixed_N5_k2_P1,E8,img_0001,5,2,Abarka,img_0001,,1,2,Spain,img_0001,,1,2,1,0
+E8_img_0001_mixed_N5_k3_P1,E8,img_0001,5,3,Abarka,img_0001,,1,3,Spain,img_0001,,1,3,1,0
+E8_img_0001_mixed_N5_k4_P1,E8,img_0001,5,4,Abarka,img_0001,,1,4,Spain,img_0001,,1,4,1,0
+E8_img_0001_mixed_N5_k5_P1,E8,img_0001,5,5,Abarka,img_0001,,1,5,Spain,img_0001,,1,5,1,0
+E8_img_0069_mixed_N5_k1_P1,E8,img_0069,5,1,Kimono,img_0043,mis_binding,0,2,South Korea,img_0069,,1,1,0,1
+E8_img_0069_mixed_N5_k2_P1,E8,img_0069,5,2,Saekdongot,img_0069,,1,2,Indonesia,img_0084,mis_binding,0,4,0,1
+E8_img_0069_mixed_N5_k3_P1,E8,img_0069,5,3,Ulos,img_0084,mis_binding,0,4,South Korea,img_0069,,1,3,0,1
+E8_img_0069_mixed_N5_k4_P1,E8,img_0069,5,4,Ulos,img_0084,mis_binding,0,3,South Korea,img_0069,,1,4,0,1
+E8_img_0069_mixed_N5_k5_P1,E8,img_0069,5,5,Kimono,img_0043,mis_binding,0,1,South Korea,img_0069,,1,5,0,1
+E8_img_0011_mixed_N5_k1_P1,E8,img_0011,5,1,Sari,img_0071,mis_binding,0,4,Philippines,img_0015,mis_binding,0,2,0,1
+E8_img_0011_mixed_N5_k2_P1,E8,img_0011,5,2,Sari,img_0071,mis_binding,0,4,India,img_0071,mis_binding,0,4,0,0
+E8_img_0011_mixed_N5_k3_P1,E8,img_0011,5,3,Sari,img_0071,mis_binding,0,4,India,img_0071,mis_binding,0,4,0,0
+E8_img_0011_mixed_N5_k4_P1,E8,img_0011,5,4,Sari,img_0071,mis_binding,0,3,Philippines,img_0015,mis_binding,0,1,0,1
+E8_img_0011_mixed_N5_k5_P1,E8,img_0011,5,5,Sari,img_0071,mis_binding,0,3,Russia,img_0085,mis_binding,0,2,0,1
+E8_img_0028_mixed_N5_k1_P1,E8,img_0028,5,1,Bäckadräkten,img_0006,mis_binding,0,2,Algeria,img_0028,,1,1,0,1
+E8_img_0028_mixed_N5_k2_P1,E8,img_0028,5,2,Bäckadräkten,img_0006,mis_binding,0,1,Algeria,img_0028,,1,2,0,1
+E8_img_0028_mixed_N5_k3_P1,E8,img_0028,5,3,Bäckadräkten,img_0006,mis_binding,0,1,Algeria,img_0028,,1,3,0,1
+E8_img_0028_mixed_N5_k4_P1,E8,img_0028,5,4,Bäckadräkten,img_0006,mis_binding,0,1,Algeria,img_0028,,1,4,0,1
+E8_img_0028_mixed_N5_k5_P1,E8,img_0028,5,5,Bäckadräkten,img_0006,mis_binding,0,1,Algeria,img_0028,,1,5,0,1
+E8_img_0052_mixed_N5_k1_P1,E8,img_0052,5,1,Träskor,img_0082,mis_binding,0,4,Algeria,img_0052,,1,1,0,1
+E8_img_0052_mixed_N5_k2_P1,E8,img_0052,5,2,Dirac,img_0023,mis_binding,0,3,Algeria,img_0052,,1,2,0,1
+E8_img_0052_mixed_N5_k3_P1,E8,img_0052,5,3,Träskor,img_0082,mis_binding,0,4,Algeria,img_0052,,1,3,0,1
+E8_img_0052_mixed_N5_k4_P1,E8,img_0052,5,4,Träskor,img_0082,mis_binding,0,3,Vietnam,img_0056,mis_binding,0,1,0,1
+E8_img_0052_mixed_N5_k5_P1,E8,img_0052,5,5,Sari,img_0071,mis_binding,0,4,Vietnam,img_0056,mis_binding,0,1,0,1
+E8_img_0060_mixed_N5_k1_P1,E8,img_0060,5,1,Panling Lanshan,img_0060,,1,1,China,img_0060,,1,1,1,0
+E8_img_0060_mixed_N5_k2_P1,E8,img_0060,5,2,Panling Lanshan,img_0060,,1,2,China,img_0060,,1,2,1,0
+E8_img_0060_mixed_N5_k3_P1,E8,img_0060,5,3,Kanzashi,img_0040,mis_binding,0,2,China,img_0060,,1,3,0,1
+E8_img_0060_mixed_N5_k4_P1,E8,img_0060,5,4,Panling Lanshan,img_0060,,1,4,China,img_0060,,1,4,1,0
+E8_img_0060_mixed_N5_k5_P1,E8,img_0060,5,5,Songkok,img_0076,mis_binding,0,1,China,img_0060,,1,5,0,1
+E8_img_0022_mixed_N5_k1_P1,E8,img_0022,5,1,Dhaka topi,img_0022,,1,1,Nepal,img_0022,,1,1,1,0
+E8_img_0022_mixed_N5_k2_P1,E8,img_0022,5,2,Dhaka topi,img_0022,,1,2,Nepal,img_0022,,1,2,1,0
+E8_img_0022_mixed_N5_k3_P1,E8,img_0022,5,3,Dhaka topi,img_0022,,1,3,Nepal,img_0022,,1,3,1,0
+E8_img_0022_mixed_N5_k4_P1,E8,img_0022,5,4,Dhaka topi,img_0022,,1,4,Nepal,img_0022,,1,4,1,0
+E8_img_0022_mixed_N5_k5_P1,E8,img_0022,5,5,Dhaka topi,img_0022,,1,5,Nepal,img_0022,,1,5,1,0
+E8_img_0010_mixed_N5_k1_P1,E8,img_0010,5,1,Saekdongot,img_0069,mis_binding,0,2,Indonesia,img_0010,,1,1,0,1
+E8_img_0010_mixed_N5_k2_P1,E8,img_0010,5,2,Saekdongot,img_0069,mis_binding,0,1,Indonesia,img_0010,,1,2,0,1
+E8_img_0010_mixed_N5_k3_P1,E8,img_0010,5,3,Belted plaid,img_0008,mis_binding,0,2,China,img_0068,mis_binding,0,5,0,1
+E8_img_0010_mixed_N5_k4_P1,E8,img_0010,5,4,Qungua,img_0068,mis_binding,0,5,China,img_0068,mis_binding,0,5,0,0
+E8_img_0010_mixed_N5_k5_P1,E8,img_0010,5,5,Saekdongot,img_0069,mis_binding,0,1,Indonesia,img_0010,,1,5,0,1
+E8_img_0080_mixed_N5_k1_P1,E8,img_0080,5,1,Tembel hat,img_0080,,1,1,Spain,img_0016,mis_binding,0,3,0,1
+E8_img_0080_mixed_N5_k2_P1,E8,img_0080,5,2,Tembel hat,img_0080,,1,2,Israel,img_0080,,1,2,1,0
+E8_img_0080_mixed_N5_k3_P1,E8,img_0080,5,3,Tembel hat,img_0080,,1,3,Ukraine,img_0083,mis_binding,0,4,0,1
+E8_img_0080_mixed_N5_k4_P1,E8,img_0080,5,4,Tembel hat,img_0080,,1,4,Spain,img_0016,mis_binding,0,2,0,1
+E8_img_0080_mixed_N5_k5_P1,E8,img_0080,5,5,Tembel hat,img_0080,,1,5,Spain,img_0016,mis_binding,0,2,0,1
+E8_img_0005_mixed_N5_k1_P1,E8,img_0005,5,1,Takchita,img_0077,mis_binding,0,2,Morocco,img_0077,mis_binding,0,2,0,0
+E8_img_0005_mixed_N5_k2_P1,E8,img_0005,5,2,Takchita,img_0077,mis_binding,0,1,Norway,img_0014,mis_binding,0,4,0,1
+E8_img_0005_mixed_N5_k3_P1,E8,img_0005,5,3,Isiagu attire,img_0036,mis_binding,0,2,Nigeria,img_0036,mis_binding,0,2,0,0
+E8_img_0005_mixed_N5_k4_P1,E8,img_0005,5,4,Daura-Suruwal,img_0021,mis_binding,0,5,Nigeria,img_0036,mis_binding,0,2,0,1
+E8_img_0005_mixed_N5_k5_P1,E8,img_0005,5,5,Takchita,img_0077,mis_binding,0,1,Norway,img_0014,mis_binding,0,3,0,1
+E8_img_0032_mixed_N5_k1_P1,E8,img_0032,5,1,Peinetón,img_0062,mis_binding,0,2,Bhutan,img_0044,mis_binding,0,3,0,1
+E8_img_0032_mixed_N5_k2_P1,E8,img_0032,5,2,Haapsalu shawl,img_0032,,1,2,Estonia,img_0032,,1,2,1,0
+E8_img_0032_mixed_N5_k3_P1,E8,img_0032,5,3,Haapsalu shawl,img_0032,,1,3,Estonia,img_0032,,1,3,1,0
+E8_img_0032_mixed_N5_k4_P1,E8,img_0032,5,4,Haapsalu shawl,img_0032,,1,4,Estonia,img_0032,,1,4,1,0
+E8_img_0032_mixed_N5_k5_P1,E8,img_0032,5,5,Haapsalu shawl,img_0032,,1,5,Estonia,img_0032,,1,5,1,0
+E8_img_0056_mixed_N5_k1_P1,E8,img_0056,5,1,Koto,img_0045,mis_binding,0,4,Vietnam,img_0056,,1,1,0,1
+E8_img_0056_mixed_N5_k2_P1,E8,img_0056,5,2,Koto,img_0045,mis_binding,0,4,Vietnam,img_0056,,1,2,0,1
+E8_img_0056_mixed_N5_k3_P1,E8,img_0056,5,3,Koto,img_0045,mis_binding,0,4,Vietnam,img_0056,,1,3,0,1
+E8_img_0056_mixed_N5_k4_P1,E8,img_0056,5,4,Koto,img_0045,mis_binding,0,3,Vietnam,img_0056,,1,4,0,1
+E8_img_0056_mixed_N5_k5_P1,E8,img_0056,5,5,Koto,img_0045,mis_binding,0,3,Vietnam,img_0056,,1,5,0,1
+E8_img_0051_mixed_N5_k1_P1,E8,img_0051,5,1,Mexican pointy boot,img_0051,,1,1,Mexico,img_0051,,1,1,1,0
+E8_img_0051_mixed_N5_k2_P1,E8,img_0051,5,2,Mexican pointy boot,img_0051,,1,2,Indonesia,img_0076,mis_binding,0,3,0,1
+E8_img_0051_mixed_N5_k3_P1,E8,img_0051,5,3,Sompot,img_0075,mis_binding,0,5,Mexico,img_0051,,1,3,0,1
+E8_img_0051_mixed_N5_k4_P1,E8,img_0051,5,4,Mexican pointy boot,img_0051,,1,4,Mexico,img_0051,,1,4,1,0
+E8_img_0051_mixed_N5_k5_P1,E8,img_0051,5,5,Mexican pointy boot,img_0051,,1,5,Mexico,img_0051,,1,5,1,0
+E8_img_0058_mixed_N5_k1_P1,E8,img_0058,5,1,Palestinian keffiyeh,img_0058,,1,1,Palestine,img_0058,,1,1,1,0
+E8_img_0058_mixed_N5_k2_P1,E8,img_0058,5,2,Nón lá,img_0056,mis_binding,0,1,Palestine,img_0058,,1,2,0,1
+E8_img_0058_mixed_N5_k3_P1,E8,img_0058,5,3,Nón lá,img_0056,mis_binding,0,1,Palestine,img_0058,,1,3,0,1
+E8_img_0058_mixed_N5_k4_P1,E8,img_0058,5,4,Palestinian keffiyeh,img_0058,,1,4,Palestine,img_0058,,1,4,1,0
+E8_img_0058_mixed_N5_k5_P1,E8,img_0058,5,5,Palestinian keffiyeh,img_0058,,1,5,Palestine,img_0058,,1,5,1,0
+E8_img_0054_mixed_N5_k1_P1,E8,img_0054,5,1,Kozhukh,img_0046,mis_binding,0,4,Morocco,img_0054,,1,1,0,1
+E8_img_0054_mixed_N5_k2_P1,E8,img_0054,5,2,Kozhukh,img_0046,mis_binding,0,4,Morocco,img_0054,,1,2,0,1
+E8_img_0054_mixed_N5_k3_P1,E8,img_0054,5,3,Kozhukh,img_0046,mis_binding,0,4,Morocco,img_0054,,1,3,0,1
+E8_img_0054_mixed_N5_k4_P1,E8,img_0054,5,4,Moroccan kaftan,img_0054,,1,4,Morocco,img_0054,,1,4,1,0
+E8_img_0054_mixed_N5_k5_P1,E8,img_0054,5,5,Moroccan kaftan,img_0054,,1,5,Morocco,img_0054,,1,5,1,0
+E8_img_0036_mixed_N5_k1_P1,E8,img_0036,5,1,Isiagu attire,img_0036,,1,1,Nigeria,img_0036,,1,1,1,0
+E8_img_0036_mixed_N5_k2_P1,E8,img_0036,5,2,Pochampally saree,img_0065,mis_binding,0,1,Nigeria,img_0036,,1,2,0,1
+E8_img_0036_mixed_N5_k3_P1,E8,img_0036,5,3,Pochampally saree,img_0065,mis_binding,0,1,Nigeria,img_0036,,1,3,0,1
+E8_img_0036_mixed_N5_k4_P1,E8,img_0036,5,4,Pochampally saree,img_0065,mis_binding,0,1,Nigeria,img_0036,,1,4,0,1
+E8_img_0036_mixed_N5_k5_P1,E8,img_0036,5,5,Isiagu attire,img_0036,,1,5,Nigeria,img_0036,,1,5,1,0
+E8_img_0083_mixed_N5_k1_P1,E8,img_0083,5,1,Ukrainian wreath,img_0083,,1,1,Ukraine,img_0083,,1,1,1,0
+E8_img_0083_mixed_N5_k2_P1,E8,img_0083,5,2,Ukrainian wreath,img_0083,,1,2,Ukraine,img_0083,,1,2,1,0
+E8_img_0083_mixed_N5_k3_P1,E8,img_0083,5,3,Ukrainian wreath,img_0083,,1,3,Ukraine,img_0083,,1,3,1,0
+E8_img_0083_mixed_N5_k4_P1,E8,img_0083,5,4,Ukrainian wreath,img_0083,,1,4,Ukraine,img_0083,,1,4,1,0
+E8_img_0083_mixed_N5_k5_P1,E8,img_0083,5,5,Ukrainian wreath,img_0083,,1,5,Ukraine,img_0083,,1,5,1,0
+E8_img_0067_mixed_N5_k1_P1,E8,img_0067,5,1,Quechquemitl,img_0067,,1,1,Ghana,img_0030,mis_binding,0,2,0,1
+E8_img_0067_mixed_N5_k2_P1,E8,img_0067,5,2,Qungua,img_0068,mis_binding,0,3,China,img_0068,mis_binding,0,3,0,0
+E8_img_0067_mixed_N5_k3_P1,E8,img_0067,5,3,Fundoshi,img_0026,mis_binding,0,5,Japan,img_0026,mis_binding,0,5,0,0
+E8_img_0067_mixed_N5_k4_P1,E8,img_0067,5,4,Quechquemitl,img_0067,,1,4,Mexico,img_0067,,1,4,1,0
+E8_img_0067_mixed_N5_k5_P1,E8,img_0067,5,5,Qungua,img_0068,mis_binding,0,2,Japan,img_0026,mis_binding,0,4,0,1
+E8_img_0070_mixed_N5_k1_P1,E8,img_0070,5,1,Sambalpuri saree,img_0070,,1,1,India,img_0070,,1,1,1,0
+E8_img_0070_mixed_N5_k2_P1,E8,img_0070,5,2,Sambalpuri saree,img_0070,,1,2,Philippines,img_0007,mis_binding,0,5,0,1
+E8_img_0070_mixed_N5_k3_P1,E8,img_0070,5,3,Sambalpuri saree,img_0070,,1,3,Philippines,img_0007,mis_binding,0,5,0,1
+E8_img_0070_mixed_N5_k4_P1,E8,img_0070,5,4,Sambalpuri saree,img_0070,,1,4,Philippines,img_0007,mis_binding,0,5,0,1
+E8_img_0070_mixed_N5_k5_P1,E8,img_0070,5,5,Sambalpuri saree,img_0070,,1,5,Philippines,img_0007,mis_binding,0,4,0,1
+E8_img_0048_mixed_N5_k1_P1,E8,img_0048,5,1,Avarca,img_0005,mis_binding,0,2,Spain,img_0005,mis_binding,0,2,0,0
+E8_img_0048_mixed_N5_k2_P1,E8,img_0048,5,2,Avarca,img_0005,mis_binding,0,1,South Korea,img_0048,,1,2,0,1
+E8_img_0048_mixed_N5_k3_P1,E8,img_0048,5,3,Magoja,img_0048,,1,3,Ireland,img_0004,mis_binding,0,4,0,1
+E8_img_0048_mixed_N5_k4_P1,E8,img_0048,5,4,Mushanana,img_0055,mis_binding,0,2,South Korea,img_0048,,1,4,0,1
+E8_img_0048_mixed_N5_k5_P1,E8,img_0048,5,5,Mushanana,img_0055,mis_binding,0,2,South Korea,img_0048,,1,5,0,1
+E8_img_0015_mixed_N5_k1_P1,E8,img_0015,5,1,Buntal hat,img_0015,,1,1,Philippines,img_0015,,1,1,1,0
+E8_img_0015_mixed_N5_k2_P1,E8,img_0015,5,2,Frimla,img_0025,mis_binding,0,4,Philippines,img_0015,,1,2,0,1
+E8_img_0015_mixed_N5_k3_P1,E8,img_0015,5,3,Abarka,img_0001,mis_binding,0,5,Algeria,img_0025,mis_binding,0,4,0,1
+E8_img_0015_mixed_N5_k4_P1,E8,img_0015,5,4,Abarka,img_0001,mis_binding,0,5,Algeria,img_0025,mis_binding,0,3,0,1
+E8_img_0015_mixed_N5_k5_P1,E8,img_0015,5,5,Buntal hat,img_0015,,1,5,Philippines,img_0015,,1,5,1,0
+E8_img_0014_mixed_N5_k1_P1,E8,img_0014,5,1,Bunad,img_0014,,1,1,Norway,img_0014,,1,1,1,0
+E8_img_0014_mixed_N5_k2_P1,E8,img_0014,5,2,Bunad,img_0014,,1,2,Norway,img_0014,,1,2,1,0
+E8_img_0014_mixed_N5_k3_P1,E8,img_0014,5,3,Bunad,img_0014,,1,3,Norway,img_0014,,1,3,1,0
+E8_img_0014_mixed_N5_k4_P1,E8,img_0014,5,4,Bunad,img_0014,,1,4,Norway,img_0014,,1,4,1,0
+E8_img_0014_mixed_N5_k5_P1,E8,img_0014,5,5,Bunad,img_0014,,1,5,Norway,img_0014,,1,5,1,0
+E7_img_0240_mixed_N1_k1_P5,E7,img_0240,1,1,Tarte Tatin,img_0240,,1,1,France,img_0240,,1,1,1,0
+E7_img_0240_mixed_N2_k1_P5,E7,img_0240,2,1,Tarte Tatin,img_0240,,1,1,France,img_0240,,1,1,1,0
+E7_img_0240_mixed_N3_k1_P5,E7,img_0240,3,1,Tarte Tatin,img_0240,,1,1,France,img_0240,,1,1,1,0
+E7_img_0240_mixed_N4_k1_P5,E7,img_0240,4,1,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0240_mixed_N5_k1_P5,E7,img_0240,5,1,Tarte Tatin,img_0240,,1,1,France,img_0240,,1,1,1,0
+E7_img_0164_mixed_N1_k1_P5,E7,img_0164,1,1,Pączki,img_0201,prior_drift,0,0,Poland,img_0201,prior_drift,0,0,0,0
+E7_img_0164_mixed_N2_k2_P5,E7,img_0164,2,2,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0164_mixed_N3_k1_P5,E7,img_0164,3,1,Peking duck,img_0492,prior_drift,0,0,Poland,img_0201,prior_drift,0,0,0,0
+E7_img_0164_mixed_N4_k4_P5,E7,img_0164,4,4,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0164_mixed_N5_k4_P5,E7,img_0164,5,4,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0254_mixed_N1_k1_P5,E7,img_0254,1,1,Vanillekipferl,img_0254,,1,1,Austria,img_0254,,1,1,1,0
+E7_img_0254_mixed_N2_k1_P5,E7,img_0254,2,1,Vanillekipferl,img_0254,,1,1,Austria,img_0254,,1,1,1,0
+E7_img_0254_mixed_N3_k1_P5,E7,img_0254,3,1,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0254_mixed_N4_k3_P5,E7,img_0254,4,3,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0254_mixed_N5_k2_P5,E7,img_0254,5,2,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0515_mixed_N1_k1_P5,E7,img_0515,1,1,Spaghetti,img_0515,,1,1,Italy,img_0515,,1,1,1,0
+E7_img_0515_mixed_N2_k2_P5,E7,img_0515,2,2,Spaghetti,img_0515,,1,2,Italy,img_0515,,1,2,1,0
+E7_img_0515_mixed_N3_k1_P5,E7,img_0515,3,1,Spaghetti,img_0515,,1,1,Italy,img_0515,,1,1,1,0
+E7_img_0515_mixed_N4_k2_P5,E7,img_0515,4,2,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0515_mixed_N5_k5_P5,E7,img_0515,5,5,Spaghetti,img_0515,,1,5,Italy,img_0515,,1,5,1,0
+E7_img_0131_mixed_N1_k1_P5,E7,img_0131,1,1,Crema catalana,img_0131,,1,1,Greece,img_0474,prior_drift,0,0,0,0
+E7_img_0131_mixed_N2_k1_P5,E7,img_0131,2,1,Crema catalana,img_0131,,1,1,Greece,img_0474,prior_drift,0,0,0,0
+E7_img_0131_mixed_N3_k1_P5,E7,img_0131,3,1,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0131_mixed_N4_k1_P5,E7,img_0131,4,1,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0131_mixed_N5_k3_P5,E7,img_0131,5,3,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0430_mixed_N1_k1_P5,E7,img_0430,1,1,Éclair,img_0430,,1,1,France,img_0430,,1,1,1,0
+E7_img_0430_mixed_N2_k2_P5,E7,img_0430,2,2,Éclair,img_0430,,1,2,France,img_0430,,1,2,1,0
+E7_img_0430_mixed_N3_k1_P5,E7,img_0430,3,1,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0430_mixed_N4_k4_P5,E7,img_0430,4,4,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0430_mixed_N5_k1_P5,E7,img_0430,5,1,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0409_mixed_N1_k1_P5,E7,img_0409,1,1,Chapati,img_0409,,1,1,India,img_0409,,1,1,1,0
+E7_img_0409_mixed_N2_k1_P5,E7,img_0409,2,1,Chapati,img_0409,,1,1,Jamaica,img_0452,mis_binding,0,2,0,1
+E7_img_0409_mixed_N3_k1_P5,E7,img_0409,3,1,Chapati,img_0409,,1,1,India,img_0409,,1,1,1,0
+E7_img_0409_mixed_N4_k3_P5,E7,img_0409,4,3,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0409_mixed_N5_k4_P5,E7,img_0409,5,4,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0235_mixed_N1_k1_P5,E7,img_0235,1,1,Stracciatella,img_0235,,1,1,Italy,img_0235,,1,1,1,0
+E7_img_0235_mixed_N2_k2_P5,E7,img_0235,2,2,Charlotte,img_0120,prior_drift,0,0,Italy,img_0235,,1,2,0,0
+E7_img_0235_mixed_N3_k1_P5,E7,img_0235,3,1,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0235_mixed_N4_k2_P5,E7,img_0235,4,2,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0235_mixed_N5_k2_P5,E7,img_0235,5,2,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0349_mixed_N1_k1_P5,E7,img_0349,1,1,Screwdriver,img_0349,,1,1,United States,img_0349,,1,1,1,0
+E7_img_0349_mixed_N2_k1_P5,E7,img_0349,2,1,Screwdriver,img_0349,,1,1,Uruguay,img_0413,mis_binding,0,2,0,1
+E7_img_0349_mixed_N3_k1_P5,E7,img_0349,3,1,Screwdriver,img_0349,,1,1,United States,img_0349,,1,1,1,0
+E7_img_0349_mixed_N4_k1_P5,E7,img_0349,4,1,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0349_mixed_N5_k5_P5,E7,img_0349,5,5,Screwdriver,img_0349,,1,5,United States,img_0349,,1,5,1,0
+E7_img_0263_mixed_N1_k1_P5,E7,img_0263,1,1,Amazake,img_0263,,1,1,Japan,img_0263,,1,1,1,0
+E7_img_0263_mixed_N2_k2_P5,E7,img_0263,2,2,Kirschenmichel,img_0175,mis_binding,0,1,Japan,img_0263,,1,2,0,1
+E7_img_0263_mixed_N3_k1_P5,E7,img_0263,3,1,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0263_mixed_N4_k4_P5,E7,img_0263,4,4,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0263_mixed_N5_k3_P5,E7,img_0263,5,3,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0513_mixed_N1_k1_P5,E7,img_0513,1,1,Soufflé,img_0513,,1,1,United Kingdom,img_0234,prior_drift,0,0,0,0
+E7_img_0513_mixed_N2_k1_P5,E7,img_0513,2,1,Soufflé,img_0513,,1,1,United Kingdom,img_0234,prior_drift,0,0,0,0
+E7_img_0513_mixed_N3_k1_P5,E7,img_0513,3,1,Soufflé,img_0513,,1,1,United Kingdom,img_0234,mis_binding,0,3,0,1
+E7_img_0513_mixed_N4_k3_P5,E7,img_0513,4,3,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0513_mixed_N5_k1_P5,E7,img_0513,5,1,Soufflé,img_0513,,1,1,United Kingdom,img_0234,mis_binding,0,3,0,1
+E7_img_0470_mixed_N1_k1_P5,E7,img_0470,1,1,Miso soup,img_0470,,1,1,Japan,img_0470,,1,1,1,0
+E7_img_0470_mixed_N2_k2_P5,E7,img_0470,2,2,Miso soup,img_0470,,1,2,Japan,img_0470,,1,2,1,0
+E7_img_0470_mixed_N3_k1_P5,E7,img_0470,3,1,Miso soup,img_0470,,1,1,Japan,img_0470,,1,1,1,0
+E7_img_0470_mixed_N4_k2_P5,E7,img_0470,4,2,Miso soup,img_0470,,1,2,Japan,img_0470,,1,2,1,0
+E7_img_0470_mixed_N5_k4_P5,E7,img_0470,5,4,Miso soup,img_0470,,1,4,Japan,img_0470,,1,4,1,0
+E7_img_0116_mixed_N1_k1_P5,E7,img_0116,1,1,Romeu and Julieta,img_0215,prior_drift,0,0,Venezuela,img_0399,prior_drift,0,0,0,0
+E7_img_0116_mixed_N2_k1_P5,E7,img_0116,2,1,Aachener Printen,img_0087,prior_drift,0,0,Germany,img_0087,prior_drift,0,0,0,0
+E7_img_0116_mixed_N3_k1_P5,E7,img_0116,3,1,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0116_mixed_N4_k1_P5,E7,img_0116,4,1,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0116_mixed_N5_k2_P5,E7,img_0116,5,2,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0161_mixed_N1_k1_P5,E7,img_0161,1,1,Aachener Printen,img_0087,prior_drift,0,0,Germany,img_0087,prior_drift,0,0,0,0
+E7_img_0161_mixed_N2_k2_P5,E7,img_0161,2,2,Bir pletok,img_0274,mis_binding,0,1,Germany,img_0087,prior_drift,0,0,0,0
+E7_img_0161_mixed_N3_k1_P5,E7,img_0161,3,1,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0161_mixed_N4_k4_P5,E7,img_0161,4,4,Bir pletok,img_0274,mis_binding,0,1,South Africa,img_0389,prior_drift,0,0,0,0
+E7_img_0161_mixed_N5_k5_P5,E7,img_0161,5,5,Hokey pokey,img_0161,,1,5,New Zealand,img_0161,,1,5,1,0
+E7_img_0577_mixed_N1_k1_P5,E7,img_0577,1,1,Fujara,img_0561,prior_drift,0,0,Slovakia,img_0561,prior_drift,0,0,0,0
+E7_img_0577_mixed_N2_k1_P5,E7,img_0577,2,1,Zampogna,img_0643,prior_drift,0,0,Slovakia,img_0561,prior_drift,0,0,0,0
+E7_img_0577_mixed_N3_k1_P5,E7,img_0577,3,1,Taarija,img_0624,mis_binding,0,2,Slovakia,img_0561,mis_binding,0,3,0,1
+E7_img_0577_mixed_N4_k1_P5,E7,img_0577,4,1,Taarija,img_0624,mis_binding,0,2,Slovakia,img_0561,mis_binding,0,3,0,1
+E7_img_0577_mixed_N5_k1_P5,E7,img_0577,5,1,Taarija,img_0624,mis_binding,0,2,Slovakia,img_0561,mis_binding,0,3,0,1
+E7_img_0584_mixed_N1_k1_P5,E7,img_0584,1,1,Komuz,img_0584,,1,1,Greece,img_0634,prior_drift,0,0,0,0
+E7_img_0584_mixed_N2_k2_P5,E7,img_0584,2,2,Doli,img_0557,mis_binding,0,1,Greece,img_0634,prior_drift,0,0,0,0
+E7_img_0584_mixed_N3_k1_P5,E7,img_0584,3,1,Komuz,img_0584,,1,1,Greece,img_0634,prior_drift,0,0,0,0
+E7_img_0584_mixed_N4_k4_P5,E7,img_0584,4,4,Doli,img_0557,mis_binding,0,1,Kyrgyzstan,img_0584,,1,4,0,1
+E7_img_0584_mixed_N5_k4_P5,E7,img_0584,5,4,Tsampouna,img_0634,mis_binding,0,5,Greece,img_0634,mis_binding,0,5,0,0
+E7_img_0610_mixed_N1_k1_P5,E7,img_0610,1,1,Tsymbaly,img_0636,prior_drift,0,0,Japan,img_0610,,1,1,0,0
+E7_img_0610_mixed_N2_k1_P5,E7,img_0610,2,1,Tsymbaly,img_0636,mis_binding,0,2,Japan,img_0610,,1,1,0,1
+E7_img_0610_mixed_N3_k1_P5,E7,img_0610,3,1,Tsymbaly,img_0636,mis_binding,0,2,Japan,img_0610,,1,1,0,1
+E7_img_0610_mixed_N4_k3_P5,E7,img_0610,4,3,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0610_mixed_N5_k2_P5,E7,img_0610,5,2,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0582_mixed_N1_k1_P5,E7,img_0582,1,1,Kokle,img_0582,,1,1,Kyrgyzstan,img_0584,prior_drift,0,0,0,0
+E7_img_0582_mixed_N2_k2_P5,E7,img_0582,2,2,Teponaztli,img_0629,mis_binding,0,1,Latvia,img_0582,,1,2,0,1
+E7_img_0582_mixed_N3_k1_P5,E7,img_0582,3,1,Kokle,img_0582,,1,1,Latvia,img_0582,,1,1,1,0
+E7_img_0582_mixed_N4_k2_P5,E7,img_0582,4,2,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0582_mixed_N5_k5_P5,E7,img_0582,5,5,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0561_mixed_N1_k1_P5,E7,img_0561,1,1,Piffero,img_0603,prior_drift,0,0,Slovakia,img_0561,,1,1,0,0
+E7_img_0561_mixed_N2_k1_P5,E7,img_0561,2,1,Suling,img_0622,mis_binding,0,2,Slovakia,img_0561,,1,1,0,1
+E7_img_0561_mixed_N3_k1_P5,E7,img_0561,3,1,Piffero,img_0603,prior_drift,0,0,Slovakia,img_0561,,1,1,0,0
+E7_img_0561_mixed_N4_k1_P5,E7,img_0561,4,1,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0561_mixed_N5_k3_P5,E7,img_0561,5,3,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0628_mixed_N1_k1_P5,E7,img_0628,1,1,Hasapi,img_0574,prior_drift,0,0,Italy,img_0643,prior_drift,0,0,0,0
+E7_img_0628_mixed_N2_k2_P5,E7,img_0628,2,2,Hasapi,img_0574,mis_binding,0,1,Italy,img_0643,prior_drift,0,0,0,0
+E7_img_0628_mixed_N3_k1_P5,E7,img_0628,3,1,Hasapi,img_0574,mis_binding,0,2,Italy,img_0643,prior_drift,0,0,0,0
+E7_img_0628_mixed_N4_k4_P5,E7,img_0628,4,4,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0628_mixed_N5_k1_P5,E7,img_0628,5,1,Hasapi,img_0574,mis_binding,0,2,Italy,img_0643,mis_binding,0,5,0,1
+E7_img_0629_mixed_N1_k1_P5,E7,img_0629,1,1,Teponaztli,img_0629,,1,1,Mexico,img_0629,,1,1,1,0
+E7_img_0629_mixed_N2_k1_P5,E7,img_0629,2,1,Teponaztli,img_0629,,1,1,Mexico,img_0629,,1,1,1,0
+E7_img_0629_mixed_N3_k1_P5,E7,img_0629,3,1,Trikiti,img_0632,prior_drift,0,0,Mexico,img_0629,,1,1,0,0
+E7_img_0629_mixed_N4_k3_P5,E7,img_0629,4,3,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0629_mixed_N5_k4_P5,E7,img_0629,5,4,Pattala,img_0601,mis_binding,0,3,Mexico,img_0629,,1,4,0,1
+E7_img_0575_mixed_N1_k1_P5,E7,img_0575,1,1,Hne,img_0575,,1,1,Ukraine,img_0636,prior_drift,0,0,0,0
+E7_img_0575_mixed_N2_k2_P5,E7,img_0575,2,2,Tsymbaly,img_0636,prior_drift,0,0,Ukraine,img_0636,prior_drift,0,0,0,0
+E7_img_0575_mixed_N3_k1_P5,E7,img_0575,3,1,Tsymbaly,img_0636,prior_drift,0,0,Ukraine,img_0636,prior_drift,0,0,0,0
+E7_img_0575_mixed_N4_k2_P5,E7,img_0575,4,2,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0575_mixed_N5_k2_P5,E7,img_0575,5,2,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0606_mixed_N1_k1_P5,E7,img_0606,1,1,Qanbūs,img_0606,,1,1,Yemen,img_0606,,1,1,1,0
+E7_img_0606_mixed_N2_k1_P5,E7,img_0606,2,1,Qanbūs,img_0606,,1,1,Yemen,img_0606,,1,1,1,0
+E7_img_0606_mixed_N3_k1_P5,E7,img_0606,3,1,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0606_mixed_N4_k1_P5,E7,img_0606,4,1,,,format_error,0,0,Australia,img_0556,mis_binding,0,3,0,0
+E7_img_0606_mixed_N5_k5_P5,E7,img_0606,5,5,Qanbūs,img_0606,,1,5,Yemen,img_0606,,1,5,1,0
+E7_img_0558_mixed_N1_k1_P5,E7,img_0558,1,1,Fujara,img_0561,prior_drift,0,0,Slovakia,img_0561,prior_drift,0,0,0,0
+E7_img_0558_mixed_N2_k2_P5,E7,img_0558,2,2,Lingm,img_0590,prior_drift,0,0,China,img_0619,prior_drift,0,0,0,0
+E7_img_0558_mixed_N3_k1_P5,E7,img_0558,3,1,Fujara,img_0561,mis_binding,0,2,Slovakia,img_0561,mis_binding,0,2,0,0
+E7_img_0558_mixed_N4_k4_P5,E7,img_0558,4,4,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0558_mixed_N5_k3_P5,E7,img_0558,5,3,Fujara,img_0561,mis_binding,0,1,Greece,img_0626,mis_binding,0,2,0,1
+E7_img_0625_mixed_N1_k1_P5,E7,img_0625,1,1,Tabla,img_0625,,1,1,India,img_0625,,1,1,1,0
+E7_img_0625_mixed_N2_k1_P5,E7,img_0625,2,1,Tabla,img_0625,,1,1,Azerbaijan,img_0597,prior_drift,0,0,0,0
+E7_img_0625_mixed_N3_k1_P5,E7,img_0625,3,1,Tabla,img_0625,,1,1,India,img_0625,,1,1,1,0
+E7_img_0625_mixed_N4_k3_P5,E7,img_0625,4,3,Tabla,img_0625,,1,3,India,img_0625,,1,3,1,0
+E7_img_0625_mixed_N5_k1_P5,E7,img_0625,5,1,Tabla,img_0625,,1,1,India,img_0625,,1,1,1,0
+E7_img_0572_mixed_N1_k1_P5,E7,img_0572,1,1,Guzheng,img_0572,,1,1,China,img_0572,,1,1,1,0
+E7_img_0572_mixed_N2_k2_P5,E7,img_0572,2,2,Masenqo,img_0593,prior_drift,0,0,China,img_0572,,1,2,0,0
+E7_img_0572_mixed_N3_k1_P5,E7,img_0572,3,1,Guzheng,img_0572,,1,1,China,img_0572,,1,1,1,0
+E7_img_0572_mixed_N4_k2_P5,E7,img_0572,4,2,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0572_mixed_N5_k4_P5,E7,img_0572,5,4,Masenqo,img_0593,mis_binding,0,5,China,img_0572,,1,4,0,1
+E7_img_0543_mixed_N1_k1_P5,E7,img_0543,1,1,Bandura,img_0543,,1,1,Ukraine,img_0543,,1,1,1,0
+E7_img_0543_mixed_N2_k1_P5,E7,img_0543,2,1,Bandura,img_0543,,1,1,Ukraine,img_0543,,1,1,1,0
+E7_img_0543_mixed_N3_k1_P5,E7,img_0543,3,1,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0543_mixed_N4_k1_P5,E7,img_0543,4,1,Bandura,img_0543,,1,1,Ukraine,img_0543,,1,1,1,0
+E7_img_0543_mixed_N5_k2_P5,E7,img_0543,5,2,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0621_mixed_N1_k1_P5,E7,img_0621,1,1,Steelpan,img_0621,,1,1,Trinidad and Tobago,img_0621,,1,1,1,0
+E7_img_0621_mixed_N2_k2_P5,E7,img_0621,2,2,Steelpan,img_0621,,1,2,Trinidad and Tobago,img_0621,,1,2,1,0
+E7_img_0621_mixed_N3_k1_P5,E7,img_0621,3,1,Steelpan,img_0621,,1,1,Trinidad and Tobago,img_0621,,1,1,1,0
+E7_img_0621_mixed_N4_k4_P5,E7,img_0621,4,4,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0621_mixed_N5_k5_P5,E7,img_0621,5,5,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0724_mixed_N1_k1_P5,E7,img_0724,1,1,Göbekli Tepe,img_0724,,1,1,Turkey,img_0724,,1,1,1,0
+E7_img_0724_mixed_N2_k1_P5,E7,img_0724,2,1,Göbekli Tepe,img_0724,,1,1,Turkey,img_0724,,1,1,1,0
+E7_img_0724_mixed_N3_k1_P5,E7,img_0724,3,1,Göbekli Tepe,img_0724,,1,1,Turkey,img_0724,,1,1,1,0
+E7_img_0724_mixed_N4_k1_P5,E7,img_0724,4,1,Göbekli Tepe,img_0724,,1,1,Turkey,img_0724,,1,1,1,0
+E7_img_0724_mixed_N5_k1_P5,E7,img_0724,5,1,Göbekli Tepe,img_0724,,1,1,Turkey,img_0724,,1,1,1,0
+E7_img_0780_mixed_N1_k1_P5,E7,img_0780,1,1,Mosque-Cathedral of Cordoba,img_0780,,1,1,Spain,img_0780,,1,1,1,0
+E7_img_0780_mixed_N2_k2_P5,E7,img_0780,2,2,Mosque-Cathedral of Cordoba,img_0780,,1,2,Spain,img_0780,,1,2,1,0
+E7_img_0780_mixed_N3_k1_P5,E7,img_0780,3,1,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0780_mixed_N4_k4_P5,E7,img_0780,4,4,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0780_mixed_N5_k4_P5,E7,img_0780,5,4,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0858_mixed_N1_k1_P5,E7,img_0858,1,1,Takht-e Soleyman,img_0858,,1,1,Iran,img_0858,,1,1,1,0
+E7_img_0858_mixed_N2_k1_P5,E7,img_0858,2,1,Takht-e Soleyman,img_0858,,1,1,Iran,img_0858,,1,1,1,0
+E7_img_0858_mixed_N3_k1_P5,E7,img_0858,3,1,Takht-e Soleyman,img_0858,,1,1,Iran,img_0858,,1,1,1,0
+E7_img_0858_mixed_N4_k3_P5,E7,img_0858,4,3,Takht-e Soleyman,img_0858,,1,3,Iran,img_0858,,1,3,1,0
+E7_img_0858_mixed_N5_k2_P5,E7,img_0858,5,2,Visoki Dečani,img_0882,mis_binding,0,4,Ethiopia,img_0779,mis_binding,0,3,0,1
+E7_img_0792_mixed_N1_k1_P5,E7,img_0792,1,1,Palace of Fontainebleau,img_0792,,1,1,France,img_0792,,1,1,1,0
+E7_img_0792_mixed_N2_k2_P5,E7,img_0792,2,2,Trinity Lavra of St. Sergius,img_0877,mis_binding,0,1,France,img_0792,,1,2,0,1
+E7_img_0792_mixed_N3_k1_P5,E7,img_0792,3,1,Palace of Fontainebleau,img_0792,,1,1,France,img_0792,,1,1,1,0
+E7_img_0792_mixed_N4_k2_P5,E7,img_0792,4,2,Palace of Fontainebleau,img_0792,,1,2,France,img_0792,,1,2,1,0
+E7_img_0792_mixed_N5_k5_P5,E7,img_0792,5,5,Palace of Fontainebleau,img_0792,,1,5,France,img_0792,,1,5,1,0
+E7_img_0879_mixed_N1_k1_P5,E7,img_0879,1,1,Urnes Stave Church,img_0879,,1,1,Norway,img_0879,,1,1,1,0
+E7_img_0879_mixed_N2_k1_P5,E7,img_0879,2,1,Urnes Stave Church,img_0879,,1,1,Norway,img_0879,,1,1,1,0
+E7_img_0879_mixed_N3_k1_P5,E7,img_0879,3,1,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0879_mixed_N4_k1_P5,E7,img_0879,4,1,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0879_mixed_N5_k3_P5,E7,img_0879,5,3,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0654_mixed_N1_k1_P5,E7,img_0654,1,1,Agra Fort,img_0654,,1,1,India,img_0654,,1,1,1,0
+E7_img_0654_mixed_N2_k2_P5,E7,img_0654,2,2,Agra Fort,img_0654,,1,2,India,img_0654,,1,2,1,0
+E7_img_0654_mixed_N3_k1_P5,E7,img_0654,3,1,Agra Fort,img_0654,,1,1,India,img_0654,,1,1,1,0
+E7_img_0654_mixed_N4_k4_P5,E7,img_0654,4,4,Agra Fort,img_0654,,1,4,India,img_0654,,1,4,1,0
+E7_img_0654_mixed_N5_k1_P5,E7,img_0654,5,1,Agra Fort,img_0654,,1,1,India,img_0654,,1,1,1,0
+E7_img_0866_mixed_N1_k1_P5,E7,img_0866,1,1,Teotihuacan,img_0866,,1,1,Mexico,img_0866,,1,1,1,0
+E7_img_0866_mixed_N2_k1_P5,E7,img_0866,2,1,Teotihuacan,img_0866,,1,1,Mexico,img_0866,,1,1,1,0
+E7_img_0866_mixed_N3_k1_P5,E7,img_0866,3,1,Teotihuacan,img_0866,,1,1,Mexico,img_0866,,1,1,1,0
+E7_img_0866_mixed_N4_k3_P5,E7,img_0866,4,3,Teotihuacan,img_0866,,1,3,Mexico,img_0866,,1,3,1,0
+E7_img_0866_mixed_N5_k4_P5,E7,img_0866,5,4,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0770_mixed_N1_k1_P5,E7,img_0770,1,1,Masada,img_0770,,1,1,Israel,img_0770,,1,1,1,0
+E7_img_0770_mixed_N2_k2_P5,E7,img_0770,2,2,Jongmyo,img_0747,mis_binding,0,1,Israel,img_0770,,1,2,0,1
+E7_img_0770_mixed_N3_k1_P5,E7,img_0770,3,1,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0770_mixed_N4_k2_P5,E7,img_0770,4,2,Drottningholm Palace,img_0711,mis_binding,0,3,Israel,img_0770,,1,2,0,1
+E7_img_0770_mixed_N5_k2_P5,E7,img_0770,5,2,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0690_mixed_N1_k1_P5,E7,img_0690,1,1,Chhatrapati Shivaji Maharaj Terminus,img_0690,,1,1,India,img_0690,,1,1,1,0
+E7_img_0690_mixed_N2_k1_P5,E7,img_0690,2,1,Chhatrapati Shivaji Maharaj Terminus,img_0690,,1,1,India,img_0690,,1,1,1,0
+E7_img_0690_mixed_N3_k1_P5,E7,img_0690,3,1,Chhatrapati Shivaji Maharaj Terminus,img_0690,,1,1,India,img_0690,,1,1,1,0
+E7_img_0690_mixed_N4_k1_P5,E7,img_0690,4,1,Chhatrapati Shivaji Maharaj Terminus,img_0690,,1,1,India,img_0690,,1,1,1,0
+E7_img_0690_mixed_N5_k5_P5,E7,img_0690,5,5,Chhatrapati Shivaji Maharaj Terminus,img_0690,,1,5,India,img_0690,,1,5,1,0
+E7_img_0653_mixed_N1_k1_P5,E7,img_0653,1,1,Acropolis of Athens,img_0653,,1,1,Greece,img_0653,,1,1,1,0
+E7_img_0653_mixed_N2_k2_P5,E7,img_0653,2,2,Acropolis of Athens,img_0653,,1,2,Greece,img_0653,,1,2,1,0
+E7_img_0653_mixed_N3_k1_P5,E7,img_0653,3,1,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0653_mixed_N4_k4_P5,E7,img_0653,4,4,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0653_mixed_N5_k3_P5,E7,img_0653,5,3,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0809_mixed_N1_k1_P5,E7,img_0809,1,1,Preah Vihear Temple,img_0809,,1,1,Cambodia,img_0809,,1,1,1,0
+E7_img_0809_mixed_N2_k1_P5,E7,img_0809,2,1,Preah Vihear Temple,img_0809,,1,1,Cambodia,img_0809,,1,1,1,0
+E7_img_0809_mixed_N3_k1_P5,E7,img_0809,3,1,Preah Vihear Temple,img_0809,,1,1,Cambodia,img_0809,,1,1,1,0
+E7_img_0809_mixed_N4_k3_P5,E7,img_0809,4,3,Gelati Monastery,img_0722,mis_binding,0,2,Cambodia,img_0809,,1,3,0,1
+E7_img_0809_mixed_N5_k1_P5,E7,img_0809,5,1,Preah Vihear Temple,img_0809,,1,1,Cambodia,img_0809,,1,1,1,0
+E7_img_0854_mixed_N1_k1_P5,E7,img_0854,1,1,Sydney Opera House,img_0854,,1,1,Australia,img_0854,,1,1,1,0
+E7_img_0854_mixed_N2_k2_P5,E7,img_0854,2,2,Sydney Opera House,img_0854,,1,2,Australia,img_0854,,1,2,1,0
+E7_img_0854_mixed_N3_k1_P5,E7,img_0854,3,1,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0854_mixed_N4_k2_P5,E7,img_0854,4,2,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0854_mixed_N5_k4_P5,E7,img_0854,5,4,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0676_mixed_N1_k1_P5,E7,img_0676,1,1,Burgos Cathedral,img_0676,,1,1,Spain,img_0676,,1,1,1,0
+E7_img_0676_mixed_N2_k1_P5,E7,img_0676,2,1,Burgos Cathedral,img_0676,,1,1,Spain,img_0676,,1,1,1,0
+E7_img_0676_mixed_N3_k1_P5,E7,img_0676,3,1,Burgos Cathedral,img_0676,,1,1,Spain,img_0676,,1,1,1,0
+E7_img_0676_mixed_N4_k1_P5,E7,img_0676,4,1,Burgos Cathedral,img_0676,,1,1,Spain,img_0676,,1,1,1,0
+E7_img_0676_mixed_N5_k2_P5,E7,img_0676,5,2,Notre-Dame de Chartres,img_0789,mis_binding,0,3,France,img_0789,mis_binding,0,3,0,0
+E7_img_0655_mixed_N1_k1_P5,E7,img_0655,1,1,Aït Benhaddou,img_0655,,1,1,Morocco,img_0655,,1,1,1,0
+E7_img_0655_mixed_N2_k2_P5,E7,img_0655,2,2,Aït Benhaddou,img_0655,,1,2,Morocco,img_0655,,1,2,1,0
+E7_img_0655_mixed_N3_k1_P5,E7,img_0655,3,1,Aït Benhaddou,img_0655,,1,1,Morocco,img_0655,,1,1,1,0
+E7_img_0655_mixed_N4_k4_P5,E7,img_0655,4,4,Aït Benhaddou,img_0655,,1,4,Morocco,img_0655,,1,4,1,0
+E7_img_0655_mixed_N5_k5_P5,E7,img_0655,5,5,Aït Benhaddou,img_0655,,1,5,Morocco,img_0655,,1,5,1,0
+E7_img_0024_mixed_N1_k1_P5,E7,img_0024,1,1,Áo dài,img_0003,prior_drift,0,0,Pakistan,img_0064,prior_drift,0,0,0,0
+E7_img_0024_mixed_N2_k1_P5,E7,img_0024,2,1,Peshawari chappal,img_0064,prior_drift,0,0,Pakistan,img_0064,prior_drift,0,0,0,0
+E7_img_0024_mixed_N3_k1_P5,E7,img_0024,3,1,Peshawari chappal,img_0064,prior_drift,0,0,Pakistan,img_0064,prior_drift,0,0,0,0
+E7_img_0024_mixed_N4_k1_P5,E7,img_0024,4,1,Peshawari chappal,img_0064,prior_drift,0,0,Pakistan,img_0064,prior_drift,0,0,0,0
+E7_img_0024_mixed_N5_k1_P5,E7,img_0024,5,1,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0086_mixed_N1_k1_P5,E7,img_0086,1,1,Yashmak,img_0086,,1,1,Russia,img_0085,prior_drift,0,0,0,0
+E7_img_0086_mixed_N2_k2_P5,E7,img_0086,2,2,Yashmak,img_0086,,1,2,Turkey,img_0086,,1,2,1,0
+E7_img_0086_mixed_N3_k1_P5,E7,img_0086,3,1,Yashmak,img_0086,,1,1,Turkey,img_0086,,1,1,1,0
+E7_img_0086_mixed_N4_k4_P5,E7,img_0086,4,4,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0086_mixed_N5_k4_P5,E7,img_0086,5,4,Yashmak,img_0086,,1,4,Turkey,img_0086,,1,4,1,0
+E7_img_0026_mixed_N1_k1_P5,E7,img_0026,1,1,Fundoshi,img_0026,,1,1,Japan,img_0026,,1,1,1,0
+E7_img_0026_mixed_N2_k1_P5,E7,img_0026,2,1,Fundoshi,img_0026,,1,1,Japan,img_0026,,1,1,1,0
+E7_img_0026_mixed_N3_k1_P5,E7,img_0026,3,1,Fundoshi,img_0026,,1,1,Japan,img_0026,,1,1,1,0
+E7_img_0026_mixed_N4_k3_P5,E7,img_0026,4,3,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0026_mixed_N5_k2_P5,E7,img_0026,5,2,Fundoshi,img_0026,,1,2,Japan,img_0026,,1,2,1,0
+E7_img_0085_mixed_N1_k1_P5,E7,img_0085,1,1,Ushanka,img_0085,,1,1,Russia,img_0085,,1,1,1,0
+E7_img_0085_mixed_N2_k2_P5,E7,img_0085,2,2,Ushanka,img_0085,,1,2,Russia,img_0085,,1,2,1,0
+E7_img_0085_mixed_N3_k1_P5,E7,img_0085,3,1,Ushanka,img_0085,,1,1,Russia,img_0085,,1,1,1,0
+E7_img_0085_mixed_N4_k2_P5,E7,img_0085,4,2,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0085_mixed_N5_k5_P5,E7,img_0085,5,5,Ushanka,img_0085,,1,5,Russia,img_0085,,1,5,1,0
+E7_img_0027_mixed_N1_k1_P5,E7,img_0027,1,1,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0027_mixed_N2_k1_P5,E7,img_0027,2,1,Gakuran,img_0027,,1,1,Japan,img_0027,,1,1,1,0
+E7_img_0027_mixed_N3_k1_P5,E7,img_0027,3,1,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0027_mixed_N4_k1_P5,E7,img_0027,4,1,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0027_mixed_N5_k3_P5,E7,img_0027,5,3,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0002_mixed_N1_k1_P5,E7,img_0002,1,1,Perizoma,img_0063,prior_drift,0,0,Vietnam,img_0002,,1,1,0,0
+E7_img_0002_mixed_N2_k2_P5,E7,img_0002,2,2,Perizoma,img_0063,prior_drift,0,0,Vietnam,img_0002,,1,2,0,0
+E7_img_0002_mixed_N3_k1_P5,E7,img_0002,3,1,Ulos,img_0084,mis_binding,0,2,Indonesia,img_0084,mis_binding,0,2,0,0
+E7_img_0002_mixed_N4_k4_P5,E7,img_0002,4,4,Birke topi,img_0009,mis_binding,0,2,Vietnam,img_0002,,1,4,0,1
+E7_img_0002_mixed_N5_k1_P5,E7,img_0002,5,1,Perizoma,img_0063,mis_binding,0,5,Vietnam,img_0002,,1,1,0,1
+E7_img_0001_mixed_N1_k1_P5,E7,img_0001,1,1,Abarka,img_0001,,1,1,Bhutan,img_0044,prior_drift,0,0,0,0
+E7_img_0001_mixed_N2_k1_P5,E7,img_0001,2,1,Abarka,img_0001,,1,1,Bhutan,img_0044,mis_binding,0,2,0,1
+E7_img_0001_mixed_N3_k1_P5,E7,img_0001,3,1,Abarka,img_0001,,1,1,Bhutan,img_0044,mis_binding,0,2,0,1
+E7_img_0001_mixed_N4_k3_P5,E7,img_0001,4,3,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0001_mixed_N5_k4_P5,E7,img_0001,5,4,Abarka,img_0001,,1,4,Bhutan,img_0044,mis_binding,0,1,0,1
+E7_img_0028_mixed_N1_k1_P5,E7,img_0028,1,1,Bäckadräkten,img_0006,prior_drift,0,0,Algeria,img_0028,,1,1,0,0
+E7_img_0028_mixed_N2_k2_P5,E7,img_0028,2,2,Bäckadräkten,img_0006,mis_binding,0,1,Algeria,img_0028,,1,2,0,1
+E7_img_0028_mixed_N3_k1_P5,E7,img_0028,3,1,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0028_mixed_N4_k2_P5,E7,img_0028,4,2,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0028_mixed_N5_k2_P5,E7,img_0028,5,2,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0022_mixed_N1_k1_P5,E7,img_0022,1,1,Dhaka topi,img_0022,,1,1,Nepal,img_0022,,1,1,1,0
+E7_img_0022_mixed_N2_k1_P5,E7,img_0022,2,1,Dhaka topi,img_0022,,1,1,Nepal,img_0022,,1,1,1,0
+E7_img_0022_mixed_N3_k1_P5,E7,img_0022,3,1,Dhaka topi,img_0022,,1,1,Nepal,img_0022,,1,1,1,0
+E7_img_0022_mixed_N4_k1_P5,E7,img_0022,4,1,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0022_mixed_N5_k5_P5,E7,img_0022,5,5,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0005_mixed_N1_k1_P5,E7,img_0005,1,1,Avarca,img_0005,,1,1,Spain,img_0005,,1,1,1,0
+E7_img_0005_mixed_N2_k2_P5,E7,img_0005,2,2,Avarca,img_0005,,1,2,Spain,img_0005,,1,2,1,0
+E7_img_0005_mixed_N3_k1_P5,E7,img_0005,3,1,Avarca,img_0005,,1,1,Spain,img_0005,,1,1,1,0
+E7_img_0005_mixed_N4_k4_P5,E7,img_0005,4,4,Avarca,img_0005,,1,4,Spain,img_0005,,1,4,1,0
+E7_img_0005_mixed_N5_k3_P5,E7,img_0005,5,3,Avarca,img_0005,,1,3,Nepal,img_0021,mis_binding,0,5,0,1
+E7_img_0051_mixed_N1_k1_P5,E7,img_0051,1,1,Mexican pointy boot,img_0051,,1,1,Mexico,img_0051,,1,1,1,0
+E7_img_0051_mixed_N2_k1_P5,E7,img_0051,2,1,Mexican pointy boot,img_0051,,1,1,Mexico,img_0051,,1,1,1,0
+E7_img_0051_mixed_N3_k1_P5,E7,img_0051,3,1,Mexican pointy boot,img_0051,,1,1,Mexico,img_0051,,1,1,1,0
+E7_img_0051_mixed_N4_k3_P5,E7,img_0051,4,3,Sari,img_0071,mis_binding,0,1,India,img_0071,mis_binding,0,1,0,0
+E7_img_0051_mixed_N5_k1_P5,E7,img_0051,5,1,Mexican pointy boot,img_0051,,1,1,Mexico,img_0051,,1,1,1,0
+E7_img_0036_mixed_N1_k1_P5,E7,img_0036,1,1,Isiagu attire,img_0036,,1,1,Nigeria,img_0036,,1,1,1,0
+E7_img_0036_mixed_N2_k2_P5,E7,img_0036,2,2,Isiagu attire,img_0036,,1,2,Nigeria,img_0036,,1,2,1,0
+E7_img_0036_mixed_N3_k1_P5,E7,img_0036,3,1,Isiagu attire,img_0036,,1,1,Nigeria,img_0036,,1,1,1,0
+E7_img_0036_mixed_N4_k2_P5,E7,img_0036,4,2,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0036_mixed_N5_k4_P5,E7,img_0036,5,4,Traje de flamenca,img_0081,mis_binding,0,3,Nigeria,img_0036,,1,4,0,1
+E7_img_0070_mixed_N1_k1_P5,E7,img_0070,1,1,Sambalpuri saree,img_0070,,1,1,Indonesia,img_0010,prior_drift,0,0,0,0
+E7_img_0070_mixed_N2_k1_P5,E7,img_0070,2,1,Sambalpuri saree,img_0070,,1,1,India,img_0070,,1,1,1,0
+E7_img_0070_mixed_N3_k1_P5,E7,img_0070,3,1,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0070_mixed_N4_k1_P5,E7,img_0070,4,1,Sambalpuri saree,img_0070,,1,1,India,img_0070,,1,1,1,0
+E7_img_0070_mixed_N5_k2_P5,E7,img_0070,5,2,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0014_mixed_N1_k1_P5,E7,img_0014,1,1,Bunad,img_0014,,1,1,Norway,img_0014,,1,1,1,0
+E7_img_0014_mixed_N2_k2_P5,E7,img_0014,2,2,Bunad,img_0014,,1,2,Norway,img_0014,,1,2,1,0
+E7_img_0014_mixed_N3_k1_P5,E7,img_0014,3,1,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0014_mixed_N4_k4_P5,E7,img_0014,4,4,,,format_error,0,0,,,format_error,0,0,0,0
+E7_img_0014_mixed_N5_k5_P5,E7,img_0014,5,5,,,format_error,0,0,,,format_error,0,0,0,0

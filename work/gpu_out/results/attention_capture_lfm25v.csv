@@ -1,0 +1,3 @@
+model,mode,N,mis_binding_fields,share_argmax_is_named,chance,lo,hi,verdict
+lfm25v,mc,5,783,0.2247765006385696,0.2,0.17950577200577197,0.28581221440596427,no attentional capture
+lfm25v,open,5,21,0.047619047619047616,0.2,0.0,0.42857142857142855,no attentional capture

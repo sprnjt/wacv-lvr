@@ -1,0 +1,48 @@
+Loading weights:   0%|          | 0/883 [00:00<?, ?it/s]Loading weights:   0%|          | 3/883 [00:00<00:30, 28.63it/s]Loading weights:   2%|▏         | 17/883 [00:00<00:09, 86.83it/s]Loading weights:   3%|▎         | 29/883 [00:00<00:08, 98.36it/s]Loading weights:   6%|▌         | 55/883 [00:00<00:05, 156.13it/s]Loading weights:   9%|▊         | 77/883 [00:00<00:04, 177.06it/s]Loading weights:  11%|█         | 95/883 [00:00<00:04, 177.89it/s]Loading weights:  14%|█▎        | 120/883 [00:00<00:03, 196.08it/s]Loading weights:  16%|█▌        | 143/883 [00:00<00:03, 205.63it/s]Loading weights:  19%|█▊        | 164/883 [00:00<00:03, 199.72it/s]Loading weights:  21%|██        | 186/883 [00:01<00:03, 205.33it/s]Loading weights:  24%|██▍       | 211/883 [00:01<00:03, 217.15it/s]Loading weights:  26%|██▋       | 233/883 [00:01<00:03, 176.70it/s]Loading weights:  29%|██▊       | 252/883 [00:01<00:03, 175.99it/s]Loading weights:  31%|███▏      | 277/883 [00:01<00:03, 194.91it/s]Loading weights:  34%|███▍      | 303/883 [00:01<00:02, 210.48it/s]Loading weights:  37%|███▋      | 328/883 [00:01<00:02, 220.51it/s]Loading weights:  40%|███▉      | 351/883 [00:01<00:02, 217.92it/s]Loading weights:  42%|████▏     | 374/883 [00:01<00:02, 213.58it/s]Loading weights:  45%|████▍     | 396/883 [00:02<00:02, 201.43it/s]Loading weights:  48%|████▊     | 420/883 [00:02<00:02, 209.77it/s]Loading weights:  50%|█████     | 442/883 [00:02<00:02, 189.48it/s]Loading weights:  60%|█████▉    | 528/883 [00:02<00:00, 363.10it/s]Loading weights:  69%|██████▉   | 609/883 [00:02<00:00, 482.25it/s]Loading weights:  79%|███████▉  | 697/883 [00:02<00:00, 591.75it/s]Loading weights:  90%|████████▉ | 793/883 [00:02<00:00, 691.72it/s]Loading weights: 100%|██████████| 883/883 [00:02<00:00, 310.24it/s]
+0/640 trials
+100/640 trials
+200/640 trials
+300/640 trials
+400/640 trials
+500/640 trials
+600/640 trials
+wrote raw_gemma3_4b_collage.jsonl
+acc    solo                                 item           n=160  0.700 [0.631, 0.769]
+acc    solo                                 country        n=160  0.594 [0.519, 0.669]
+acc    solo                                 joint          n=160  0.487 [0.412, 0.556]
+acc    solo                                 format_errors  n=160  0.000
+acc    separate                             item           n=160  0.662 [0.581, 0.731]
+acc    separate                             country        n=160  0.700 [0.625, 0.762]
+acc    separate                             joint          n=160  0.519 [0.444, 0.594]
+acc    separate                             format_errors  n=160  0.000
+icr    separate                             icr            n=77   0.416  (n = wrong joint answers)
+icr    separate                             icr_baseline   n=77   0.478
+acc    collage_pos                          item           n=160  0.494 [0.419, 0.569]
+acc    collage_pos                          country        n=160  0.375 [0.306, 0.444]
+acc    collage_pos                          joint          n=160  0.269 [0.200, 0.338]
+acc    collage_pos                          format_errors  n=160  0.000
+icr    collage_pos                          icr            n=117  0.581  (n = wrong joint answers)
+icr    collage_pos                          icr_baseline   n=117  0.614
+acc    collage_kind                         item           n=160  0.606 [0.531, 0.681]  (C4 item/joint solvable by kind: use country and ICR)
+acc    collage_kind                         country        n=160  0.381 [0.312, 0.456]
+acc    collage_kind                         joint          n=160  0.319 [0.250, 0.388]  (C4 item/joint solvable by kind: use country and ICR)
+acc    collage_kind                         format_errors  n=160  0.000
+icr    collage_kind                         icr            n=109  0.596  (n = wrong joint answers)
+icr    collage_kind                         icr_baseline   n=109  0.635
+delta  C3-C2 collage_pos-separate           item           n=160  -0.169 [-0.250, -0.087]
+delta  C3-C2 collage_pos-separate           country        n=160  -0.325 [-0.406, -0.244]
+delta  C3-C2 collage_pos-separate           joint          n=160  -0.250 [-0.331, -0.175]
+delta  C4-C3 collage_kind-collage_pos       item           n=160  0.113 [0.037, 0.188]  (C4 item/joint solvable by kind: use country and ICR)
+delta  C4-C3 collage_kind-collage_pos       country        n=160  0.006 [-0.056, 0.069]
+delta  C4-C3 collage_kind-collage_pos       joint          n=160  0.050 [-0.006, 0.113]  (C4 item/joint solvable by kind: use country and ICR)
+delta  C2-C1 separate-solo                  item           n=160  -0.037 [-0.100, 0.025]
+delta  C2-C1 separate-solo                  country        n=160  0.106 [0.044, 0.175]
+delta  C2-C1 separate-solo                  joint          n=160  0.031 [-0.037, 0.100]
+delta  C3-C1 collage_pos-solo               item           n=160  -0.206 [-0.281, -0.138]
+delta  C3-C1 collage_pos-solo               country        n=160  -0.219 [-0.287, -0.144]
+delta  C3-C1 collage_pos-solo               joint          n=160  -0.219 [-0.294, -0.144]
+delta  C4-C1 collage_kind-solo              item           n=160  -0.094 [-0.169, -0.019]  (C4 item/joint solvable by kind: use country and ICR)
+delta  C4-C1 collage_kind-solo              country        n=160  -0.212 [-0.294, -0.138]
+delta  C4-C1 collage_kind-solo              joint          n=160  -0.169 [-0.250, -0.087]  (C4 item/joint solvable by kind: use country and ICR)
+NOTE: C4 item/joint solvable by kind: use country and ICR
+wrote results/collage_gemma3_4b.csv

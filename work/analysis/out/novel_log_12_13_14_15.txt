@@ -1,0 +1,64 @@
+
+## 12. Regression-to-mean control: retention of N=1-known targets under paraphrase (no images added) vs at N=5
+    model  targets  retention_N1_paraphrase  r_lo  r_hi  retention_N5_P1  retention_N5_paraphrase  r5_lo  r5_hi  excess_loss_N5  ex_lo  ex_hi     p  p_holm
+   gemma4       48                    0.979 0.948   1.0            0.938                    0.969  0.917  1.000           0.010 -0.042  0.073 0.880   1.000
+  qwen3vl       47                    1.000 1.000   1.0            0.949                    0.979  0.936  1.000           0.021  0.000  0.064 0.704   1.000
+ qwen25vl       40                    1.000 1.000   1.0            0.980                    0.975  0.925  1.000           0.025  0.000  0.075 0.742   1.000
+gemma3_4b       35                    0.986 0.957   1.0            0.823                    0.757  0.614  0.886           0.229  0.100  0.371 0.000   0.003
+granite4v       34                    0.985 0.956   1.0            0.612                    0.515  0.353  0.676           0.471  0.309  0.632 0.000   0.003
+   lfm25v       36                    1.000 1.000   1.0            0.617                    0.597  0.444  0.750           0.403  0.250  0.556 0.000   0.003
+
+## 13. Letter copying: country-wrong answers reusing the chosen item letter (null 0.25)
+N              1      2      3      4      5
+model                                       
+gemma3_4b  0.405  0.525  0.491  0.592  0.602
+gemma4     0.312  0.333  0.300  0.100  0.124
+granite4v  0.400  0.380  0.333  0.267  0.339
+lfm25v     0.268  0.271  0.350  0.297  0.361
+qwen25vl   0.100  0.120  0.125  0.130  0.115
+qwen3vl    0.429  0.350  0.389  0.273  0.319
+    model  fields  copy_rate_all     lo     hi  excess_vs_null  p_vs_null  logit_N    p_N  acc_gold_same  acc_gold_diff  targets_gold_same  p_vs_null_holm  p_N_holm
+gemma3_4b     425         0.5600 0.4758 0.6494          0.3100     0.0005   0.1758 0.0070         0.5992         0.4364                 28          0.0030    0.0350
+   gemma4     187         0.1765 0.0757 0.3077         -0.0735     0.2385  -0.3605 0.0019         0.8254         0.8131                 28          0.4770    0.0112
+granite4v     551         0.3394 0.2622 0.4256          0.0894     0.0305  -0.0526 0.3993         0.6228         0.3538                 28          0.0915    1.0000
+   lfm25v     554         0.3375 0.2634 0.4103          0.0875     0.0205   0.1068 0.1742         0.5437         0.3359                 28          0.0820    0.6968
+ qwen25vl     224         0.1161 0.0500 0.1976         -0.1339     0.0025   0.0169 0.8865         0.6548         0.7618                 28          0.0125    1.0000
+  qwen3vl     168         0.3333 0.1850 0.4837          0.0833     0.3105  -0.0973 0.4545         0.8095         0.8030                 28          0.4770    1.0000
+    model  targets  slope_gold_diff      lo      hi
+gemma3_4b      132          -0.0452 -0.0623 -0.0289
+   gemma4      132          -0.0141 -0.0261 -0.0030
+granite4v      110          -0.0538 -0.0737 -0.0349
+   lfm25v      132          -0.0636 -0.0803 -0.0467
+ qwen25vl      132           0.0074 -0.0027  0.0188
+  qwen3vl      132          -0.0053 -0.0162  0.0056
+
+## 14. Position-adjusted attention (z-scored against the same slot when it holds a distractor)
+    model mode  target_lift_z  lift_lo  lift_hi  target_is_max_z  auc_lift  auc_lo  auc_hi
+   gemma4   mc          0.492    0.417    0.566            0.338     0.547   0.498   0.596
+   gemma4 open          3.903    3.723    4.081            0.664     0.501   0.451   0.545
+granite4v   mc          0.734    0.595    0.878            0.390     0.531   0.459   0.603
+granite4v open          4.975    4.770    5.188            0.960     0.816   0.702   0.910
+  qwen3vl   mc          1.532    1.350    1.719            0.574     0.437   0.369   0.508
+  qwen3vl open         10.892   10.563   11.243            0.998     0.545   0.477   0.611
+    model mode  mis_binding_fields  named_is_max_lift    lo    hi  chance     p  named_minus_other_z  dz_lo  dz_hi  p_dz  p_holm  p_dz_holm
+   gemma4   mc                 249              0.325 0.231 0.428    0.25 0.114                0.252 -0.027  0.514 0.078   0.340      0.236
+   gemma4 open                  42              0.167 0.039 0.324    0.25 0.288               -0.365 -0.878  0.150 0.156   0.577      0.313
+granite4v   mc                 747              0.311 0.255 0.367    0.25 0.030                0.200  0.018  0.384 0.034   0.152      0.134
+granite4v open                  39              0.564 0.368 0.759    0.25 0.005                1.179  0.328  2.078 0.008   0.027      0.038
+  qwen3vl   mc                 221              0.253 0.167 0.341    0.25 0.955                0.050 -0.174  0.269 0.689   0.955      0.689
+  qwen3vl open                  46              0.522 0.245 0.816    0.25 0.058                1.335  0.639  2.225 0.000   0.230      0.003
+
+## 15. Same-region attraction in the MIXED list, N=5 MC, pooled (null: uniform over 4 shown distractors)
+models  events  observed  expected  excess      lo     hi      p  rel_risk
+  all6    2837    0.3514    0.2976  0.0538  0.0202 0.0893 0.0015    1.1809
+  <=4B    2130    0.3423    0.2891  0.0532  0.0169 0.0951 0.0055    1.1839
+  >=7B     707    0.3791    0.3232  0.0559 -0.0134 0.1217 0.0985    1.1729
+
+## 15b. Within-model test-retest of per-target cost (P1 vs P2/P3, 56 targets)
+    model  targets  cost_retest_spearman  acc1_retest_spearman
+   gemma4       56                 0.644                 0.905
+  qwen3vl       56                 0.707                 0.933
+ qwen25vl       56                 0.759                 0.991
+gemma3_4b       56                 0.849                 0.986
+granite4v       56                 0.893                 0.987
+   lfm25v       56                 0.888                 0.961

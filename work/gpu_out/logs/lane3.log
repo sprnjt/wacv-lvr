@@ -1,0 +1,20 @@
+=== run_all start Sat Oct 17 18:45:35 UTC 2026  STOP_AFTER=5 MAX_HOURS=11
+[18:45:35] start repro_qwen25vl
+[18:46:31] done  repro_qwen25vl (0 min)
+REPRO qwen25vl: 20/20 replies identical to frozen raw_qwen25vl.jsonl
+[18:46:31] start smoke_E9_qwen25vl
+[18:46:46] done  smoke_E9_qwen25vl (0 min)
+[18:46:46] start check_E9_qwen25vl
+[18:46:46] done  check_E9_qwen25vl (0 min)
+[18:46:46] start E9_qwen25vl
+[18:53:32] done  E9_qwen25vl (6 min)
+[18:53:32] start repro_gemma4
+[18:55:10] done  repro_gemma4 (1 min)
+REPRO gemma4: 20/20 replies identical to frozen raw_gemma4.jsonl
+[18:55:10] start smoke_E9_gemma4
+[18:55:30] done  smoke_E9_gemma4 (0 min)
+[18:55:30] start check_E9_gemma4
+[18:55:31] done  check_E9_gemma4 (0 min)
+[18:55:31] start E9_gemma4
+[19:09:23] done  E9_gemma4 (13 min)
+=== lane end Sat Oct 17 19:09:24 UTC 2026 (23 min)

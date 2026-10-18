@@ -1,0 +1,47 @@
+Loading weights:   0%|          | 0/750 [00:00<?, ?it/s]Loading weights:   0%|          | 1/750 [00:00<01:47,  6.97it/s]Loading weights:   0%|          | 2/750 [00:00<02:13,  5.59it/s]Loading weights:   2%|▏         | 16/750 [00:00<00:16, 45.13it/s]Loading weights:   4%|▎         | 28/750 [00:00<00:11, 62.90it/s]Loading weights:   5%|▌         | 39/750 [00:00<00:09, 75.10it/s]Loading weights:   7%|▋         | 50/750 [00:00<00:08, 81.77it/s]Loading weights:   8%|▊         | 61/750 [00:00<00:07, 87.75it/s]Loading weights:  10%|▉         | 72/750 [00:01<00:07, 93.52it/s]Loading weights:  12%|█▏        | 87/750 [00:01<00:06, 107.78it/s]Loading weights:  13%|█▎        | 99/750 [00:01<00:06, 105.47it/s]Loading weights:  15%|█▍        | 111/750 [00:01<00:05, 107.93it/s]Loading weights:  16%|█▋        | 123/750 [00:01<00:05, 111.25it/s]Loading weights:  18%|█▊        | 135/750 [00:01<00:05, 113.04it/s]Loading weights:  20%|█▉        | 147/750 [00:01<00:05, 106.69it/s]Loading weights:  21%|██        | 158/750 [00:01<00:05, 104.10it/s]Loading weights:  23%|██▎       | 169/750 [00:01<00:05, 102.52it/s]Loading weights:  24%|██▍       | 180/750 [00:02<00:06, 91.19it/s] Loading weights:  26%|██▌       | 192/750 [00:02<00:05, 93.74it/s]Loading weights:  27%|██▋       | 203/750 [00:02<00:05, 92.73it/s]Loading weights:  29%|██▊       | 214/750 [00:02<00:05, 91.68it/s]Loading weights:  30%|███       | 225/750 [00:02<00:05, 91.01it/s]Loading weights:  31%|███▏      | 236/750 [00:02<00:05, 91.16it/s]Loading weights:  33%|███▎      | 247/750 [00:02<00:05, 89.82it/s]Loading weights:  34%|███▍      | 258/750 [00:02<00:05, 89.68it/s]Loading weights:  36%|███▌      | 269/750 [00:03<00:05, 89.37it/s]Loading weights:  37%|███▋      | 280/750 [00:03<00:05, 89.51it/s]Loading weights:  39%|███▉      | 291/750 [00:03<00:05, 89.59it/s]Loading weights:  40%|████      | 302/750 [00:03<00:04, 89.66it/s]Loading weights:  42%|████▏     | 313/750 [00:03<00:04, 89.34it/s]Loading weights:  43%|████▎     | 324/750 [00:03<00:04, 89.57it/s]Loading weights:  45%|████▍     | 335/750 [00:03<00:04, 89.54it/s]Loading weights:  46%|████▌     | 346/750 [00:03<00:04, 89.80it/s]Loading weights:  48%|████▊     | 357/750 [00:04<00:04, 89.96it/s]Loading weights:  49%|████▉     | 368/750 [00:04<00:04, 90.00it/s]Loading weights:  51%|█████     | 379/750 [00:04<00:04, 89.50it/s]Loading weights:  52%|█████▏    | 390/750 [00:04<00:04, 83.74it/s]Loading weights:  64%|██████▎   | 477/750 [00:04<00:00, 276.76it/s]Loading weights:  77%|███████▋  | 577/750 [00:04<00:00, 464.49it/s]Loading weights:  91%|█████████ | 683/750 [00:04<00:00, 620.51it/s]Loading weights: 100%|██████████| 750/750 [00:04<00:00, 153.91it/s]
+auto-selected layers: 3,11,19,26,34
+3/74 cases (23.0s)
+4/74 cases (21.0s)
+5/74 cases (22.6s)
+6/74 cases (24.1s)
+8/74 cases (29.0s)
+9/74 cases (39.6s)
+10/74 cases (41.8s)
+11/74 cases (45.5s)
+12/74 cases (43.2s)
+14/74 cases (47.1s)
+15/74 cases (45.5s)
+17/74 cases (45.3s)
+19/74 cases (44.4s)
+20/74 cases (41.1s)
+23/74 cases (39.8s)
+26/74 cases (41.7s)
+27/74 cases (37.6s)
+28/74 cases (44.4s)
+30/74 cases (41.6s)
+31/74 cases (42.0s)
+32/74 cases (29.2s)
+33/74 cases (21.5s)
+34/74 cases (25.9s)
+36/74 cases (42.0s)
+37/74 cases (41.6s)
+38/74 cases (41.9s)
+39/74 cases (41.6s)
+40/74 cases (43.6s)
+41/74 cases (43.0s)
+42/74 cases (42.8s)
+43/74 cases (43.8s)
+44/74 cases (46.7s)
+45/74 cases (43.4s)
+50/74 cases (44.4s)
+51/74 cases (43.7s)
+52/74 cases (43.8s)
+56/74 cases (42.8s)
+57/74 cases (40.3s)
+59/74 cases (44.1s)
+60/74 cases (38.0s)
+69/74 cases (39.4s)
+70/74 cases (35.9s)
+73/74 cases (41.8s)
+74/74 cases (42.8s)
+wrote causal_qwen3vl.jsonl

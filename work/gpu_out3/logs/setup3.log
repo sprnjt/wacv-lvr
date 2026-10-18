@@ -1,0 +1,13 @@
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+WARNING: Running pip as the 'root' user can result in broken permissions and conflicting behaviour with the system package manager, possibly rendering your system unusable. It is recommended to use a virtual environment instead: https://pip.pypa.io/warnings/venv. Use the --root-user-action option if you know what you are doing and want to suppress this warning.
+torch 2.9.1+cu128 cuda 12.8 | NVIDIA A40 | transformers 5.20.1
+dataset matches frozen data/pool.csv + lists.json
+SELFTEST OK
+prepared 890 images, 0 missing
+wrote 1080 trials: E7=280 E8=800
+built 960 collage images in images/collage
+gemma-3-4b-it: access OK
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Fetching 10 files:  10%|█         | 1/10 [00:00<00:03,  2.39it/s]Fetching 10 files:  40%|████      | 4/10 [00:00<00:00,  9.36it/s]Fetching 10 files:  70%|███████   | 7/10 [00:00<00:00, 12.99it/s]Fetching 10 files:  90%|█████████ | 9/10 [00:02<00:00,  3.21it/s]Fetching 10 files: 100%|██████████| 10/10 [00:09<00:00,  1.02it/s]
+LFM2.5-VL-3B downloaded
+mfs#eu-se-1.runpod.net:9421  756T  485T  271T  65% /workspace
+SETUP OK

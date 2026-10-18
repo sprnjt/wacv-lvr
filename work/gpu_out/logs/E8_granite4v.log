@@ -1,0 +1,10 @@
+Loading weights:   0%|          | 0/1083 [00:00<?, ?it/s]Loading weights:   3%|▎         | 28/1083 [00:00<00:03, 279.71it/s]Loading weights:   5%|▌         | 56/1083 [00:00<00:04, 212.80it/s]Loading weights:   7%|▋         | 79/1083 [00:00<00:05, 189.57it/s]Loading weights:   9%|▉         | 99/1083 [00:00<00:05, 190.69it/s]Loading weights:  11%|█         | 119/1083 [00:00<00:04, 193.10it/s]Loading weights:  13%|█▎        | 139/1083 [00:00<00:04, 190.36it/s]Loading weights:  15%|█▍        | 159/1083 [00:00<00:05, 180.77it/s]Loading weights:  17%|█▋        | 180/1083 [00:00<00:04, 188.25it/s]Loading weights:  18%|█▊        | 200/1083 [00:01<00:04, 185.15it/s]Loading weights:  20%|██        | 219/1083 [00:01<00:04, 183.87it/s]Loading weights:  22%|██▏       | 238/1083 [00:01<00:04, 177.96it/s]Loading weights:  24%|██▎       | 256/1083 [00:01<00:04, 176.42it/s]Loading weights:  25%|██▌       | 275/1083 [00:01<00:04, 174.68it/s]Loading weights:  27%|██▋       | 294/1083 [00:01<00:04, 173.50it/s]Loading weights:  29%|██▉       | 312/1083 [00:01<00:04, 174.56it/s]Loading weights:  31%|███       | 331/1083 [00:01<00:04, 178.57it/s]Loading weights:  32%|███▏      | 351/1083 [00:01<00:03, 183.30it/s]Loading weights:  38%|███▊      | 411/1083 [00:01<00:02, 303.75it/s]Loading weights:  47%|████▋     | 513/1083 [00:02<00:01, 512.00it/s]Loading weights:  57%|█████▋    | 620/1083 [00:02<00:00, 671.50it/s]Loading weights:  66%|██████▌   | 716/1083 [00:02<00:00, 754.42it/s]Loading weights:  75%|███████▌  | 814/1083 [00:02<00:00, 813.99it/s]Loading weights:  85%|████████▍ | 916/1083 [00:02<00:00, 870.88it/s]Loading weights:  94%|█████████▎| 1013/1083 [00:02<00:00, 889.88it/s]Loading weights: 100%|██████████| 1083/1083 [00:02<00:00, 404.34it/s]
+0/800 trials
+100/800 trials
+200/800 trials
+300/800 trials
+400/800 trials
+500/800 trials
+600/800 trials
+700/800 trials
+wrote raw_granite4v_interventions.jsonl

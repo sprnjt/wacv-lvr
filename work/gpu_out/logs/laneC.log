@@ -1,0 +1,13 @@
+=== run_all start Sat Oct 17 13:35:04 UTC 2026  STOP_AFTER=5 MAX_HOURS=11
+[13:35:04] start repro_lfm25v
+[13:35:43] done  repro_lfm25v (0 min)
+REPRO lfm25v: 20/20 replies identical to frozen raw_lfm25v.jsonl
+[13:35:43] start smoke_iv_lfm25v
+[13:35:58] done  smoke_iv_lfm25v (0 min)
+[13:35:58] start check_iv_lfm25v
+[13:35:58] done  check_iv_lfm25v (0 min)
+[13:35:58] start E8_lfm25v
+[13:53:03] done  E8_lfm25v (17 min)
+[13:53:03] start E7_lfm25v
+[13:58:46] done  E7_lfm25v (5 min)
+=== lane end Sat Oct 17 13:58:46 UTC 2026 (23 min)

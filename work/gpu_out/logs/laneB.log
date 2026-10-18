@@ -1,0 +1,21 @@
+=== run_all start Sat Oct 17 13:33:10 UTC 2026  STOP_AFTER=5 MAX_HOURS=11
+[13:33:10] start repro_lfm25v
+[13:33:17] FAIL  repro_lfm25v (exit 1) -> logs/repro_lfm25v.log
+[13:33:17] start smoke_iv_lfm25v
+[13:33:24] FAIL  smoke_iv_lfm25v (exit 1) -> logs/smoke_iv_lfm25v.log
+[13:33:24] start repro_granite4v
+[13:34:04] done  repro_granite4v (0 min)
+REPRO granite4v: 19/20 replies identical to frozen raw_granite4v.jsonl
+[13:34:04] start smoke_iv_granite4v
+[13:34:17] done  smoke_iv_granite4v (0 min)
+[13:34:17] start check_iv_granite4v
+[13:34:17] done  check_iv_granite4v (0 min)
+[13:34:17] start E8_granite4v
+[14:08:52] done  E8_granite4v (34 min)
+[14:08:52] start E7_granite4v
+[14:26:11] done  E7_granite4v (17 min)
+[14:26:11] start repro_gemma3_4b
+[14:26:17] FAIL  repro_gemma3_4b (exit 1) -> logs/repro_gemma3_4b.log
+[14:26:17] start smoke_iv_gemma3_4b
+[14:26:24] FAIL  smoke_iv_gemma3_4b (exit 1) -> logs/smoke_iv_gemma3_4b.log
+=== lane end Sat Oct 17 14:26:24 UTC 2026 (53 min)

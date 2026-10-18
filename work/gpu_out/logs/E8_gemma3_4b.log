@@ -1,0 +1,10 @@
+Loading weights:   0%|          | 0/883 [00:00<?, ?it/s]Loading weights:   0%|          | 1/883 [00:00<01:44,  8.42it/s]Loading weights:   3%|▎         | 30/883 [00:00<00:05, 158.35it/s]Loading weights:   5%|▌         | 47/883 [00:00<00:06, 136.32it/s]Loading weights:   8%|▊         | 70/883 [00:00<00:04, 165.09it/s]Loading weights:  11%|█         | 96/883 [00:00<00:04, 195.65it/s]Loading weights:  14%|█▍        | 127/883 [00:00<00:03, 231.02it/s]Loading weights:  17%|█▋        | 154/883 [00:00<00:03, 242.11it/s]Loading weights:  21%|██        | 182/883 [00:00<00:02, 252.48it/s]Loading weights:  24%|██▍       | 210/883 [00:00<00:02, 259.41it/s]Loading weights:  27%|██▋       | 237/883 [00:01<00:02, 258.36it/s]Loading weights:  30%|██▉       | 264/883 [00:01<00:02, 248.17it/s]Loading weights:  33%|███▎      | 290/883 [00:01<00:02, 247.72it/s]Loading weights:  36%|███▌      | 315/883 [00:01<00:02, 245.84it/s]Loading weights:  39%|███▊      | 341/883 [00:01<00:02, 242.42it/s]Loading weights:  42%|████▏     | 367/883 [00:01<00:02, 242.60it/s]Loading weights:  45%|████▍     | 393/883 [00:01<00:02, 235.71it/s]Loading weights:  48%|████▊     | 421/883 [00:01<00:01, 239.39it/s]Loading weights:  54%|█████▍    | 476/883 [00:01<00:01, 324.87it/s]Loading weights:  66%|██████▋   | 587/883 [00:02<00:00, 547.12it/s]Loading weights:  80%|████████  | 710/883 [00:02<00:00, 738.60it/s]Loading weights:  94%|█████████▍| 833/883 [00:02<00:00, 880.92it/s]Loading weights: 100%|██████████| 883/883 [00:02<00:00, 382.93it/s]
+0/800 trials
+100/800 trials
+200/800 trials
+300/800 trials
+400/800 trials
+500/800 trials
+600/800 trials
+700/800 trials
+wrote raw_gemma3_4b_interventions.jsonl

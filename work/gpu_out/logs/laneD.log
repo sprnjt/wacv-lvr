@@ -1,0 +1,30 @@
+=== run_all start Sat Oct 17 13:45:00 UTC 2026  STOP_AFTER=5 MAX_HOURS=11
+[13:45:00] start smoke_E9_lfm25v
+[13:45:34] done  smoke_E9_lfm25v (0 min)
+[13:45:34] start check_E9_lfm25v
+[13:45:34] done  check_E9_lfm25v (0 min)
+[13:45:34] start E9_lfm25v
+[13:59:25] done  E9_lfm25v (13 min)
+[13:59:26] start smoke_E9_granite4v
+[14:00:09] done  smoke_E9_granite4v (0 min)
+[14:00:09] start check_E9_granite4v
+[14:00:09] done  check_E9_granite4v (0 min)
+[14:00:09] start E9_granite4v
+[14:12:34] done  E9_granite4v (12 min)
+[14:12:34] start smoke_E9_qwen3vl
+[14:14:54] done  smoke_E9_qwen3vl (2 min)
+[14:14:54] start check_E9_qwen3vl
+[14:14:54] done  check_E9_qwen3vl (0 min)
+[14:14:54] start E9_qwen3vl
+=== run_all start Sat Oct 17 14:42:07 UTC 2026  STOP_AFTER=5 MAX_HOURS=11
+[skip] smoke_E9_qwen3vl
+[skip] check_E9_qwen3vl
+[14:42:07] start E9_qwen3vl
+=== run_all start Sat Oct 17 15:02:07 UTC 2026  STOP_AFTER=5 MAX_HOURS=11
+[15:02:07] start smoke_E9_qwen3vl
+[15:02:27] done  smoke_E9_qwen3vl (0 min)
+[15:02:27] start check_E9_qwen3vl
+[15:02:27] done  check_E9_qwen3vl (0 min)
+[15:02:27] start E9_qwen3vl
+[15:14:07] done  E9_qwen3vl (11 min)
+=== lane end Sat Oct 17 15:14:08 UTC 2026 (12 min)

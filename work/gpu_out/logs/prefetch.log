@@ -1,0 +1,15 @@
+Fetching 16 files:   0%|          | 0/16 [00:00<?, ?it/s]Fetching 16 files: 100%|██████████| 16/16 [00:00<00:00, 600.40it/s]
+ok Qwen/Qwen3-VL-8B-Instruct
+Fetching 15 files:   0%|          | 0/15 [00:00<?, ?it/s]Fetching 15 files:   7%|▋         | 1/15 [00:00<00:08,  1.58it/s]
+FAILED google/gemma-3-4b-it 401 Client Error. (Request ID: Root=1-6ad37917-1907d090394953b85c18ce1a;4c9c43dd-121d-4bd2-9a75-2b3f395a0e15)
+
+Cannot access gated repo for url https://huggingface.co/google/gemma-3-4b-it/resolve/093f9f388b31de276ce2de164bdc2081324b9767/generation_config.json.
+Access to model google/gemma-3-4b-it is restricted. You must have access to it and be authenticated to access it. Please log in.
+Fetching 31 files:   0%|          | 0/31 [00:00<?, ?it/s]Fetching 31 files:  90%|█████████ | 28/31 [00:00<00:00, 238.96it/s]Fetching 31 files:  97%|█████████▋| 30/31 [00:18<00:00, 238.96it/s]Fetching 31 files: 100%|██████████| 31/31 [00:19<00:00,  1.16it/s] Fetching 31 files: 100%|██████████| 31/31 [00:19<00:00,  1.59it/s]
+ok ibm-granite/granite-vision-4.1-4b
+3-46dd-80ff-e32662d31d70)
+
+Cannot access gated repo for url https://huggingface.co/google/gemma-3-4b-it/resolve/093f9f388b31de276ce2de164bdc2081324b9767/added_tokens.json.
+Access to model google/gemma-3-4b-it is restricted. You must have access to it and be authenticated to access it. Please log in.
+Fetching 31 files:   0%|          | 0/31 [00:00<?, ?it/s]Fetching 31 files:   3%|▎         | 1/31 [00:00<00:09,  3.01it/s]Fetching 31 files:  26%|██▌       | 8/31 [00:00<00:01, 16.62it/s]Fetching 31 files:  48%|████▊     | 15/31 [00:00<00:00, 23.63it/s]Fetching 31 files:  61%|██████▏   | 19/31 [00:00<00:00, 22.30it/s]Fetching 31 files:  74%|███████▍  | 23/31 [00:01<00:00, 22.17it/s]Fetching 31 files:  84%|████████▍ | 26/31 [00:01<00:00, 18.69it/s]Fetching 31 files:  90%|█████████ | 28/31 [00:01<00:00, 14.71it/s]Fetching 31 files:  97%|█████████▋| 30/31 [00:09<00:00,  1.10it/s]Fetching 31 files:  97%|█████████▋| 30/31 [00:20<00:00,  1.10it/s]Fetching 31 files: 100%|██████████| 31/31 [00:20<00:00,  2.31s/it]Fetching 31 files: 100%|██████████| 31/31 [00:20<00:00,  1.48it/s]
+ok ibm-granite/granite-vision-4.1-4b

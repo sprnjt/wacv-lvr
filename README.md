@@ -13,7 +13,7 @@ importing the analysis code — all checks pass (max |diff| 0.0000).
 ## Headline results
 
 - **Clean split by size class.** MC joint accuracy is flat N=1→5 for the ≥7B models (gemma4
-  0.856→0.801, qwen3vl 0.831→0.807, qwen25vl 0.694→0.753) but drops 0.13–0.22 for the ≤4B models
+  0.856→0.801, qwen3vl 0.831→0.807, qwen25vl 0.694→0.753) but drops 0.13–0.24 for the ≤4B models
   (gemma3_4b 0.562→0.434, granite4v 0.544→0.320, lfm25v 0.556→0.315; slopes −0.04…−0.06/image,
   CIs exclude 0).
 - **Gradual, not a step** (H1 rejected everywhere); **U-shaped slot profile** at N=5 in exactly the
@@ -144,7 +144,12 @@ Decided pre-registration; `plan.md` is unchanged and remains the primary pre-reg
 
 `causal_probe.py` is intentionally separate from the pre-registered pipeline. It selects E2/N=5 MC
 mis-binding fields for which both the target and named wrong image are correct in matched N=1 runs,
-then patches clean image-token hidden states into the target span at five evenly spaced decoder layers.
+then patches clean image-token hidden states into the target span at five evenly spaced decoder layers
+(auto grid: after qwen3vl's deepstack layers 0–2 and before each model's last attention layer, since a
+later patch cannot reach the answer tokens — LFM 0,6,13,20,26; qwen3vl 3,11,19,26,34). The wrong-image
+donor is the target's own N=1 prompt with the wrong image swapped in, resized to the target's pixel size
+so its token grid matches the target span; the run gates each case on the model naming the wrong image
+correctly (that field) in this donor prompt (`wrong_donor_gate_fail` rows record the misses).
 It includes a self-to-target negative control which exercises the same hook/write path. The primary contrast is target-clean-to-target (rescue) versus wrong-clean-to-target (induction), scored
 as the forced MC log-odds of the gold answer over the observed wrong answer. LFM is the primary model
 because it is the sole H3a context-attraction result; `qwen3vl` is a robust-model replication. Outputs

@@ -1,0 +1,121 @@
+Loading weights:   0%|          | 0/707 [00:00<?, ?it/s]Loading weights:   3%|▎         | 19/707 [00:00<00:04, 166.71it/s]Loading weights:   5%|▌         | 36/707 [00:00<00:04, 156.38it/s]Loading weights:   7%|▋         | 53/707 [00:00<00:04, 161.17it/s]Loading weights:  10%|▉         | 70/707 [00:00<00:04, 157.84it/s]Loading weights:  12%|█▏        | 88/707 [00:00<00:03, 165.01it/s]Loading weights:  15%|█▍        | 105/707 [00:00<00:03, 162.30it/s]Loading weights:  17%|█▋        | 122/707 [00:00<00:04, 126.42it/s]Loading weights:  19%|█▉        | 136/707 [00:00<00:04, 117.12it/s]Loading weights:  21%|██▏       | 151/707 [00:01<00:04, 121.49it/s]Loading weights:  23%|██▎       | 166/707 [00:01<00:04, 128.60it/s]Loading weights:  25%|██▌       | 180/707 [00:01<00:04, 125.81it/s]Loading weights:  28%|██▊       | 200/707 [00:01<00:03, 140.86it/s]Loading weights:  30%|███       | 215/707 [00:01<00:03, 137.10it/s]Loading weights:  33%|███▎      | 236/707 [00:01<00:03, 155.89it/s]Loading weights:  36%|███▌      | 256/707 [00:01<00:02, 162.65it/s]Loading weights:  42%|████▏     | 295/707 [00:01<00:01, 224.68it/s]Loading weights:  49%|████▉     | 346/707 [00:01<00:01, 304.54it/s]Loading weights:  64%|██████▎   | 449/707 [00:02<00:00, 511.90it/s]Loading weights:  83%|████████▎ | 585/707 [00:02<00:00, 612.53it/s]Loading weights:  91%|█████████ | 645/707 [00:02<00:00, 580.45it/s]Loading weights: 100%|██████████| 707/707 [00:02<00:00, 287.16it/s]
+auto-selected layers: 0,6,13,20,26
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+1/128 cases (21.2s)
+2/128 cases (21.2s)
+3/128 cases (20.3s)
+4/128 cases (19.8s)
+5/128 cases (20.5s)
+6/128 cases (21.0s)
+8/128 cases (19.9s)
+9/128 cases (20.2s)
+10/128 cases (20.1s)
+11/128 cases (32.1s)
+12/128 cases (32.7s)
+13/128 cases (32.3s)
+15/128 cases (34.1s)
+16/128 cases (20.7s)
+18/128 cases (23.1s)
+19/128 cases (20.4s)
+21/128 cases (20.0s)
+22/128 cases (20.5s)
+23/128 cases (20.5s)
+24/128 cases (20.4s)
+25/128 cases (20.6s)
+26/128 cases (31.9s)
+27/128 cases (33.6s)
+28/128 cases (51.8s)
+29/128 cases (40.1s)
+30/128 cases (27.3s)
+31/128 cases (29.7s)
+34/128 cases (45.8s)
+35/128 cases (28.6s)
+36/128 cases (29.8s)
+37/128 cases (40.0s)
+38/128 cases (32.2s)
+39/128 cases (27.6s)
+40/128 cases (26.5s)
+41/128 cases (39.3s)
+42/128 cases (26.2s)
+43/128 cases (21.6s)
+44/128 cases (26.3s)
+47/128 cases (26.7s)
+49/128 cases (26.2s)
+50/128 cases (27.5s)
+51/128 cases (41.0s)
+52/128 cases (43.0s)
+53/128 cases (28.2s)
+54/128 cases (27.3s)
+55/128 cases (25.9s)
+56/128 cases (29.0s)
+57/128 cases (22.8s)
+58/128 cases (19.5s)
+59/128 cases (15.9s)
+60/128 cases (29.0s)
+61/128 cases (14.8s)
+62/128 cases (18.5s)
+63/128 cases (31.5s)
+64/128 cases (33.0s)
+65/128 cases (20.5s)
+66/128 cases (31.2s)
+67/128 cases (19.9s)
+68/128 cases (20.4s)
+69/128 cases (20.5s)
+70/128 cases (19.9s)
+71/128 cases (20.4s)
+72/128 cases (20.2s)
+73/128 cases (20.0s)
+74/128 cases (20.8s)
+75/128 cases (20.9s)
+76/128 cases (20.0s)
+77/128 cases (31.1s)
+78/128 cases (20.5s)
+79/128 cases (20.8s)
+80/128 cases (22.9s)
+81/128 cases (20.5s)
+82/128 cases (21.8s)
+83/128 cases (21.4s)
+84/128 cases (19.2s)
+85/128 cases (21.5s)
+86/128 cases (16.3s)
+87/128 cases (21.2s)
+88/128 cases (20.8s)
+89/128 cases (31.2s)
+90/128 cases (20.8s)
+91/128 cases (20.6s)
+92/128 cases (20.7s)
+93/128 cases (20.1s)
+94/128 cases (24.4s)
+95/128 cases (15.6s)
+96/128 cases (15.0s)
+97/128 cases (14.8s)
+98/128 cases (15.0s)
+99/128 cases (16.3s)
+100/128 cases (21.2s)
+101/128 cases (20.4s)
+102/128 cases (21.9s)
+103/128 cases (15.4s)
+104/128 cases (19.8s)
+105/128 cases (20.8s)
+106/128 cases (20.6s)
+107/128 cases (20.9s)
+108/128 cases (20.8s)
+109/128 cases (19.3s)
+110/128 cases (21.0s)
+111/128 cases (26.7s)
+112/128 cases (20.9s)
+113/128 cases (19.7s)
+114/128 cases (21.0s)
+115/128 cases (21.6s)
+116/128 cases (20.5s)
+118/128 cases (20.9s)
+120/128 cases (20.7s)
+121/128 cases (20.6s)
+123/128 cases (30.5s)
+124/128 cases (33.1s)
+125/128 cases (31.6s)
+126/128 cases (31.7s)
+127/128 cases (32.5s)
+128/128 cases (32.1s)
+wrote causal_lfm25v.jsonl

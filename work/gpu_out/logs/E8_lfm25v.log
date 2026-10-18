@@ -1,0 +1,12 @@
+Loading weights:   0%|          | 0/707 [00:00<?, ?it/s]Loading weights:   3%|▎         | 19/707 [00:00<00:03, 186.56it/s]Loading weights:   6%|▌         | 40/707 [00:00<00:03, 199.91it/s]Loading weights:   8%|▊         | 60/707 [00:00<00:03, 181.26it/s]Loading weights:  11%|█         | 79/707 [00:00<00:03, 166.66it/s]Loading weights:  14%|█▍        | 98/707 [00:00<00:03, 174.07it/s]Loading weights:  16%|█▋        | 116/707 [00:00<00:03, 166.54it/s]Loading weights:  20%|█▉        | 138/707 [00:00<00:03, 175.76it/s]Loading weights:  22%|██▏       | 156/707 [00:00<00:03, 162.75it/s]Loading weights:  24%|██▍       | 173/707 [00:01<00:03, 149.71it/s]Loading weights:  27%|██▋       | 189/707 [00:01<00:03, 135.35it/s]Loading weights:  30%|██▉       | 210/707 [00:01<00:03, 149.58it/s]Loading weights:  32%|███▏      | 229/707 [00:01<00:02, 159.58it/s]Loading weights:  35%|███▍      | 247/707 [00:01<00:02, 164.53it/s]Loading weights:  37%|███▋      | 264/707 [00:01<00:02, 161.08it/s]Loading weights:  49%|████▉     | 349/707 [00:01<00:01, 351.44it/s]Loading weights:  61%|██████▏   | 434/707 [00:01<00:00, 491.55it/s]Loading weights:  73%|███████▎  | 514/707 [00:01<00:00, 574.94it/s]Loading weights:  81%|████████  | 574/707 [00:02<00:00, 573.15it/s]Loading weights:  90%|█████████ | 638/707 [00:02<00:00, 590.52it/s]Loading weights:  99%|█████████▊| 698/707 [00:02<00:00, 575.18it/s]Loading weights: 100%|██████████| 707/707 [00:02<00:00, 312.13it/s]
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+0/800 trials
+100/800 trials
+200/800 trials
+300/800 trials
+400/800 trials
+500/800 trials
+600/800 trials
+700/800 trials
+wrote raw_lfm25v_interventions.jsonl

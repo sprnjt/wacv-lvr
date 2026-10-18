@@ -1,0 +1,37 @@
+=== run_all start Sat Oct 17 13:32:50 UTC 2026  STOP_AFTER=5 MAX_HOURS=11
+[13:32:50] start select_lfm25v
+[13:32:50] done  select_lfm25v (0 min)
+[13:32:50] start smoke_causal_lfm25v
+[13:32:58] FAIL  smoke_causal_lfm25v (exit 1) -> logs/smoke_causal_lfm25v.log
+[13:32:58] start select_qwen3vl
+[13:32:58] done  select_qwen3vl (0 min)
+[13:32:58] start smoke_causal_qwen3vl
+[13:33:07] FAIL  smoke_causal_qwen3vl (exit 1) -> logs/smoke_causal_qwen3vl.log
+[13:33:07] start smoke_attn_lfm25v
+[13:33:14] FAIL  smoke_attn_lfm25v (exit 1) -> logs/smoke_attn_lfm25v.log
+=== lane end Sat Oct 17 13:33:14 UTC 2026 (0 min)
+=== run_all start Sat Oct 17 13:34:49 UTC 2026  STOP_AFTER=5 MAX_HOURS=11
+[skip] select_lfm25v
+[13:34:49] start smoke_causal_lfm25v
+[13:36:10] done  smoke_causal_lfm25v (1 min)
+[13:36:10] start check_causal_lfm25v
+[13:36:10] done  check_causal_lfm25v (0 min)
+[13:36:10] start causal_lfm25v
+[14:24:01] done  causal_lfm25v (47 min)
+[14:24:01] start summary_causal_lfm25v
+[14:24:02] done  summary_causal_lfm25v (0 min)
+[skip] select_qwen3vl
+[14:24:02] start smoke_causal_qwen3vl
+=== run_all start Sat Oct 17 14:40:28 UTC 2026  STOP_AFTER=5 MAX_HOURS=11
+[skip] select_qwen3vl
+[14:40:28] start smoke_causal_qwen3vl
+=== run_all start Sat Oct 17 14:59:28 UTC 2026  STOP_AFTER=5 MAX_HOURS=11
+[14:59:28] start repro_qwen3vl
+[15:00:00] done  repro_qwen3vl (0 min)
+REPRO qwen3vl: 20/20 replies identical to frozen raw_qwen3vl.jsonl
+[skip] select_qwen3vl
+[15:00:00] start smoke_causal_qwen3vl
+[15:00:41] done  smoke_causal_qwen3vl (0 min)
+[15:00:41] start check_causal_qwen3vl
+[15:00:41] done  check_causal_qwen3vl (0 min)
+[15:00:41] start causal_qwen3vl

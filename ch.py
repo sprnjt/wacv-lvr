@@ -335,7 +335,10 @@ def make_parts(tr, mode, images=True):
     n, k, v = tr["N"], tr["slot"], tr.get("variant", "P1")
     tagged = tr.get("indexing") == "tagged"
     ref = f"[IMG_{k}]" if tagged else f"Image {k}"
-    if n == 1:
+    if "head" in tr:      # E9 collage (make_collage.py, MC only): mixed categories -> own header, reference, noun
+        assert mode == "mc", "E9 trials are MC only"
+        head, ref, singular = tr["head"], tr["ref"], tr["noun"]
+    elif n == 1:
         head = f"Below is 1 photograph of a {singular}.\nEach photograph is labeled with its number.\n"
     else:
         head = f"Below are {n} photographs of {plural} from various countries.\nEach photograph is labeled with its number.\n"
@@ -347,7 +350,7 @@ def make_parts(tr, mode, images=True):
         co0 = "\n".join(f"{a}. {x}" for a, x in zip(LETTERS, tr["country_options"]))
         parts.append(("text", "Keep these answer choices visible while you describe the photographs.\n"
                       f"Item choices:\n{io0}\nCountry choices:\n{co0}\n"))
-    for i, img in enumerate(tr["order"], 1):
+    for i, img in enumerate(tr.get("images", tr["order"]), 1):      # E9: image files, not the shown photographs
         label = f"[IMG_{i}]" if tagged else f"Image {i}"
         parts.append(("text", f"\n{label}:"))
         if images:

@@ -1,0 +1,13 @@
+=== run_all start Sat Oct 17 15:53:22 UTC 2026  STOP_AFTER=5 MAX_HOURS=11
+[15:53:22] start repro_gemma3_4b
+[15:53:53] done  repro_gemma3_4b (0 min)
+REPRO gemma3_4b: 20/20 replies identical to frozen raw_gemma3_4b.jsonl
+[15:53:53] start smoke_iv_gemma3_4b
+[15:54:13] done  smoke_iv_gemma3_4b (0 min)
+[15:54:13] start check_iv_gemma3_4b
+[15:54:13] done  check_iv_gemma3_4b (0 min)
+[15:54:13] start E8_gemma3_4b
+[16:12:51] done  E8_gemma3_4b (18 min)
+[16:12:51] start E7_gemma3_4b
+[16:40:55] done  E7_gemma3_4b (28 min)
+=== lane end Sat Oct 17 16:40:55 UTC 2026 (47 min)

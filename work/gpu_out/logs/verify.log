@@ -1,0 +1,37 @@
+PASS  qwen3vl: raw completeness  — 6096/6096 main, 20/20 repeat
+PASS  qwen3vl: repeat identity  — 20/20
+PASS  qwen25vl: raw completeness  — 6096/6096 main, 20/20 repeat
+PASS  qwen25vl: repeat identity  — 20/20
+PASS  gemma4: raw completeness  — 6096/6096 main, 20/20 repeat
+PASS  gemma4: repeat identity  — 20/20
+PASS  gemma3_4b: raw completeness  — 6096/6096 main, 20/20 repeat
+PASS  gemma3_4b: repeat identity  — 20/20
+PASS  granite4v: raw completeness  — 6096/6096 main, 20/20 repeat
+PASS  granite4v: repeat identity  — 20/20
+PASS  lfm25v: raw completeness  — 6096/6096 main, 20/20 repeat
+PASS  lfm25v: repeat identity  — 20/20
+PASS  qwen3vl: joint == item&country
+PASS  qwen3vl: overrides applied  — 3109 override rows checked
+PASS  qwen25vl: joint == item&country
+PASS  qwen25vl: overrides applied  — 2769 override rows checked
+PASS  gemma4: joint == item&country
+PASS  gemma4: overrides applied  — 2935 override rows checked
+PASS  gemma3_4b: joint == item&country
+PASS  gemma3_4b: overrides applied  — 3702 override rows checked
+PASS  granite4v: joint == item&country
+PASS  granite4v: overrides applied  — 2957 override rows checked
+PASS  lfm25v: joint == item&country
+PASS  lfm25v: overrides applied  — 3186 override rows checked
+PASS  acc_by_N recompute  — max |diff| = 0.0000
+PASS  error_shares N=5 mc recompute  — max |diff| = 0.0000
+PASS  h3a share_shown recompute  — max |diff| = 0.0000
+PASS  ICR observed recompute  — max |diff| = 0.0000
+PASS  position_profile recompute  — max |diff| = 0.0000
+PASS  describe_then_answer recompute  — max |diff| = 0.0000
+PASS  text_only_leak recompute  — max |diff| = 0.0000
+PASS  qwen3vl: attention capture  — 1600 rows, shape ok=True, argmax share matches=True
+PASS  gemma4: attention capture  — 1600 rows, shape ok=True, argmax share matches=True
+PASS  granite4v: attention capture  — 1600 rows, shape ok=True, argmax share matches=True
+PASS  lfm25v: attention capture  — 1600 rows, shape ok=True, argmax share matches=True
+
+ALL CHECKS PASS

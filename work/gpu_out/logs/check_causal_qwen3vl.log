@@ -1,0 +1,17 @@
+17 rows, 2 wrong-donor gate failures
+  E2_img_0022_mixed_N5_k2_P1::item L3 self_to_target_control: base -11.500 delta +0.0000
+  E2_img_0022_mixed_N5_k2_P1::item L3 target_clean_to_target: base -11.500 delta -0.0000
+  E2_img_0022_mixed_N5_k2_P1::item L3 wrong_clean_to_target: base -11.500 delta +8.5711
+  E2_img_0022_mixed_N5_k2_P1::item L11 self_to_target_control: base -11.500 delta +0.0000
+  E2_img_0022_mixed_N5_k2_P1::item L11 target_clean_to_target: base -11.500 delta +0.2500
+  E2_img_0022_mixed_N5_k2_P1::item L11 wrong_clean_to_target: base -11.500 delta +9.0894
+  E2_img_0022_mixed_N5_k2_P1::item L19 self_to_target_control: base -11.500 delta +0.0000
+  E2_img_0022_mixed_N5_k2_P1::item L19 target_clean_to_target: base -11.500 delta +2.7500
+  E2_img_0022_mixed_N5_k2_P1::item L19 wrong_clean_to_target: base -11.500 delta -0.2500
+  E2_img_0022_mixed_N5_k2_P1::item L26 self_to_target_control: base -11.500 delta +0.0000
+  E2_img_0022_mixed_N5_k2_P1::item L26 target_clean_to_target: base -11.500 delta +0.2500
+  E2_img_0022_mixed_N5_k2_P1::item L26 wrong_clean_to_target: base -11.500 delta +0.2500
+  E2_img_0022_mixed_N5_k2_P1::item L34 self_to_target_control: base -11.500 delta +0.0000
+  E2_img_0022_mixed_N5_k2_P1::item L34 target_clean_to_target: base -11.500 delta +0.0000
+  E2_img_0022_mixed_N5_k2_P1::item L34 wrong_clean_to_target: base -11.500 delta +0.0000
+OK causal

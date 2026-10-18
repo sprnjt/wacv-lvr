@@ -1,0 +1,38 @@
+[transformers] `Lfm2VlImageProcessorFast` is deprecated. The `Fast` suffix for image processors has been removed; use `Lfm2VlImageProcessor` instead.
+Traceback (most recent call last):
+  File "/workspace/wacv-lvr/run_models.py", line 181, in <module>
+    main(args[0], trials, repeat="--repeat" in args, attn="--attn" in args, exps=exps, modes=modes, out_path=out)
+  File "/workspace/wacv-lvr/run_models.py", line 151, in main
+    model, processor = load(name)
+                       ^^^^^^^^^^
+  File "/workspace/wacv-lvr/run_models.py", line 37, in load
+    processor = AutoProcessor.from_pretrained(cfg["hf_id"])
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/models/auto/processing_auto.py", line 346, in from_pretrained
+    return processor_class.from_pretrained(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/processing_utils.py", line 1754, in from_pretrained
+    args = cls._get_arguments_from_pretrained(pretrained_model_name_or_path, processor_dict, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/processing_utils.py", line 1894, in _get_arguments_from_pretrained
+    sub_processor = auto_processor_class.from_pretrained(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/models/auto/image_processing_auto.py", line 702, in from_pretrained
+    return image_processor_class.from_pretrained(pretrained_model_name_or_path, *inputs, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/transformers/utils/import_utils.py", line 2424, in __getattribute__
+    requires_backends(cls, cls._backends)
+  File "/usr/local/lib/python3.12/dist-packages/transformers/utils/import_utils.py", line 2410, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+Lfm2VlImageProcessor requires the Torchvision library but it was not found in your environment. Check out the instructions on the
+installation page: https://pytorch.org/get-started/locally/ and follow the ones that match your environment.
+Please note that you may need to restart your runtime after installation.
+
+Loading weights:   0%|          | 0/707 [00:00<?, ?it/s]Loading weights:   3%|▎         | 19/707 [00:00<00:03, 188.99it/s]Loading weights:   6%|▌         | 39/707 [00:00<00:03, 189.78it/s]Loading weights:   8%|▊         | 59/707 [00:00<00:03, 192.79it/s]Loading weights:  11%|█         | 79/707 [00:00<00:03, 170.56it/s]Loading weights:  14%|█▍        | 101/707 [00:00<00:03, 186.14it/s]Loading weights:  17%|█▋        | 120/707 [00:00<00:03, 168.70it/s]Loading weights:  20%|█▉        | 140/707 [00:00<00:03, 172.94it/s]Loading weights:  22%|██▏       | 158/707 [00:00<00:03, 174.72it/s]Loading weights:  25%|██▍       | 176/707 [00:01<00:03, 162.67it/s]Loading weights:  28%|██▊       | 200/707 [00:01<00:02, 179.75it/s]Loading weights:  31%|███       | 219/707 [00:01<00:02, 174.95it/s]Loading weights:  34%|███▎      | 237/707 [00:01<00:02, 174.41it/s]Loading weights:  37%|███▋      | 260/707 [00:01<00:02, 186.02it/s]Loading weights:  47%|████▋     | 330/707 [00:01<00:01, 330.64it/s]Loading weights:  52%|█████▏    | 365/707 [00:01<00:01, 284.29it/s]Loading weights:  56%|█████▌    | 396/707 [00:01<00:01, 240.30it/s]Loading weights:  60%|█████▉    | 423/707 [00:02<00:01, 189.73it/s]Loading weights:  63%|██████▎   | 445/707 [00:02<00:01, 137.68it/s]Loading weights:  65%|██████▌   | 463/707 [00:02<00:01, 134.52it/s]Loading weights:  68%|██████▊   | 479/707 [00:02<00:01, 116.84it/s]Loading weights:  70%|██████▉   | 493/707 [00:03<00:02, 81.15it/s] Loading weights:  71%|███████▏  | 504/707 [00:03<00:02, 75.42it/s]Loading weights:  73%|███████▎  | 514/707 [00:03<00:03, 63.57it/s]Loading weights:  74%|███████▍  | 522/707 [00:03<00:03, 48.17it/s]Loading weights:  75%|███████▍  | 528/707 [00:04<00:03, 48.95it/s]Loading weights:  76%|███████▌  | 535/707 [00:04<00:03, 45.86it/s]Loading weights:  77%|███████▋  | 541/707 [00:04<00:04, 41.32it/s]Loading weights:  78%|███████▊  | 550/707 [00:04<00:03, 41.57it/s]Loading weights:  80%|████████  | 567/707 [00:04<00:02, 59.76it/s]Loading weights:  81%|████████  | 574/707 [00:04<00:02, 60.50it/s]Loading weights:  82%|████████▏ | 583/707 [00:05<00:01, 65.19it/s]Loading weights:  84%|████████▍ | 593/707 [00:05<00:01, 71.52it/s]Loading weights:  86%|████████▌ | 609/707 [00:05<00:01, 89.87it/s]Loading weights:  88%|████████▊ | 619/707 [00:05<00:01, 81.54it/s]Loading weights:  89%|████████▉ | 631/707 [00:05<00:00, 87.80it/s]Loading weights:  91%|█████████ | 641/707 [00:05<00:00, 74.04it/s]Loading weights:  92%|█████████▏| 650/707 [00:05<00:01, 55.68it/s]Loading weights:  93%|█████████▎| 657/707 [00:06<00:00, 58.19it/s]Loading weights:  94%|█████████▍| 664/707 [00:06<00:00, 60.19it/s]Loading weights:  95%|█████████▌| 673/707 [00:06<00:00, 63.94it/s]Loading weights:  96%|█████████▌| 680/707 [00:06<00:00, 54.99it/s]Loading weights:  98%|█████████▊| 695/707 [00:06<00:00, 66.98it/s]Loading weights: 100%|██████████| 707/707 [00:06<00:00, 105.35it/s]
+[transformers] `causal_conv1d_fn` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+[transformers] `causal_conv1d_update` is falling back to its reference PyTorch implementation because `causal_conv1d` is not installed. This is correct but much slower; install `causal_conv1d` for the optimized kernel.
+0/10 trials
+wrote work/smoke/repro_lfm25v.jsonl
+REPRO lfm25v: 20/20 replies identical to frozen raw_lfm25v.jsonl
+OK repro
