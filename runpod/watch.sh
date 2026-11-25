@@ -1,6 +1,6 @@
 #!/bin/bash
 # Local watcher (runs on the Mac). Polls the pod every 2 min and EXITS with a reason as soon as something
-# needs the lead's attention, so the lead (Claude) is woken, fixes it, and relaunches the watcher.
+# needs attention, so the operator is notified, fixes it, and relaunches the watcher.
 # Exit reasons: FAIL (new failed step), TRACEBACK / OOM / OFFLOAD in a live log, STALL (no output growth
 # for STALL_MIN while a GPU job runs), IDLE (no GPU job running but work remains), MILESTONE, SSH.
 STALL_MIN=${STALL_MIN:-12}
