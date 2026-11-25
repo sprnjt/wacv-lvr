@@ -15,7 +15,7 @@ Everything below reuses it.
 
 | Folder | What it is | Used for |
 |---|---|---|
-| `cluster_fullpool/` | Scripts and job files of the run on all 884 targets (one NVIDIA A100) | Gemma-4, both Qwens, Gemma-3-4B, LFM2.5 and Gemma-3-12B on the full pool; the one-photo control (`build_g1.py`); the split query (`build_g2.py`, `ch_g2.py`); the per-run reproduction checks (`check_repro.py`, `check_det.py`) |
+| `cluster_fullpool/` | Scripts and job files of the run on all 884 targets (one NVIDIA A100); `REPORT.md` records what ran, the environment, the reproduction checks and the problems during the run | Gemma-4, both Qwens, Gemma-3-4B, LFM2.5 and Gemma-3-12B on the full pool; the one-photo control (`build_g1.py`); the split query (`build_g2.py`, `ch_g2.py`); the per-run reproduction checks (`check_repro.py`, `check_det.py`) |
 | `granite_kaggle/` | Runner for Granite-Vision-4B on Kaggle T4 GPUs | Granite's MC haystack-size and slot tests, the one-photo control and the 160-target split query. `gen.py` embeds the frozen `ch.py`, `run_models.py` and `ch_g2.py` byte for byte, checked by SHA-256. It writes one Kaggle script per chunk (one model copy per GPU, fp16). `merge_and_score.sh` merges the chunks and scores them with the frozen scorer |
 | `analysis_884/` | Glue that runs the frozen analysis on the 884 targets with all seven models | `analyze.py` and `work/analysis/*.py` (`MODELS` list extended to Granite), the reworded-prompt control, moderators, wrong-pick features; `table2_884.py` recomputes Table 2 |
 | `camera_ready_checks/` | Earlier camera-ready checks | full-pool CIs, split-query same-image, CLIP control on shown distractors, Holm corrections, slot × tier, format errors, scorer edge cases |
