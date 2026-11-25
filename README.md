@@ -1,5 +1,16 @@
 # CultureHaystack
 
+> **Camera-ready version (WACV 2027 LVR workshop, paper 36).** The paper reports all main results on the 884 eligible
+> targets. The code for that version is on the
+> [`camera-ready-884`](https://github.com/sprnjt/wacv-lvr/tree/camera-ready-884) branch (see `camera_ready/README.md`).
+> All model replies, scored answers and results tables are in the Hugging Face dataset
+> [shinjinii/culturehaystack-results](https://huggingface.co/datasets/shinjinii/culturehaystack-results). The images
+> are the Kaggle dataset
+> [World Cultural Items 1K](https://www.kaggle.com/datasets/shinjinichakraborty/world-cultural-items-1k), version 2.
+>
+> The rest of this page describes the earlier study on 160 targets (October 2026). Its numbers differ from the
+> camera-ready paper.
+
 A diagnostic benchmark for **image–attribute binding in multimodal LLMs**: show a model N photographs of
 cultural items (foods and drinks, landmarks, instruments, attire) from different countries, ask it to name
 the item and country of image k, and measure how identity and origin come unbound as N grows from 1 to 5.
