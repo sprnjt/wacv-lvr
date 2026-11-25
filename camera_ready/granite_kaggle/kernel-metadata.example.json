@@ -1,0 +1,4 @@
+{"id": "shinjinichakraborty/ch-granite-c0", "title": "ch-granite-c0", "code_file": "run.py",
+ "language": "python", "kernel_type": "script", "is_private": true, "enable_gpu": true, "enable_tpu": false,
+ "enable_internet": true, "dataset_sources": ["shinjinichakraborty/world-cultural-items-1k"],
+ "competition_sources": [], "kernel_sources": [], "model_sources": [], "machine_shape": "NvidiaTeslaT4"}

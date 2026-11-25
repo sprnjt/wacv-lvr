@@ -1,0 +1,689 @@
+[
+ {
+  "name": "restore_pool",
+  "cmd": "mkdir -p data && cp ../wacv-lvr/data/pool.csv data/pool.csv && cmp ../wacv-lvr/data/pool.csv data/pool.csv && echo \"- $(date +%F\\ %T) [fix] data/pool.csv copied from wacv-lvr (byte-identical) after the rebuild; clip_sim had failed without it\" >> RUN_LOG.md",
+  "deps": [],
+  "gpu_gb": 0
+ },
+ {
+  "name": "restart_queue1",
+  "cmd": "bash jobs/restart_queue.sh",
+  "deps": [
+   "restore_pool"
+  ],
+  "gpu_gb": 0
+ },
+ {
+  "name": "p0_lfm25v",
+  "cmd": "bash jobs/p0.sh lfm25v; grep -q '^exit=0$' logs/p0_lfm25v.out || { echo 'P0 failed or incomplete for lfm25v; its G1 output is INVALID' > results/INVALID_g1_lfm25v.txt; echo \"- $(date '+%F %T') [P0] lfm25v FAILED the reproduction check; G1 output for lfm25v marked invalid\" >> RUN_LOG.md; exit 3; }; grep REPRO logs/p0_lfm25v.out | sed 's/^/- P0 /' >> RUN_LOG.md",
+  "deps": [],
+  "gpu_gb": 8,
+  "perm_rc": 3
+ },
+ {
+  "name": "p0_gemma4",
+  "cmd": "bash jobs/p0.sh gemma4; grep -q '^exit=0$' logs/p0_gemma4.out || { echo 'P0 failed or incomplete for gemma4; its G1 output is INVALID' > results/INVALID_g1_gemma4.txt; echo \"- $(date '+%F %T') [P0] gemma4 FAILED the reproduction check; G1 output for gemma4 marked invalid\" >> RUN_LOG.md; exit 3; }; grep REPRO logs/p0_gemma4.out | sed 's/^/- P0 /' >> RUN_LOG.md",
+  "deps": [],
+  "gpu_gb": 26,
+  "perm_rc": 3
+ },
+ {
+  "name": "p0_gemma3_4b",
+  "cmd": "bash jobs/p0.sh gemma3_4b; grep -q '^exit=0$' logs/p0_gemma3_4b.out || { echo 'P0 failed or incomplete for gemma3_4b; its G1 output is INVALID' > results/INVALID_g1_gemma3_4b.txt; echo \"- $(date '+%F %T') [P0] gemma3_4b FAILED the reproduction check; G1 output for gemma3_4b marked invalid\" >> RUN_LOG.md; exit 3; }; grep REPRO logs/p0_gemma3_4b.out | sed 's/^/- P0 /' >> RUN_LOG.md",
+  "deps": [],
+  "gpu_gb": 10,
+  "perm_rc": 3
+ },
+ {
+  "name": "p0_qwen25vl",
+  "cmd": "bash jobs/p0.sh qwen25vl; grep -q '^exit=0$' logs/p0_qwen25vl.out || { echo 'P0 failed or incomplete for qwen25vl; its G1 output is INVALID' > results/INVALID_g1_qwen25vl.txt; echo \"- $(date '+%F %T') [P0] qwen25vl FAILED the reproduction check; G1 output for qwen25vl marked invalid\" >> RUN_LOG.md; exit 3; }; grep REPRO logs/p0_qwen25vl.out | sed 's/^/- P0 /' >> RUN_LOG.md",
+  "deps": [],
+  "gpu_gb": 18,
+  "perm_rc": 3
+ },
+ {
+  "name": "p0_qwen3vl",
+  "cmd": "bash jobs/p0.sh qwen3vl; grep -q '^exit=0$' logs/p0_qwen3vl.out || { echo 'P0 failed or incomplete for qwen3vl; its G1 output is INVALID' > results/INVALID_g1_qwen3vl.txt; echo \"- $(date '+%F %T') [P0] qwen3vl FAILED the reproduction check; G1 output for qwen3vl marked invalid\" >> RUN_LOG.md; exit 3; }; grep REPRO logs/p0_qwen3vl.out | sed 's/^/- P0 /' >> RUN_LOG.md",
+  "deps": [],
+  "gpu_gb": 19,
+  "perm_rc": 3
+ },
+ {
+  "name": "g1_qwen25vl",
+  "cmd": "bash jobs/g1.sh qwen25vl",
+  "deps": [
+   "p0_qwen25vl"
+  ],
+  "gpu_gb": 18,
+  "expect_file": "raw_qwen25vl_g1.jsonl",
+  "expect_rows": 1720
+ },
+ {
+  "name": "g1_qwen3vl",
+  "cmd": "bash jobs/g1.sh qwen3vl",
+  "deps": [
+   "p0_qwen3vl"
+  ],
+  "gpu_gb": 19,
+  "expect_file": "raw_qwen3vl_g1.jsonl",
+  "expect_rows": 1720
+ },
+ {
+  "name": "g1_gemma4",
+  "cmd": "bash jobs/g1.sh gemma4",
+  "deps": [
+   "p0_gemma4"
+  ],
+  "gpu_gb": 26,
+  "expect_file": "raw_gemma4_g1.jsonl",
+  "expect_rows": 1720
+ },
+ {
+  "name": "g1_gemma3_4b",
+  "cmd": "bash jobs/g1.sh gemma3_4b",
+  "deps": [
+   "p0_gemma3_4b"
+  ],
+  "gpu_gb": 10,
+  "expect_file": "raw_gemma3_4b_g1.jsonl",
+  "expect_rows": 1720
+ },
+ {
+  "name": "g1_lfm25v",
+  "cmd": "bash jobs/g1.sh lfm25v",
+  "deps": [
+   "p0_lfm25v"
+  ],
+  "gpu_gb": 8,
+  "expect_file": "raw_lfm25v_g1.jsonl",
+  "expect_rows": 1720
+ },
+ {
+  "name": "g3_det",
+  "cmd": "python ext/run_ext.py gemma3_12b --trials ../wacv-lvr/trials_main.jsonl --repeat --out logs/repro_gemma3_12b_a.jsonl && python ext/run_ext.py gemma3_12b --trials ../wacv-lvr/trials_main.jsonl --repeat --out logs/repro_gemma3_12b_b.jsonl && (python ext/check_det.py > logs/g3_det.out 2>&1; rc=$?; cat logs/g3_det.out >> RUN_LOG.md; [ $rc -eq 0 ] || exit 3)",
+  "deps": [],
+  "gpu_gb": 26,
+  "perm_rc": 3
+ },
+ {
+  "name": "g3_main",
+  "cmd": "python ext/run_ext.py gemma3_12b --trials ../wacv-lvr/trials_main.jsonl --out raw_gemma3_12b_main.jsonl",
+  "deps": [
+   "g3_det"
+  ],
+  "gpu_gb": 26,
+  "expect_file": "raw_gemma3_12b_main.jsonl",
+  "expect_rows": 6096
+ },
+ {
+  "name": "g3_g1",
+  "cmd": "python ext/run_ext.py gemma3_12b --trials trials_g1.jsonl --modes mc --out raw_gemma3_12b_g1.jsonl",
+  "deps": [
+   "g3_det"
+  ],
+  "gpu_gb": 26,
+  "expect_file": "raw_gemma3_12b_g1.jsonl",
+  "expect_rows": 1720
+ },
+ {
+  "name": "g2_160_lfm25v",
+  "cmd": "python ext/run_g2.py lfm25v --trials trials_g2_160.jsonl --out raw_lfm25v_g2_160.jsonl",
+  "deps": [
+   "p0_lfm25v"
+  ],
+  "gpu_gb": 8,
+  "expect_file": "raw_lfm25v_g2_160.jsonl",
+  "expect_rows": 1600
+ },
+ {
+  "name": "g2_160_gemma3_4b",
+  "cmd": "python ext/run_g2.py gemma3_4b --trials trials_g2_160.jsonl --out raw_gemma3_4b_g2_160.jsonl",
+  "deps": [
+   "p0_gemma3_4b"
+  ],
+  "gpu_gb": 10,
+  "expect_file": "raw_gemma3_4b_g2_160.jsonl",
+  "expect_rows": 1600
+ },
+ {
+  "name": "g2_160_qwen25vl",
+  "cmd": "python ext/run_g2.py qwen25vl --trials trials_g2_160.jsonl --out raw_qwen25vl_g2_160.jsonl",
+  "deps": [
+   "p0_qwen25vl"
+  ],
+  "gpu_gb": 18,
+  "expect_file": "raw_qwen25vl_g2_160.jsonl",
+  "expect_rows": 1600
+ },
+ {
+  "name": "g2_160_qwen3vl",
+  "cmd": "python ext/run_g2.py qwen3vl --trials trials_g2_160.jsonl --out raw_qwen3vl_g2_160.jsonl",
+  "deps": [
+   "p0_qwen3vl"
+  ],
+  "gpu_gb": 19,
+  "expect_file": "raw_qwen3vl_g2_160.jsonl",
+  "expect_rows": 1600
+ },
+ {
+  "name": "g2_160_gemma4",
+  "cmd": "python ext/run_g2.py gemma4 --trials trials_g2_160.jsonl --out raw_gemma4_g2_160.jsonl",
+  "deps": [
+   "p0_gemma4"
+  ],
+  "gpu_gb": 26,
+  "expect_file": "raw_gemma4_g2_160.jsonl",
+  "expect_rows": 1600
+ },
+ {
+  "name": "up_chunk01_g1_g3",
+  "cmd": "python ext/upload_chunk.py chunk01_g1_g3 raw_lfm25v_g1.jsonl raw_gemma3_4b_g1.jsonl raw_qwen25vl_g1.jsonl raw_qwen3vl_g1.jsonl raw_gemma4_g1.jsonl raw_gemma3_12b_g1.jsonl raw_gemma3_12b_main.jsonl trials_g1.jsonl data logs/repro_lfm25v.jsonl logs/p0_lfm25v.out logs/repro_gemma3_4b.jsonl logs/p0_gemma3_4b.out logs/repro_qwen25vl.jsonl logs/p0_qwen25vl.out logs/repro_qwen3vl.jsonl logs/p0_qwen3vl.out logs/repro_gemma4.jsonl logs/p0_gemma4.out logs/repro_gemma3_12b_a.jsonl logs/repro_gemma3_12b_b.jsonl ext jobs RUN_LOG.md",
+  "deps": [
+   "g1_lfm25v",
+   "g1_gemma3_4b",
+   "g1_qwen25vl",
+   "g1_qwen3vl",
+   "g1_gemma4",
+   "g3_main",
+   "g3_g1"
+  ],
+  "gpu_gb": 0,
+  "noenv": true,
+  "perm_rc": 4
+ },
+ {
+  "name": "up_chunk02_g2_160",
+  "cmd": "python ext/upload_chunk.py chunk02_g2_160 raw_lfm25v_g2_160.jsonl raw_gemma3_4b_g2_160.jsonl raw_qwen25vl_g2_160.jsonl raw_qwen3vl_g2_160.jsonl raw_gemma4_g2_160.jsonl trials_g2_160.jsonl RUN_LOG.md",
+  "deps": [
+   "g2_160_lfm25v",
+   "g2_160_gemma3_4b",
+   "g2_160_qwen25vl",
+   "g2_160_qwen3vl",
+   "g2_160_gemma4"
+  ],
+  "gpu_gb": 0,
+  "noenv": true,
+  "perm_rc": 4
+ },
+ {
+  "name": "clip_sim",
+  "cmd": "python ../wacv-lvr/clip_sim.py",
+  "deps": [
+   "restore_pool"
+  ],
+  "gpu_gb": 0,
+  "expect_file": "clip_sim.csv",
+  "expect_rows": 2
+ },
+ {
+  "name": "f1_mc_lfm25v",
+  "cmd": "python ../wacv-lvr/run_models.py lfm25v --trials trials_full.jsonl --modes mc --out raw_lfm25v.jsonl",
+  "deps": [
+   "g1_lfm25v"
+  ],
+  "gpu_gb": 8,
+  "expect_file": "raw_lfm25v.jsonl",
+  "expect_rows": 16720
+ },
+ {
+  "name": "score_mc_lfm25v",
+  "cmd": "python ../wacv-lvr/ch.py score lfm25v --trials trials_full.jsonl",
+  "deps": [
+   "f1_mc_lfm25v"
+  ],
+  "gpu_gb": 0
+ },
+ {
+  "name": "up_f1mc_lfm25v",
+  "cmd": "python ext/upload_chunk.py f1_mc_lfm25v raw_lfm25v.jsonl scored_lfm25v.csv RUN_LOG.md",
+  "deps": [
+   "score_mc_lfm25v"
+  ],
+  "gpu_gb": 0,
+  "noenv": true,
+  "perm_rc": 4
+ },
+ {
+  "name": "f1_mc_gemma3_4b",
+  "cmd": "python ../wacv-lvr/run_models.py gemma3_4b --trials trials_full.jsonl --modes mc --out raw_gemma3_4b.jsonl",
+  "deps": [
+   "g1_gemma3_4b"
+  ],
+  "gpu_gb": 10,
+  "expect_file": "raw_gemma3_4b.jsonl",
+  "expect_rows": 16720
+ },
+ {
+  "name": "score_mc_gemma3_4b",
+  "cmd": "python ../wacv-lvr/ch.py score gemma3_4b --trials trials_full.jsonl",
+  "deps": [
+   "f1_mc_gemma3_4b"
+  ],
+  "gpu_gb": 0
+ },
+ {
+  "name": "up_f1mc_gemma3_4b",
+  "cmd": "python ext/upload_chunk.py f1_mc_gemma3_4b raw_gemma3_4b.jsonl scored_gemma3_4b.csv RUN_LOG.md",
+  "deps": [
+   "score_mc_gemma3_4b"
+  ],
+  "gpu_gb": 0,
+  "noenv": true,
+  "perm_rc": 4
+ },
+ {
+  "name": "f1_mc_qwen25vl",
+  "cmd": "python ../wacv-lvr/run_models.py qwen25vl --trials trials_full.jsonl --modes mc --out raw_qwen25vl.jsonl",
+  "deps": [
+   "g1_qwen25vl"
+  ],
+  "gpu_gb": 18,
+  "expect_file": "raw_qwen25vl.jsonl",
+  "expect_rows": 16720
+ },
+ {
+  "name": "score_mc_qwen25vl",
+  "cmd": "python ../wacv-lvr/ch.py score qwen25vl --trials trials_full.jsonl",
+  "deps": [
+   "f1_mc_qwen25vl"
+  ],
+  "gpu_gb": 0
+ },
+ {
+  "name": "up_f1mc_qwen25vl",
+  "cmd": "python ext/upload_chunk.py f1_mc_qwen25vl raw_qwen25vl.jsonl scored_qwen25vl.csv RUN_LOG.md",
+  "deps": [
+   "score_mc_qwen25vl"
+  ],
+  "gpu_gb": 0,
+  "noenv": true,
+  "perm_rc": 4
+ },
+ {
+  "name": "f1_mc_qwen3vl",
+  "cmd": "python ../wacv-lvr/run_models.py qwen3vl --trials trials_full.jsonl --modes mc --out raw_qwen3vl.jsonl",
+  "deps": [
+   "g1_qwen3vl"
+  ],
+  "gpu_gb": 19,
+  "expect_file": "raw_qwen3vl.jsonl",
+  "expect_rows": 16720
+ },
+ {
+  "name": "score_mc_qwen3vl",
+  "cmd": "python ../wacv-lvr/ch.py score qwen3vl --trials trials_full.jsonl",
+  "deps": [
+   "f1_mc_qwen3vl"
+  ],
+  "gpu_gb": 0
+ },
+ {
+  "name": "up_f1mc_qwen3vl",
+  "cmd": "python ext/upload_chunk.py f1_mc_qwen3vl raw_qwen3vl.jsonl scored_qwen3vl.csv RUN_LOG.md",
+  "deps": [
+   "score_mc_qwen3vl"
+  ],
+  "gpu_gb": 0,
+  "noenv": true,
+  "perm_rc": 4
+ },
+ {
+  "name": "f1_mc_gemma4",
+  "cmd": "python ../wacv-lvr/run_models.py gemma4 --trials trials_full.jsonl --modes mc --out raw_gemma4.jsonl",
+  "deps": [
+   "g1_gemma4"
+  ],
+  "gpu_gb": 26,
+  "expect_file": "raw_gemma4.jsonl",
+  "expect_rows": 16720
+ },
+ {
+  "name": "score_mc_gemma4",
+  "cmd": "python ../wacv-lvr/ch.py score gemma4 --trials trials_full.jsonl",
+  "deps": [
+   "f1_mc_gemma4"
+  ],
+  "gpu_gb": 0
+ },
+ {
+  "name": "up_f1mc_gemma4",
+  "cmd": "python ext/upload_chunk.py f1_mc_gemma4 raw_gemma4.jsonl scored_gemma4.csv RUN_LOG.md",
+  "deps": [
+   "score_mc_gemma4"
+  ],
+  "gpu_gb": 0,
+  "noenv": true,
+  "perm_rc": 4
+ },
+ {
+  "name": "f1_open_lfm25v",
+  "cmd": "python ../wacv-lvr/run_models.py lfm25v --trials trials_full.jsonl --modes open --out raw_lfm25v.jsonl",
+  "deps": [
+   "f1_mc_lfm25v",
+   "f1_mc_gemma3_4b",
+   "f1_mc_qwen25vl",
+   "f1_mc_qwen3vl",
+   "f1_mc_gemma4"
+  ],
+  "gpu_gb": 8,
+  "expect_file": "raw_lfm25v.jsonl",
+  "expect_rows": 33440
+ },
+ {
+  "name": "score_lfm25v",
+  "cmd": "python ../wacv-lvr/ch.py score lfm25v --trials trials_full.jsonl",
+  "deps": [
+   "f1_open_lfm25v"
+  ],
+  "gpu_gb": 0
+ },
+ {
+  "name": "up_f1open_lfm25v",
+  "cmd": "python ext/upload_chunk.py f1_open_lfm25v raw_lfm25v.jsonl scored_lfm25v.csv review_lfm25v.csv RUN_LOG.md",
+  "deps": [
+   "score_lfm25v"
+  ],
+  "gpu_gb": 0,
+  "noenv": true,
+  "perm_rc": 4
+ },
+ {
+  "name": "f1_open_gemma3_4b",
+  "cmd": "python ../wacv-lvr/run_models.py gemma3_4b --trials trials_full.jsonl --modes open --out raw_gemma3_4b.jsonl",
+  "deps": [
+   "f1_mc_lfm25v",
+   "f1_mc_gemma3_4b",
+   "f1_mc_qwen25vl",
+   "f1_mc_qwen3vl",
+   "f1_mc_gemma4"
+  ],
+  "gpu_gb": 10,
+  "expect_file": "raw_gemma3_4b.jsonl",
+  "expect_rows": 33440
+ },
+ {
+  "name": "score_gemma3_4b",
+  "cmd": "python ../wacv-lvr/ch.py score gemma3_4b --trials trials_full.jsonl",
+  "deps": [
+   "f1_open_gemma3_4b"
+  ],
+  "gpu_gb": 0
+ },
+ {
+  "name": "up_f1open_gemma3_4b",
+  "cmd": "python ext/upload_chunk.py f1_open_gemma3_4b raw_gemma3_4b.jsonl scored_gemma3_4b.csv review_gemma3_4b.csv RUN_LOG.md",
+  "deps": [
+   "score_gemma3_4b"
+  ],
+  "gpu_gb": 0,
+  "noenv": true,
+  "perm_rc": 4
+ },
+ {
+  "name": "f1_open_qwen25vl",
+  "cmd": "python ../wacv-lvr/run_models.py qwen25vl --trials trials_full.jsonl --modes open --out raw_qwen25vl.jsonl",
+  "deps": [
+   "f1_mc_lfm25v",
+   "f1_mc_gemma3_4b",
+   "f1_mc_qwen25vl",
+   "f1_mc_qwen3vl",
+   "f1_mc_gemma4"
+  ],
+  "gpu_gb": 18,
+  "expect_file": "raw_qwen25vl.jsonl",
+  "expect_rows": 33440
+ },
+ {
+  "name": "score_qwen25vl",
+  "cmd": "python ../wacv-lvr/ch.py score qwen25vl --trials trials_full.jsonl",
+  "deps": [
+   "f1_open_qwen25vl"
+  ],
+  "gpu_gb": 0
+ },
+ {
+  "name": "up_f1open_qwen25vl",
+  "cmd": "python ext/upload_chunk.py f1_open_qwen25vl raw_qwen25vl.jsonl scored_qwen25vl.csv review_qwen25vl.csv RUN_LOG.md",
+  "deps": [
+   "score_qwen25vl"
+  ],
+  "gpu_gb": 0,
+  "noenv": true,
+  "perm_rc": 4
+ },
+ {
+  "name": "f1_open_qwen3vl",
+  "cmd": "python ../wacv-lvr/run_models.py qwen3vl --trials trials_full.jsonl --modes open --out raw_qwen3vl.jsonl",
+  "deps": [
+   "f1_mc_lfm25v",
+   "f1_mc_gemma3_4b",
+   "f1_mc_qwen25vl",
+   "f1_mc_qwen3vl",
+   "f1_mc_gemma4"
+  ],
+  "gpu_gb": 19,
+  "expect_file": "raw_qwen3vl.jsonl",
+  "expect_rows": 33440
+ },
+ {
+  "name": "score_qwen3vl",
+  "cmd": "python ../wacv-lvr/ch.py score qwen3vl --trials trials_full.jsonl",
+  "deps": [
+   "f1_open_qwen3vl"
+  ],
+  "gpu_gb": 0
+ },
+ {
+  "name": "up_f1open_qwen3vl",
+  "cmd": "python ext/upload_chunk.py f1_open_qwen3vl raw_qwen3vl.jsonl scored_qwen3vl.csv review_qwen3vl.csv RUN_LOG.md",
+  "deps": [
+   "score_qwen3vl"
+  ],
+  "gpu_gb": 0,
+  "noenv": true,
+  "perm_rc": 4
+ },
+ {
+  "name": "f1_open_gemma4",
+  "cmd": "python ../wacv-lvr/run_models.py gemma4 --trials trials_full.jsonl --modes open --out raw_gemma4.jsonl",
+  "deps": [
+   "f1_mc_lfm25v",
+   "f1_mc_gemma3_4b",
+   "f1_mc_qwen25vl",
+   "f1_mc_qwen3vl",
+   "f1_mc_gemma4"
+  ],
+  "gpu_gb": 26,
+  "expect_file": "raw_gemma4.jsonl",
+  "expect_rows": 33440
+ },
+ {
+  "name": "score_gemma4",
+  "cmd": "python ../wacv-lvr/ch.py score gemma4 --trials trials_full.jsonl",
+  "deps": [
+   "f1_open_gemma4"
+  ],
+  "gpu_gb": 0
+ },
+ {
+  "name": "up_f1open_gemma4",
+  "cmd": "python ext/upload_chunk.py f1_open_gemma4 raw_gemma4.jsonl scored_gemma4.csv review_gemma4.csv RUN_LOG.md",
+  "deps": [
+   "score_gemma4"
+  ],
+  "gpu_gb": 0,
+  "noenv": true,
+  "perm_rc": 4
+ },
+ {
+  "name": "g2_full_lfm25v",
+  "cmd": "python ext/run_g2.py lfm25v --trials trials_g2_full.jsonl --out raw_lfm25v_g2_full.jsonl",
+  "deps": [
+   "f1_open_lfm25v",
+   "f1_open_gemma3_4b",
+   "f1_open_qwen25vl",
+   "f1_open_qwen3vl",
+   "f1_open_gemma4"
+  ],
+  "gpu_gb": 8,
+  "expect_file": "raw_lfm25v_g2_full.jsonl",
+  "expect_rows": 8840
+ },
+ {
+  "name": "g2_full_gemma3_4b",
+  "cmd": "python ext/run_g2.py gemma3_4b --trials trials_g2_full.jsonl --out raw_gemma3_4b_g2_full.jsonl",
+  "deps": [
+   "f1_open_lfm25v",
+   "f1_open_gemma3_4b",
+   "f1_open_qwen25vl",
+   "f1_open_qwen3vl",
+   "f1_open_gemma4"
+  ],
+  "gpu_gb": 10,
+  "expect_file": "raw_gemma3_4b_g2_full.jsonl",
+  "expect_rows": 8840
+ },
+ {
+  "name": "g2_full_qwen25vl",
+  "cmd": "python ext/run_g2.py qwen25vl --trials trials_g2_full.jsonl --out raw_qwen25vl_g2_full.jsonl",
+  "deps": [
+   "f1_open_lfm25v",
+   "f1_open_gemma3_4b",
+   "f1_open_qwen25vl",
+   "f1_open_qwen3vl",
+   "f1_open_gemma4"
+  ],
+  "gpu_gb": 18,
+  "expect_file": "raw_qwen25vl_g2_full.jsonl",
+  "expect_rows": 8840
+ },
+ {
+  "name": "g2_full_qwen3vl",
+  "cmd": "python ext/run_g2.py qwen3vl --trials trials_g2_full.jsonl --out raw_qwen3vl_g2_full.jsonl",
+  "deps": [
+   "f1_open_lfm25v",
+   "f1_open_gemma3_4b",
+   "f1_open_qwen25vl",
+   "f1_open_qwen3vl",
+   "f1_open_gemma4"
+  ],
+  "gpu_gb": 19,
+  "expect_file": "raw_qwen3vl_g2_full.jsonl",
+  "expect_rows": 8840
+ },
+ {
+  "name": "g2_full_gemma4",
+  "cmd": "python ext/run_g2.py gemma4 --trials trials_g2_full.jsonl --out raw_gemma4_g2_full.jsonl",
+  "deps": [
+   "f1_open_lfm25v",
+   "f1_open_gemma3_4b",
+   "f1_open_qwen25vl",
+   "f1_open_qwen3vl",
+   "f1_open_gemma4"
+  ],
+  "gpu_gb": 26,
+  "expect_file": "raw_gemma4_g2_full.jsonl",
+  "expect_rows": 8840
+ },
+ {
+  "name": "g3_f1",
+  "cmd": "python ext/run_ext.py gemma3_12b --trials trials_full.jsonl --modes mc --out raw_gemma3_12b.jsonl",
+  "deps": [
+   "g3_det",
+   "g2_full_lfm25v",
+   "g2_full_gemma3_4b",
+   "g2_full_qwen25vl",
+   "g2_full_qwen3vl",
+   "g2_full_gemma4"
+  ],
+  "gpu_gb": 26,
+  "expect_file": "raw_gemma3_12b.jsonl",
+  "expect_rows": 16720
+ },
+ {
+  "name": "analyze_g1_g2_g3",
+  "cmd": "python ext/analyze_ext.py g1 g2 g3",
+  "deps": [
+   "g1_lfm25v",
+   "g1_gemma3_4b",
+   "g1_qwen25vl",
+   "g1_qwen3vl",
+   "g1_gemma4",
+   "g3_main",
+   "g3_g1",
+   "g2_160_lfm25v",
+   "g2_160_gemma3_4b",
+   "g2_160_qwen25vl",
+   "g2_160_qwen3vl",
+   "g2_160_gemma4"
+  ],
+  "gpu_gb": 0
+ },
+ {
+  "name": "up_chunk03_results_g1_g2_g3",
+  "cmd": "python ext/upload_chunk.py chunk03_results_g1_g2_g3 results RUN_LOG.md",
+  "deps": [
+   "analyze_g1_g2_g3"
+  ],
+  "gpu_gb": 0,
+  "noenv": true,
+  "perm_rc": 4
+ },
+ {
+  "name": "analyze_f1",
+  "cmd": "python ext/analyze_ext.py f1 && python ../wacv-lvr/analyze.py lfm25v gemma3_4b qwen25vl qwen3vl gemma4",
+  "deps": [
+   "score_lfm25v",
+   "score_gemma3_4b",
+   "score_qwen25vl",
+   "score_qwen3vl",
+   "score_gemma4",
+   "clip_sim"
+  ],
+  "gpu_gb": 0
+ },
+ {
+  "name": "up_chunk04_f1_results",
+  "cmd": "python ext/upload_chunk.py chunk04_f1_results results RUN_LOG.md",
+  "deps": [
+   "analyze_f1"
+  ],
+  "gpu_gb": 0,
+  "noenv": true,
+  "perm_rc": 4
+ },
+ {
+  "name": "package_v1",
+  "cmd": "python ext/package_return.py v1",
+  "deps": [],
+  "gpu_gb": 0,
+  "noenv": true,
+  "perm_rc": 4,
+  "not_before": 1794918600
+ },
+ {
+  "name": "package_final",
+  "cmd": "python ext/package_return.py final",
+  "deps": [
+   "analyze_g1_g2_g3",
+   "analyze_f1",
+   "g3_f1",
+   "g2_full_lfm25v",
+   "g2_full_gemma3_4b",
+   "g2_full_qwen25vl",
+   "g2_full_qwen3vl",
+   "g2_full_gemma4"
+  ],
+  "gpu_gb": 0,
+  "noenv": true,
+  "perm_rc": 4
+ },
+ {
+  "name": "up_recovered_g1_g3",
+  "cmd": "python ext/upload_chunk.py recovered_g1_g3 raw_qwen25vl_g1.jsonl raw_qwen3vl_g1.jsonl raw_gemma4_g1.jsonl raw_gemma3_4b_g1.jsonl raw_lfm25v_g1.jsonl raw_gemma3_12b_g1.jsonl raw_gemma3_12b_main.jsonl trials_g1.jsonl RUN_LOG.md",
+  "deps": [],
+  "gpu_gb": 0,
+  "noenv": true,
+  "perm_rc": 4
+ }
+]

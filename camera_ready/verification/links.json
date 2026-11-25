@@ -1,0 +1,245 @@
+[
+ {
+  "link": "post_registration/camera_ready_analyses/_frozen/data",
+  "target": "main_study/data",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_frozen/raw_gemma4_repeat.jsonl",
+  "target": "main_study/raw_gemma4_repeat.jsonl",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_frozen/scored_lfm25v.csv",
+  "target": "main_study/scored_lfm25v.csv",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_frozen/raw_qwen3vl_repeat.jsonl",
+  "target": "main_study/raw_qwen3vl_repeat.jsonl",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_frozen/raw_gemma3_4b_repeat.jsonl",
+  "target": "main_study/raw_gemma3_4b_repeat.jsonl",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_frozen/raw_gemma4.jsonl",
+  "target": "main_study/raw_gemma4.jsonl",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_frozen/scored_granite4v.csv",
+  "target": "main_study/scored_granite4v.csv",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_frozen/trials_collage.jsonl",
+  "target": "main_study/trials_collage.jsonl",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_frozen/raw_granite4v.jsonl",
+  "target": "main_study/raw_granite4v.jsonl",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_frozen/raw_gemma3_4b.jsonl",
+  "target": "main_study/raw_gemma3_4b.jsonl",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_frozen/trials_main.jsonl",
+  "target": "main_study/trials_main.jsonl",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_frozen/raw_lfm25v_repeat.jsonl",
+  "target": "main_study/raw_lfm25v_repeat.jsonl",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_frozen/clip_sim.csv",
+  "target": "main_study/clip_sim.csv",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_frozen/raw_granite4v_repeat.jsonl",
+  "target": "main_study/raw_granite4v_repeat.jsonl",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_frozen/scored_gemma3_4b.csv",
+  "target": "main_study/scored_gemma3_4b.csv",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_frozen/scored_gemma4.csv",
+  "target": "main_study/scored_gemma4.csv",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_frozen/raw_qwen25vl_repeat.jsonl",
+  "target": "main_study/raw_qwen25vl_repeat.jsonl",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_frozen/raw_qwen3vl.jsonl",
+  "target": "main_study/raw_qwen3vl.jsonl",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_frozen/scored_qwen3vl.csv",
+  "target": "main_study/scored_qwen3vl.csv",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_frozen/raw_qwen25vl.jsonl",
+  "target": "main_study/raw_qwen25vl.jsonl",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_frozen/raw_lfm25v.jsonl",
+  "target": "main_study/raw_lfm25v.jsonl",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_frozen/scored_qwen25vl.csv",
+  "target": "main_study/scored_qwen25vl.csv",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_frozen/judge_overrides.csv",
+  "target": "main_study/judge_overrides.csv",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_fullpool/scored_lfm25v.csv",
+  "target": "post_registration/fullpool_package/scored_lfm25v.csv",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_fullpool/raw_qwen25vl_g1.jsonl",
+  "target": "post_registration/fullpool_package/raw_qwen25vl_g1.jsonl",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_fullpool/raw_lfm25v_g2_160.jsonl",
+  "target": "post_registration/fullpool_package/raw_lfm25v_g2_160.jsonl",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_fullpool/raw_qwen3vl_g2_160.jsonl",
+  "target": "post_registration/fullpool_package/raw_qwen3vl_g2_160.jsonl",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_fullpool/raw_gemma4_g1.jsonl",
+  "target": "post_registration/fullpool_package/raw_gemma4_g1.jsonl",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_fullpool/raw_gemma4_g2_160.jsonl",
+  "target": "post_registration/fullpool_package/raw_gemma4_g2_160.jsonl",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_fullpool/trials_g2_160.jsonl",
+  "target": "post_registration/fullpool_package/trials_g2_160.jsonl",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_fullpool/raw_gemma3_4b_g2_160.jsonl",
+  "target": "post_registration/fullpool_package/raw_gemma3_4b_g2_160.jsonl",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_fullpool/raw_gemma3_4b_g1.jsonl",
+  "target": "post_registration/fullpool_package/raw_gemma3_4b_g1.jsonl",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_fullpool/scored_gemma3_4b.csv",
+  "target": "post_registration/fullpool_package/scored_gemma3_4b.csv",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_fullpool/scored_gemma4.csv",
+  "target": "post_registration/fullpool_package/scored_gemma4.csv",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_fullpool/raw_gemma3_12b.jsonl",
+  "target": "post_registration/fullpool_package/raw_gemma3_12b.jsonl",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_fullpool/raw_qwen3vl_g1.jsonl",
+  "target": "post_registration/fullpool_package/raw_qwen3vl_g1.jsonl",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_fullpool/trials_full.jsonl",
+  "target": "post_registration/fullpool_package/trials_full.jsonl",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_fullpool/scored_qwen3vl.csv",
+  "target": "post_registration/fullpool_package/scored_qwen3vl.csv",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_fullpool/raw_gemma3_12b_g1.jsonl",
+  "target": "post_registration/fullpool_package/raw_gemma3_12b_g1.jsonl",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_fullpool/raw_lfm25v_g1.jsonl",
+  "target": "post_registration/fullpool_package/raw_lfm25v_g1.jsonl",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_fullpool/raw_qwen25vl_g2_160.jsonl",
+  "target": "post_registration/fullpool_package/raw_qwen25vl_g2_160.jsonl",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_fullpool/scored_qwen25vl.csv",
+  "target": "post_registration/fullpool_package/scored_qwen25vl.csv",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_fullpool/trials_g1.jsonl",
+  "target": "post_registration/fullpool_package/trials_g1.jsonl",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/_fullpool/data/pool.csv",
+  "target": "main_study/data/pool.csv",
+  "present": true
+ },
+ {
+  "link": "post_registration/camera_ready_analyses/03_clip_shown/work/data",
+  "target": "main_study/data",
+  "present": true
+ },
+ {
+  "link": "post_registration/fullpool_package/data/pool.csv",
+  "target": "main_study/data/pool.csv",
+  "present": true,
+  "note": "the cluster copied the frozen pool.csv here byte-identical (fullpool RUN_LOG 2026-11-14 21:29:37)"
+ },
+ {
+  "link": "post_registration/wacv-lvr",
+  "target": "main_study",
+  "present": true,
+  "note": "scripts in camera_ready_analyses refer to ../../wacv-lvr"
+ },
+ {
+  "link": "post_registration/g3_table1/dl/tar/fullpool",
+  "target": "post_registration/fullpool_package",
+  "present": true,
+  "note": "scripts refer to ../../g3_table1/dl/tar/fullpool"
+ }
+]
